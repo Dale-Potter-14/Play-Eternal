@@ -29,6 +29,69 @@ a {
     color: #333333;
 }
 
+/* Classes used across pages */
+
+.sections-headers {
+    text-align: center;
+    padding: 20px;
+}
+
+.solid-orange {
+    background-color: #E8A87C;
+    text-align: center;
+    width: 900px;
+    padding: 35px 10px;
+    margin: 0 auto;
+    line-height: 200%;
+    color: #101010;
+}
+
+.solid-blue {
+    background-color: #85CDCA;
+    width: 900px;
+    padding: 10px;
+    margin: 0 auto;
+    color: #101010;
+}
+
+.solid-pink {
+    background-color: #C38D9D;
+    width: 900px;
+    padding: 10px;
+    margin: 0 auto;
+    color: #101010;
+}
+
+.solid-grey {
+    background-color: #DFDCD9;
+    width: 900px;
+    padding: 10px;
+    margin: 0 auto;
+    color: #101010;
+}
+
+.solid-green {
+    background-color: #7F9887;
+    width: 900px;
+    padding: 10px;
+    margin: 0 auto;
+    color: #101010;
+}
+
+.solid-peach {
+    background-color: #DD9A89;
+    width: 900px;
+    padding: 10px;
+    margin: 0 auto;
+    color: #101010;
+}
+
+
+.square_image {
+    width: 300px;
+    height: 300px;
+
+}
 
 
 /* header */
@@ -46,6 +109,8 @@ header {
     letter-spacing: 3px;
 
 }
+
+/* navigation menu */
 
 #menu {
     font-weight: 700;
@@ -130,14 +195,16 @@ footer {
     width: 150px;
     float: left;
     border: solid #DFDCD9 5px;
-    padding: 20px;
     text-align: center;
     font-size: 120%;
+    padding-top: 20px;
 }
 
 footer p {
     font-size: 50%;
 }
+
+/* social media icons */
 
 footer ul {
     padding: 10px;
@@ -198,13 +265,15 @@ footer li {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* about page - what is sensory play and play in motion */
+/* about page */
 
 #about-menu h1 {
     font-size: 200%;
     text-align: center;
     padding: 10px;
 }
+
+/*separate page navigation */
 
 #sub-menu {
     font-weight: 700;
@@ -227,4 +296,78 @@ footer li {
 
 #sub-menu li:not(:first-child):before {
     content: "|      ";
+}
+
+/* what is sensory play? */
+
+
+
+.right-align {
+    width: 500px;
+    text-align: right;
+    float: right;
+    padding-right: 35px;
+    padding-top: 20px;
+    line-height: 200%;
+}
+
+.left-align {
+    width: 500px;
+    text-align: left;
+    float: left;
+    padding: 20px 20px 0px 35px;
+    line-height: 200%;
+}
+
+.play_by_pic {
+    padding: 3px;
+    border: solid 3px #333333;
+    margin: 15px;
+
+
+}
+
+#sound {
+    color: #C38D9D;
+    text-align: left;
+    font-size: 135%;
+    width: 900px;
+    padding: 35px 10px;
+    margin: 0 auto;
+}
+
+#sight {
+    color: #85CDCA;
+    text-align: right;
+    font-size: 135%;
+    width: 900px;
+    padding: 35px 10px;
+    margin: 0 auto;
+}
+
+#smell {
+    color: #DFDCD9;
+    text-align: right;
+    font-size: 135%;
+    width: 900px;
+    padding: 35px 10px;
+    margin: 0 auto;
+}
+
+#touch {
+    color: #7F9887;
+    text-align: left;
+    font-size: 135%;
+    width: 900px;
+    padding: 35px 10px;
+    margin: 0 auto;
+}
+
+#taste {
+    color: #DD9A89;
+    text-align: right;
+    font-size: 135%;
+    width: 900px;
+    padding: 35px 10px;
+    margin: 0 auto;
 }
