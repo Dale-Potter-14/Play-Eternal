@@ -76,10 +76,48 @@ header {
 
 /* home page */
 
-#hero-home {
+#hero-area {
+    position: relative;
+    text-align: left;
     background: url('../images/home_page.jpg');
     height: 600px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+
+#hero-text {
+    height: 300px;
+    width: 500px;
+    background-color: rgb(255,255,255, 0.8);
+    position: absolute;
+    bottom:20px;
+    left: 120px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: inline-block;
+     }
+
+.text-area {
+    margin-left: 20px;
+    }
+
+#hero-text span {
+        font-weight: 600;
+        font-size: 200%;
+        display: inline-block;
+        padding-top: 20px;
+        padding-bottom: 0px;
+        margin: 0px;
+        border: 0px;
 }
+
+#hero-text button {
+    font-weight: 600;
+    font-size: 110%;
+    background-color: #44b3a5;
+    padding: 5px;
+    margin: 0 0 15px 10px;
+    border: #44b3a5 5px solid;
+    }
