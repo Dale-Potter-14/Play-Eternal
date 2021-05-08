@@ -133,7 +133,7 @@ footer li {
     position: absolute;
     bottom: 20px;
     left: 120px;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -141,18 +141,18 @@ footer li {
     margin-left: 20px;
 }
 
-#hero-text span {
-    font-weight: 600;
-    font-size: 300%;
-}
 
 #hero-text button {
     font-weight: 600;
     font-size: 110%;
     background-color: #44b3a5;
-    padding: 5px;
-    margin: 10px;
-    border: #44b3a5 solid 5px;
-}
+    padding: 10px;
+    border-radius: 12px;
+    width: 150px;
+       }
+
+   #hero-text button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   }
 
 /* cannot get the span and button to line up the way I want through both padding margins and borders */
