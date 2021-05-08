@@ -16,7 +16,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h6 {
     font-family: Itim, sans-serif;
     font-weight: 700;
     text-decoration: none;
@@ -37,7 +38,7 @@ a:hover {
 header {
     background-color: #44b3a5;
     width: auto;
-    height: 15%;
+    height: 75px;
     overflow: hidden;
 }
 
@@ -55,7 +56,6 @@ header {
 }
 
 #menu ul {
-    padding: 20;
     margin: 25px 10px 5px 0;
     text-align: right;
     width: 1000px;
@@ -74,6 +74,45 @@ header {
     content: "|      ";
 }
 
+/* footer */
+
+footer {
+    background-color: #DFDCD9;
+    width: auto;
+    height: 100px;
+    overflow: hidden;
+}
+
+#footer-logo {
+    width: 150px;
+    float: left;
+    border: solid #DFDCD9 5px;
+    padding: 20px;
+    text-align: center;
+    font-size: 120%;
+}
+
+footer p {
+    font-size: 50%;
+}
+
+footer ul {
+    padding: 10px;
+    margin: 25px 15px 5px 0;
+    text-align: right;
+    width: 1000px;
+    float: right;
+}
+
+footer li {
+    text-align: center;
+    display: inline;
+    margin-left: 25px;
+    width: 25px;
+    list-style: none;
+    font-size: 150%;
+}
+
 /* home page */
 
 #hero-area {
@@ -84,33 +123,27 @@ header {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
 
 
 #hero-text {
     height: 300px;
     width: 500px;
-    background-color: rgb(255,255,255, 0.8);
+    background-color: rgb(255, 255, 255, 0.8);
     position: absolute;
-    bottom:20px;
+    bottom: 20px;
     left: 120px;
     padding-top: 50px;
     padding-bottom: 20px;
-    display: inline-block;
-     }
+}
 
 .text-area {
     margin-left: 20px;
-    }
+}
 
 #hero-text span {
-        font-weight: 600;
-        font-size: 200%;
-        display: inline-block;
-        padding-top: 20px;
-        padding-bottom: 0px;
-        margin: 0px;
-        border: 0px;
+    font-weight: 600;
+    font-size: 300%;
 }
 
 #hero-text button {
@@ -118,6 +151,8 @@ header {
     font-size: 110%;
     background-color: #44b3a5;
     padding: 5px;
-    margin: 0 0 15px 10px;
-    border: #44b3a5 5px solid;
-    }
+    margin: 10px;
+    border: #44b3a5 solid 5px;
+}
+
+/* cannot get the span and button to line up the way I want through both padding margins and borders */
