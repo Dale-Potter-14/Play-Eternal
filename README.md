@@ -14,13 +14,13 @@ Based off my own experience as a parent and my interactions with professionals, 
 
 ## Persona Overview
 
-![An over view page of the personas, their names, job titles, background information, a quote and their user stories.](https://github.com/Claire-Potter/Play-Eternal/blob/master/project_documents/project_images/persona%20_%2detail.png?raw=true)
+![An over view page of the personas, their names, job titles, background information, a quote and their user stories.](https://github.com/Claire-Potter/Play-Eternal/blob/master/project_documents/project_images/persona_overview.png?raw=true)
 
 ### Primary Persona
 
 I have established that my primary user is a parent of young children / a young child. 
 My secondary users would be Teachers, PSAs or Occupational Therapists referring parents to the website for support.
-![An image of the details of the primary persona, name, title, background, key characteristics, designation, goals and tech preferencese](https://github.com/Claire-Potter/Play_Eternal/blob/master/wireframes/Persona%20Detail.png?raw=true)
+![An image of the details of the primary persona, name, title, background, key characteristics, designation, goals and tech preferencese](https://github.com/Claire-Potter/Play-Eternal/blob/master/project_documents/project_images/persona_detail.png?raw=true)
 
 ## Strategy
 
@@ -100,21 +100,21 @@ Using the trade-off process to rank the importance and feasibility of the opport
 2. For the parent "chat" section, I will change the "chat" feature to a simple site page that provides other parents feedback and recommendations for the first release of the site.
 3. The opportunity to unpack the "chat"  opportunity and scale it will be a future consideration.
 
-![Table depicting the Importance rating vs. the Feasibility rating per Opportunity](https://github.com/Claire-Potter/Play_Eternal/blob/master/wireframes/Opportunity%20Table.PNG?raw=true)
+![Table depicting the Importance rating vs. the Feasibility rating per Opportunity](https://github.com/Claire-Potter/Play-Eternal/blob/master/project_documents/project_images/opportunity_table.PNG?raw=true)
    
 ## Storyboard
 
 The below storyboard represents a high-level  interpretation of the ideal user experience when a parent utilises
 the website:
 
-![A cartoon depiction containing six frames playing out the desired user experience](https://github.com/Claire-Potter/Play_Eternal/blob/master/wireframes/Storyboard.png?raw=true)
+![A cartoon depiction containing six frames playing out the desired user experience](https://github.com/Claire-Potter/Play-Eternal/blob/master/project_documents/project_images/storyboard.png?raw=true)
 
 ## Journey Maps
 
 The following journey maps represent the user experience:
 
- 1. [Before the Play Eternal Website](https://raw.githubusercontent.com/Claire-Potter/Play_Eternal/master/wireframes/Pre-Website%20Journey%20Map%20-%20Parent.png)
- 2. [After the Play Eternal Website](https://raw.githubusercontent.com/Claire-Potter/Play_Eternal/master/wireframes/Post-Website%20Journey%20Map.png)
+ 1. [Before the Play Eternal Website](https://raw.githubusercontent.com/Claire-Potter/Play-Eternal/master/project_documents/project_images/pre_website_journey_map.png)
+ 2. [After the Play Eternal Website](https://raw.githubusercontent.com/Claire-Potter/Play-Eternal/master/project_documents/project_images/post_website_journey_map.png)
 
 ## Scope
 For the primary user - parents, to provide them with a user-friendly solution to understand and implement sensory play at home without the need to go through mass amounts of information. A reliable website that can be utilised by schools and occupational therapists to advise parents on sensory play and at home activities. There is a potential selling opportunity to sell subscriptions to utilise the site to school boards and practices. This would be a future endeavour and out of scope for the first release.
@@ -124,26 +124,26 @@ Development conventions and best practice have been applied as far as possible t
 
 ### Information Architecture
 
-![Site hierarchy ](https://github.com/Claire-Potter/Play_Eternal/blob/master/wireframes/Information%20Architecture.png?raw=true)
+![Site hierarchy ](https://github.com/Claire-Potter/Play-Eternal/blob/master/project_documents/project_images/information_architecture.png?raw=true)
 
 
 ## Skeleton and Surface
 
 I went into a bit more detail with my mock ups as I did include the visual design:
 
-1. [Home Page](https://raw.githubusercontent.com/Claire-Potter/Play_Eternal/master/wireframes/HomePage.png)
-2. [What is Sensory Play and Play in Motion](https://raw.githubusercontent.com/Claire-Potter/Play_Eternal/master/wireframes/What%20is%20Sensory%20Play_%20Section%201%20and%202.png)
-3. [Sensory Play Activities](https://raw.githubusercontent.com/Claire-Potter/Play_Eternal/master/wireframes/Sensory%20Play%20Activities%20Section%203.png)
-4. [Sensory Play and Anxiety](https://raw.githubusercontent.com/Claire-Potter/Play_Eternal/master/wireframes/Sensory%20Play%20and%20Anxiety%20Section%204.png)
-5. [Hear From Each Other](https://raw.githubusercontent.com/Claire-Potter/Play_Eternal/master/wireframes/Hear%20from%20Each%20Other.png)
-6. [Contact Us](https://raw.githubusercontent.com/Claire-Potter/Play_Eternal/master/wireframes/Contact%20Us.png)
+1. [Home Page](https://raw.githubusercontent.com/Claire-Potter/Play-Eternal/master/project_documents/wireframes/home_page.png)
+2. [What is Sensory Play and Play in Motion](https://raw.githubusercontent.com/Claire-Potter/Play-Eternal/master/project_documents/wireframes/what_is_sensory_play.png)
+3. [Sensory Play Activities](https://raw.githubusercontent.com/Claire-Potter/Play-Eternal/master/project_documents/wireframes/sensory_play_activities.png)
+4. [Sensory Play and Anxiety](https://raw.githubusercontent.com/Claire-Potter/Play-Eternal/master/project_documents/wireframes/sensory_play_and_anxiety.png)
+5. [Hear From Each Other](https://raw.githubusercontent.com/Claire-Potter/Play-Eternal/master/project_documents/wireframes/hear_from_each_other.png)
+6. [Contact Us](https://raw.githubusercontent.com/Claire-Potter/Play-Eternal/master/project_documents/wireframes/contact_us.png)
 
 
 ### Surface
 
 I chose the following colour palette because the pastel colours are soothing and calm, it allowed me to create a clean look and feel whilst still injecting a bit of fun - always essential when it comes to children.
 
-![Pastel color palette used for site design](https://raw.githubusercontent.com/Claire-Potter/Play_Eternal/master/wireframes/Colour%20Palette.png)
+![Pastel color palette used for site design](https://github.com/Claire-Potter/Play-Eternal/blob/master/project_documents/project_images/colour_palette.png?raw=true)
 
 
 
