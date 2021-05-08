@@ -73,3 +73,13 @@ header {
 #menu li:not(:first-child):before {
     content: "|      ";
 }
+
+/* home page */
+
+#hero-home {
+    background: url('../images/home_page.jpg');
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
