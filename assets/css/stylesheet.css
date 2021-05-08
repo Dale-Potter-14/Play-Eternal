@@ -29,9 +29,7 @@ a {
     color: #333333;
 }
 
-a:hover {
-    color: #DD9A89;
-}
+
 
 /* header */
 
@@ -72,6 +70,51 @@ header {
 
 #menu li:not(:first-child):before {
     content: "|      ";
+}
+
+/* dropdown menu */
+
+li a,
+.dropbtn {
+    display: inline-block;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #DD9A89;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #44b3a5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    float: right;
+}
+
+.dropdown-content a:hover {
+    background-color: #DD9A89;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 /* footer */
@@ -149,10 +192,39 @@ footer li {
     padding: 10px;
     border-radius: 12px;
     width: 150px;
-       }
+}
 
-   #hero-text button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-   }
+#hero-text button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
 
-/* cannot get the span and button to line up the way I want through both padding margins and borders */
+/* about page - what is sensory play and play in motion */
+
+#about-menu h1 {
+    font-size: 200%;
+    text-align: center;
+    padding: 10px;
+}
+
+#sub-menu {
+    font-weight: 700;
+    font-size: 100%;
+    font-family: Itim, sans-serif;
+}
+
+#sub-menu ul {
+    margin: auto 0;
+    text-align: center;
+}
+
+#sub-menu li {
+    text-align: center;
+    display: inline;
+    margin-left: 3px;
+    width: 25px;
+    list-style: none;
+}
+
+#sub-menu li:not(:first-child):before {
+    content: "|      ";
+}
