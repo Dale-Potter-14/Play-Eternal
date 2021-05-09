@@ -360,6 +360,15 @@ footer li {
     padding: 35px 10px;
     margin: 0 auto;
 }
+/* Play in Motion */
+
+#iframe {
+    width: 850px;
+    height: 606px;
+    padding: 3px;
+    border: solid 3px #333333;
+    margin: 5px;
+}
 
 /* Top 10 Activities */
 
@@ -434,10 +443,40 @@ footer li {
 }
 
 
-  /*
+  /* Tooltip for Anxiety activities */
 
-
-
-  width: 900px;
-  height: 400px;
-  margin: 0 auto;
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted #333333;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -100px;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:#333333 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
