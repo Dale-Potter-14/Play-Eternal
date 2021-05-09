@@ -14,28 +14,34 @@
 </head>
 
 <body>
-    <header>
-        <h1 id="logo"><a href="index.html">Play Eternal <i class="fas fa-hand-holding-heart"></i></a></h1>
+    <header id="header">
+        <h1 id="logo"><a href="index.html" href="javascript:void(0)">Play Eternal <i class="fas fa-hand-holding-heart"
+                    aria-hidden="true"></i></a>
+        </h1>
         <nav id="menu">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">All About Sensory Play</a>
+                <li><a href="index.html" href="javascript:void(0)">Home</a></li>
+                <li class="dropdown"><a href="about.html" href="javascript:void(0)" class="dropbtn">All About
+                        Sensory Play</a>
                     <div class="dropdown-content">
-                        <a href="about.html#sec1">What is Sensory Play?</a>
-                        <a href="about.html#sec2">Play in Motion</a>
-                        <a href="about.html#sec3">Activities</a>
-                        <a href="about.html#sec4">Help with Anxiety</a>
+                        <a href="about.html#sec1" href="javascript:void(0)">What is Sensory Play?</a>
+                        <a href="about.html#sec2" href="javascript:void(0)">Play in Motion</a>
+                        <a href="about.html#sec3" href="javascript:void(0)">Activities</a>
+                        <a href="about.html#sec4" href="javascript:void(0)">Help with Anxiety</a>
                     </div>
 
                 </li>
-                <li><a href="feedback.html">Hear From Each Other</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="feedback.html" href="javascript:void(0)" class="active">Hear From Each Other</a></li>
+                <li><a href="contact.html" href="javascript:void(0)">Contact Us</a></li>
             </ul>
         </nav>
+
     </header>
-    <section>
-        <h1>Hear From Each Other</h1>
-    </section>
+    <div class="content">
+        <section>
+            <h1>Hear From Each Other</h1>
+        </section>
+    </div>
     <footer>
         <div id="footer-logo">
             <a href="index.html"><i class="fas fa-hand-holding-heart"></i>
@@ -54,6 +60,25 @@
     </footer>
     <!-- font awesome script-->
     <script src="https://kit.fontawesome.com/bd9c348b33.js" crossorigin="anonymous"></script>
+
+    <!--javascript from W3 for sticky nav bar-->
+
+    <script>
+        window.onscroll = function () {
+            myFunction()
+        };
+
+        var header = document.getElementById("header");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                header.classList.add("sticky")
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
 </body>
 
 </html>

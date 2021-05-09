@@ -31,11 +31,10 @@ a {
 
 /* header */
 
-header {
+#header {
     background-color: #44b3a5;
-    width: auto;
+    width: 100%;
     height: 75px;
-    overflow: hidden;
 }
 
 #logo {
@@ -50,6 +49,7 @@ header {
     font-weight: 700;
     font-size: 115%;
     font-family: Itim, sans-serif;
+
 }
 
 #menu ul {
@@ -71,6 +71,15 @@ header {
     content: "|      ";
 }
 
+#menu a.active {
+    background-color: #DD9A89;
+    color: white;
+}
+
+.content {
+    padding: 16px;
+}
+
 /* dropdown menu */
 
 li a,
@@ -87,16 +96,22 @@ li a:hover,
 }
 
 li.dropdown {
+    position: relative;
     display: inline-block;
+    will-change: transform;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #44b3a5;
-    min-width: 160px;
+    min-width: 210px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    top: 22px;
+    left: 50%;
+    margin-left: -100px;
+    will-change: transform;
 }
 
 .dropdown-content a {
@@ -113,6 +128,19 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: inline-block;
+}
+
+/* Make Header sticky */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: auto;
+    will-change: transform;
+}
+
+.sticky+.content {
+    padding-top: 60px;
 }
 
 /* footer */
@@ -221,24 +249,24 @@ footer li {
 /* home page */
 
 #hero-area {
-    position: relative;
     text-align: left;
     background: url('../images/home_page.jpg');
     height: 600px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    will-change: transform;
 }
 
 #hero-text {
     height: 300px;
     width: 500px;
     background-color: rgb(255, 255, 255, 0.8);
-    position: absolute;
     bottom: 20px;
     left: 120px;
     padding-top: 20px;
     padding-bottom: 20px;
+    will-change: transform;
 }
 
 .text-area {
@@ -377,27 +405,25 @@ footer li {
     width: 900px;
     height: 1110px;
     margin: 0 auto;
-    position: relative;
 }
 
 #play_dough_img {
-    position: absolute;
     top: 6px;
     left: 10px;
     border: 3px solid #333333;
     padding: 3px;
+    will-change: transform;
 }
 
 #water_img {
-    position: absolute;
     top: 400px;
     left: 10px;
     border: 3px solid #333333;
     padding: 3px;
+    will-change: transform;
 }
 
 #mud_img {
-    position: absolute;
     bottom: 6px;
     left: 10px;
     border: 3px solid #333333;
@@ -451,6 +477,7 @@ footer li {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted #333333;
+    will-change: transform;
 }
 
 .tooltip .tooltiptext {
@@ -466,6 +493,7 @@ footer li {
     bottom: 150%;
     left: 50%;
     margin-left: -100px;
+    will-change: transform;
 }
 
 .tooltip .tooltiptext::after {
@@ -481,34 +509,4 @@ footer li {
 
 .tooltip:hover .tooltiptext {
     visibility: visible;
-}
-
-/* Back To Top buttons */
-
-.top-button {
-    font-weight: 700;
-    font-size: 80%;
-    background-color: #44b3a5;
-    padding: 10px;
-    border-radius: 12px;
-    width: 100px;
-    text-align: center;
-}
-
-.top-button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-
-.contain-button {
-    margin: 0 auto;
-    width: 100px;
-    height: 35px;
-    padding: 50px 0px 0px 0px;
-}
-
-#contain-button-last {
-    margin: 0 auto;
-    width: 110px;
-    height: 100px;
-    padding:50px 0px 0px 0px;
 }
