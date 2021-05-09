@@ -241,7 +241,7 @@ footer li {
     color: #101010;
 }
 
-.square_image {
+.square-image {
     width: 300px;
     height: 300px;
 }
@@ -347,7 +347,7 @@ footer li {
     line-height: 200%;
 }
 
-.play_by_pic {
+.play-by-pic {
     padding: 3px;
     border: solid 3px #333333;
     margin: 15px;
@@ -410,7 +410,7 @@ footer li {
 
 /* Top 10 Activities */
 
-#top10_pane {
+#top10-pane {
     width: 900px;
     height: 1110px;
     margin: 0 auto;
@@ -419,7 +419,7 @@ footer li {
     will-change: transform;
 }
 
-#play_dough_img {
+#play-dough-img {
     top: 6px;
     left: 10px;
     border: 3px solid #333333;
@@ -429,7 +429,7 @@ footer li {
     will-change: transform;
 }
 
-#water_img {
+#water-img {
     top: 400px;
     left: 10px;
     border: 3px solid #333333;
@@ -439,7 +439,7 @@ footer li {
     will-change: transform;
 }
 
-#mud_img {
+#mud-img {
     bottom: 6px;
     left: 10px;
     border: 3px solid #333333;
@@ -449,7 +449,7 @@ footer li {
     will-change: transform;
 }
 
-.activities_style {
+.activities-style {
     margin: 5px 5px 5px 0;
     width: 500px;
     float: right;
@@ -457,7 +457,7 @@ footer li {
 
 /* Help with Anxiety */
 
-#anxiety_img {
+#anxiety-img {
     width: 500px;
     height: 400px;
     padding: 3px;
@@ -466,7 +466,7 @@ footer li {
     display: block;
 }
 
-#anxiety_pane {
+#anxiety-pane {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: #85CDCA;
@@ -475,7 +475,7 @@ footer li {
     margin: 0 auto;
 }
 
-.grid_figure {
+.grid-figure {
     display: inline-grid;
     font-size: 15px;
     text-align: center;
@@ -483,7 +483,7 @@ footer li {
     margin: 0 auto;
 }
 
-.anxiety_activity {
+.anxiety-activity {
     width: 200px;
     height: 200px;
     padding: 10px;
