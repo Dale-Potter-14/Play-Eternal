@@ -42,7 +42,6 @@ header {
     float: left;
     margin: 15px 5px 15px 15px;
     letter-spacing: 3px;
-
 }
 
 /* navigation menu */
@@ -89,7 +88,6 @@ li a:hover,
 
 li.dropdown {
     display: inline-block;
-
 }
 
 .dropdown-content {
@@ -107,7 +105,6 @@ li.dropdown {
     text-decoration: none;
     display: block;
     text-align: left;
-
 }
 
 .dropdown-content a:hover {
@@ -116,7 +113,6 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: inline-block;
-
 }
 
 /* footer */
@@ -217,15 +213,10 @@ footer li {
     color: #101010;
 }
 
-
 .square_image {
     width: 300px;
     height: 300px;
-
 }
-
-
-
 
 /* home page */
 
@@ -238,7 +229,6 @@ footer li {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 #hero-text {
     height: 300px;
@@ -254,7 +244,6 @@ footer li {
 .text-area {
     margin-left: 20px;
 }
-
 
 #hero-text button {
     font-weight: 600;
@@ -304,8 +293,6 @@ footer li {
 
 /* what is sensory play? */
 
-
-
 .right-align {
     width: 500px;
     text-align: right;
@@ -327,8 +314,6 @@ footer li {
     padding: 3px;
     border: solid 3px #333333;
     margin: 15px;
-
-
 }
 
 #sound {
@@ -383,7 +368,6 @@ footer li {
     height: 1110px;
     margin: 0 auto;
     position: relative;
-
 }
 
 #play_dough_img {
@@ -409,11 +393,51 @@ footer li {
     border: 3px solid #333333;
     padding: 3px;
 }
-
-
 .activities_style {
     margin: 5px 5px 5px 0;
     width: 500px;
     float: right;
-
 }
+
+/* Help with Anxiety */
+
+#anxiety_img {
+    width: 500px;
+    height: 400px;
+    padding: 3px;
+    border: 3px solid #333333;
+    margin: 0 auto;
+    display: block;
+}
+
+#anxiety_pane {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #85CDCA;
+    width: 900px;
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+.grid_figure {
+    display: inline-grid;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+  }
+
+  .anxiety_activity {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+
+  /*
+
+
+
+  width: 900px;
+  height: 400px;
+  margin: 0 auto;
