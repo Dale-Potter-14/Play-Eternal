@@ -255,6 +255,8 @@ footer li {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    z-index: -2;
     will-change: transform;
 }
 
@@ -266,6 +268,8 @@ footer li {
     left: 120px;
     padding-top: 20px;
     padding-bottom: 20px;
+    position: absolute;
+    z-index: -1;
     will-change: transform;
 }
 
@@ -273,16 +277,21 @@ footer li {
     margin-left: 20px;
 }
 
-#hero-text button {
+#learn-more {
     font-weight: 600;
     font-size: 110%;
     background-color: #44b3a5;
     padding: 10px;
     border-radius: 12px;
     width: 150px;
+    position: absolute;
+    z-index: -1;
+    top: 570px;
+    left: 155px;
 }
 
-#hero-text button:hover {
+#learn-more:hover {
+    position: absolute;
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -405,6 +414,9 @@ footer li {
     width: 900px;
     height: 1110px;
     margin: 0 auto;
+    position: relative;
+    z-index: -2;
+    will-change: transform;
 }
 
 #play_dough_img {
@@ -412,6 +424,8 @@ footer li {
     left: 10px;
     border: 3px solid #333333;
     padding: 3px;
+    position: absolute;
+    z-index: -1;
     will-change: transform;
 }
 
@@ -420,6 +434,8 @@ footer li {
     left: 10px;
     border: 3px solid #333333;
     padding: 3px;
+    position: absolute;
+    z-index: -1;
     will-change: transform;
 }
 
@@ -428,6 +444,9 @@ footer li {
     left: 10px;
     border: 3px solid #333333;
     padding: 3px;
+    position: absolute;
+    z-index: -1;
+    will-change: transform;
 }
 
 .activities_style {
