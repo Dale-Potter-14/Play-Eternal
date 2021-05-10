@@ -192,54 +192,37 @@ footer li {
     padding: 40px;
 }
 
-.solid-orange {
-    background-color: #E8A87C;
+.solid-background {
     text-align: center;
     width: 900px;
     padding: 35px 10px;
     margin: 0 auto;
-    line-height: 200%;
     color: #101010;
+}
+
+.solid-orange {
+    background-color: #E8A87C;
+    line-height: 200%;
 }
 
 .solid-blue {
     background-color: #85CDCA;
-    width: 900px;
-    padding: 10px;
-    margin: 0 auto;
-    color: #101010;
 }
 
 .solid-pink {
     background-color: #C38D9D;
-    width: 900px;
-    padding: 10px;
-    margin: 0 auto;
-    color: #101010;
 }
 
 .solid-grey {
     background-color: #DFDCD9;
-    width: 900px;
-    padding: 10px;
-    margin: 0 auto;
-    color: #101010;
 }
 
 .solid-green {
     background-color: #7F9887;
-    width: 900px;
-    padding: 10px;
-    margin: 0 auto;
-    color: #101010;
 }
 
 .solid-peach {
     background-color: #DD9A89;
-    width: 900px;
-    padding: 10px;
-    margin: 0 auto;
-    color: #101010;
 }
 
 .square-image {
@@ -454,6 +437,7 @@ footer li {
     margin: 5px 5px 5px 0;
     width: 500px;
     float: right;
+    padding: 10px;
 }
 
 /* Help with Anxiety */
@@ -546,6 +530,95 @@ footer li {
     }
 }
 
+@media screen and (max-width: 970px) {
+
+    /* Classes used across pages */
+
+    .sections-headers {
+        padding: 30px;
+    }
+
+    .solid-background {
+        width: 800px;
+        padding: 5px;
+    }
+    .solid-orange {
+        line-height: 150%;
+    }
+
+    .square-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    /* about page */
+
+    /* what is sensory play? */
+
+    .right-align {
+        width: 420px;
+        line-height: 150%;
+    }
+
+    .left-align {
+        width: 420px;
+        line-height: 150%;
+    }
+
+    #sound {
+        width: 800px;
+    }
+
+    #sight {
+        width: 800px;
+    }
+
+    #smell {
+        width: 800px;
+    }
+
+    #touch {
+        width: 800px;
+    }
+
+    #taste {
+        width: 800px;
+    }
+
+    /* Play in Motion */
+
+    #iframe {
+        width: 750px;
+        height: 506px;
+    }
+
+    /* Top 10 Activities */
+
+    #top10-pane {
+        width: 800px;
+        height: 1085px;
+    }
+
+    #water-img {
+        top: 375px;
+    }
+
+    #mud-img {
+        bottom: 4px;
+    }
+
+    .activities-style {
+        width: 480px;
+        padding: 8px;
+    }
+
+    /* Help with Anxiety */
+
+    #anxiety-pane {
+        width: 800px;
+    }
+}
+
 @media screen and (max-width: 900px) {
 
     /* Header */
@@ -599,10 +672,220 @@ footer li {
         height: 400px;
     }
 
+    #hero-text {
+        height: 250px;
+        bottom: 0px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 90%;
+    }
+
     #learn-more {
-        font-size: 95%;
-        left: 12%;
+        font-size: 90%;
+        left: 23%;
         bottom: 28%;
+    }
+}
+
+@media screen and (max-width: 870px) {
+
+    /* Classes used across pages */
+
+    .sections-headers {
+        padding: 20px;
+    }
+
+    .solid-background {
+        width: 700px;
+        padding: 5px;
+    }
+
+    .solid-orange {
+        line-height: 150%;
+    }
+
+    .square-image {
+        width: 220px;
+        height: 220px;
+    }
+
+    /* about page */
+
+    /* what is sensory play? */
+
+    .right-align {
+        width: 380px;
+        line-height: 130%;
+    }
+
+    .left-align {
+        width: 380px;
+        line-height: 130%;
+    }
+
+    #sound {
+        width: 700px;
+    }
+
+    #sight {
+        width: 700px;
+    }
+
+    #smell {
+        width: 700px;
+    }
+
+    #touch {
+        width: 700px;
+    }
+
+    #taste {
+        width: 700px;
+    }
+
+    /* Play in Motion */
+
+    #iframe {
+        width: 650px;
+        height: 406px;
+    }
+
+    /* Top 10 Activities */
+
+    #top10-pane {
+        width: 700px;
+        height: 1180px;
+    }
+
+    #water-img {
+        top: 450px;
+    }
+
+    #mud-img {
+        bottom: 4px;
+    }
+
+    .activities-style {
+        width: 400px;
+    }
+
+    /* Help with Anxiety */
+
+    #anxiety-pane {
+        width: 700px;
+    }
+
+
+    .anxiety-activity {
+        width: 180px;
+        height: 180px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+
+    /* Classes used across pages */
+
+    .sections-headers {
+        padding: 20px;
+        font-size: 150%;
+    }
+
+    .solid-background {
+        width: 600px;
+    }
+
+    .solid-orange {
+        width: 600px;
+        line-height: 130%;
+        font-size: 90%;
+    }
+
+    .square-image {
+        width: 190px;
+        height: 190px;
+    }
+
+    /* about page */
+
+    #about-menu h1 {
+        font-size: 150%;
+    }
+
+    /*separate page navigation */
+
+    #sub-menu {
+        font-size: 80%;
+    }
+
+    /* what is sensory play? */
+
+    .right-align {
+        width: 280px;
+        line-height: 100%;
+        font-size: 90%;
+    }
+
+    .left-align {
+        width: 280px;
+        line-height: 100%;
+        font-size: 90%;
+    }
+
+    #sound {
+        width: 600px;
+    }
+
+    #sight {
+        width: 600px;
+    }
+
+    #smell {
+        width: 600px;
+    }
+
+    #touch {
+        width: 600px;
+    }
+
+    #taste {
+        width: 600px;
+    }
+
+    /* Play in Motion */
+
+    #iframe {
+        width: 550px;
+        height: 306px;
+    }
+
+    /* Top 10 Activities */
+
+    #top10-pane {
+        width: 600px;
+        height: 1315px;
+    }
+
+    #water-img {
+        top: 550px;
+    }
+
+    .activities-style {
+        width: 350px;
+    }
+
+    /* Help with Anxiety */
+
+    #anxiety-pane {
+        width: 600px;
+    }
+
+    .anxiety-activity {
+        width: 150px;
+        height: 150px;
+        padding: 5px;
     }
 }
 
@@ -612,15 +895,6 @@ footer li {
 
     #hero-area {
         height: 300px;
-    }
-
-    #hero-text {
-        height: 250px;
-        bottom: 0px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 90%;
     }
 
     #learn-more {
@@ -813,7 +1087,7 @@ footer li {
         float: none;
         margin: 0 auto;
     }
-    
+
     footer li {
         font-size: 60%;
     }
