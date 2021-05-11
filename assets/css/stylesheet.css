@@ -76,7 +76,7 @@ a {
     color: white;
 }
 
-.content {
+.page-content {
     padding: 16px;
 }
 
@@ -139,8 +139,8 @@ li.dropdown {
     will-change: transform;
 }
 
-.sticky+.content {
-    padding-top: 80px;
+.sticky+.page-content {
+    padding-top: 60px;
 }
 
 /* footer */
@@ -284,7 +284,7 @@ footer li {
 #about-menu h2 {
     font-size: 200%;
     text-align: center;
-    padding: 10px;
+    padding: 30px 10px 10px 10px;
     margin: 0 auto;
 }
 
@@ -338,8 +338,16 @@ footer li {
     margin: 15px;
 }
 
-.senses_info {
+.senses-info-left {
     text-align: left;
+    font-size: 135%;
+    width: 900px;
+    padding: 35px 10px;
+    margin: 0 auto;
+}
+
+.senses-info-right {
+    text-align: right;
     font-size: 135%;
     width: 900px;
     padding: 35px 10px;
@@ -503,12 +511,6 @@ footer li {
 
 @media screen and (max-width: 1090px) {
 
-    /* sticky nav */
-
-    .sticky+.content {
-        padding-top: 100px;
-    }
-
     /* Home Page */
 
     #hero-area {
@@ -524,8 +526,8 @@ footer li {
 
     /* sticky nav */
 
-    .sticky+.content {
-        padding-top: 100px;
+    .sticky+.page-content {
+        padding-top: 70px;
     }
 
     /* Classes used across pages */
@@ -562,7 +564,11 @@ footer li {
         line-height: 150%;
     }
 
-    .senses_info {
+    .senses-info-left {
+        width: 800px;
+    }
+
+    .senses-info-right {
         width: 800px;
     }
 
@@ -641,11 +647,11 @@ footer li {
         display: none;
     }
 
-            /* sticky nav */
+    /* sticky nav */
 
-            .sticky+.content {
-                padding-top: 150px;
-            }
+    .sticky+.page-content {
+        padding-top: 160px;
+    }
 
     /* Footer */
 
@@ -677,6 +683,12 @@ footer li {
 
 @media screen and (max-width: 870px) {
 
+    .sticky+.page-content {
+        padding-top: 180px;
+    }
+
+    /* about page */
+
     /* Classes used across pages */
 
     .sections-headers {
@@ -697,8 +709,6 @@ footer li {
         height: 220px;
     }
 
-    /* about page */
-
     /* what is sensory play? */
 
     .right-align {
@@ -711,7 +721,11 @@ footer li {
         line-height: 130%;
     }
 
-    .senses_info {
+    .senses-info-left {
+        width: 700px;
+    }
+
+    .senses-info-right {
         width: 700px;
     }
 
@@ -755,6 +769,10 @@ footer li {
 }
 
 @media screen and (max-width: 770px) {
+
+    .sticky+.page-content {
+        padding-top: 190px;
+    }
 
     /* Classes used across pages */
 
@@ -804,7 +822,11 @@ footer li {
         font-size: 90%;
     }
 
-    .senses_info {
+    .senses-info-left {
+        width: 600px;
+    }
+
+    .senses-info-right {
         width: 600px;
     }
 
@@ -819,11 +841,8 @@ footer li {
 
     #top10-pane {
         width: 600px;
-        height: 1315px;
-    }
-
-    #water-img {
-        top: 550px;
+        height: 1140px;
+        font-size: 90%;
     }
 
     .activities-style {
@@ -831,6 +850,11 @@ footer li {
     }
 
     /* Help with Anxiety */
+
+    #anxiety-img {
+        width: 400px;
+        height: 300px;
+    }
 
     #anxiety-pane {
         width: 600px;
@@ -840,6 +864,12 @@ footer li {
         width: 150px;
         height: 150px;
         padding: 5px;
+    }
+
+    /* Tooltip */
+
+    .tooltip .tooltiptext {
+        font-size: 80%;
     }
 }
 
@@ -858,7 +888,109 @@ footer li {
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 670px) {
+
+
+    /* About page */
+
+    #about-menu h2 {
+        font-size: 140%;
+    }
+
+    /*separate page navigation */
+
+    #sub-menu {
+        font-size: 80%;
+    }
+
+    /* Classes used across page */
+
+    .sections-headers {
+        padding: 20px;
+        font-size: 130%;
+    }
+
+    .solid-background {
+        width: 500px;
+    }
+
+    .solid-orange {
+        width: 500px;
+        line-height: 130%;
+        font-size: 75%;
+    }
+
+    .square-image {
+        width: 150px;
+        height: 150px;
+    }
+
+
+    /* what is sensory play? */
+
+    .right-align {
+        width: 250px;
+        font-size: 75%;
+    }
+
+    .left-align {
+        width: 250px;
+        font-size: 75%;
+    }
+
+    .senses-info-left {
+        width: 500px;
+        font-size: 90%;
+    }
+
+    .senses-info-right {
+        width: 500px;
+        font-size: 90%;
+    }
+
+    /* Play in Motion */
+
+    #iframe {
+        width: 450px;
+        height: 206px;
+    }
+
+    /* Top 10 Activities */
+
+    #top10-pane {
+        width: 500px;
+        height: 1065px;
+        font-size: 75%;
+    }
+
+    .activities-style {
+        width: 280px;
+    }
+
+    /* Help with Anxiety */
+
+    #anxiety-pane {
+        width: 500px;
+    }
+
+    #anxiety-pane figcaption {
+        font-size: 75%;
+    }
+
+    .anxiety-activity {
+        width: 130px;
+        height: 130px;
+    }
+
+    /* Tooltip */
+
+    .tooltip .tooltiptext {
+        width: 180px;
+        font-size: 85%;
+    }
+}
+
+@media screen and (max-width: 560px) {
 
     /* Header */
 
@@ -870,6 +1002,29 @@ footer li {
 
     #menu {
         font-size: 90%;
+    }
+
+    /* Classes used across pages */
+
+    .sections-headers {
+        padding: 20px;
+        font-size: 100%;
+    }
+
+    .solid-background {
+        width: 400px;
+    }
+
+    .solid-orange {
+        width: 400px;
+        line-height: 120%;
+        font-size: 65%;
+        padding: 3px;
+    }
+
+    .square-image {
+        width: 120px;
+        height: 120px;
     }
 
     /* Home Page */
@@ -889,6 +1044,180 @@ footer li {
         padding: 5px;
         left: 8%;
         bottom: 51%;
+    }
+
+    /* about page */
+
+    #about-menu h2 {
+        font-size: 100%;
+    }
+
+    /*separate page navigation */
+
+    #sub-menu {
+        font-size: 65%;
+    }
+
+    /* what is sensory play? */
+
+    .right-align {
+        width: 185px;
+        font-size: 65%;
+        padding: 3px;
+    }
+
+    .left-align {
+        width: 185px;
+        font-size: 65%;
+        padding: 3px;
+    }
+
+    .senses-info-left {
+        width: 400px;
+        font-size: 80%;
+        padding: 15px;
+    }
+
+    .senses-info-right {
+        width: 400px;
+        font-size: 80%;
+        padding: 15px;
+    }
+
+    /* Play in Motion */
+
+    #iframe {
+        width: 350px;
+        height: 206px;
+    }
+
+    /* Top 10 Activities */
+
+    #top10-pane {
+        width: 400px;
+        height: 965px;
+        font-size: 65%;
+    }
+
+    #water-img {
+        top: 420px;
+    }
+
+    .activities-style {
+        width: 230px;
+    }
+
+    /* Help with Anxiety */
+
+    #anxiety-img {
+        width: 300px;
+        height: 200px;
+    }
+
+    #anxiety-pane {
+        width: 400px;
+    }
+
+    #anxiety-pane figcaption {
+        font-size: 70%;
+    }
+
+    .anxiety-activity {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    /* Classes used across pages */
+
+    .solid-background {
+        width: 300px;
+    }
+
+    .solid-orange {
+        width: 300px;
+        line-height: 100%;
+        font-size: 55%;
+    }
+
+    .square-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* about page */
+
+    /* what is sensory play? */
+
+    .right-align {
+        width: 150px;
+        font-size: 55%;
+        padding: 3px;
+    }
+
+    .left-align {
+        width: 150px;
+        font-size: 55%;
+        padding: 3px;
+    }
+
+    .senses-info-left {
+        width: 300px;
+    }
+
+    .senses-info-right {
+        width: 300px;
+    }
+
+    /* Play in Motion */
+
+    #iframe {
+        width: 250px;
+        height: 150px;
+    }
+
+    /* Top 10 Activities */
+
+    #top10-pane {
+        width: 300px;
+        height: 1055px;
+        font-size: 55%;
+    }
+
+    #water-img {
+        top: 450px;
+    }
+
+    .activities-style {
+        width: 150px;
+    }
+
+    /* Help with Anxiety */
+
+    #anxiety-img {
+        width: 200px;
+        height: 100px;
+    }
+
+    #anxiety-pane {
+        width: 300px;
+    }
+
+    #anxiety-pane figcaption {
+        font-size: 55%;
+    }
+
+    .anxiety-activity {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* Tooltip */
+
+    .tooltip .tooltiptext {
+        width: 120px;
     }
 }
 
@@ -944,6 +1273,108 @@ footer li {
 
     footer p {
         font-size: 35%;
+    }
+
+    /* About page */
+
+    #about-menu h2 {
+        font-size: 80%;
+    }
+
+    /*separate page navigation */
+
+    #sub-menu {
+        font-size: 50%;
+    }
+
+    /* Classes used across page */
+
+    .sections-headers {
+        padding: 10px;
+        font-size: 70%;
+    }
+
+    .solid-background {
+        width: 200px;
+    }
+
+    .solid-orange {
+        width: 200px;
+        line-height: 100%;
+        font-size: 35%;
+    }
+
+    .square-image {
+        width: 50px;
+        height: 50px;
+        padding: 1px;
+    }
+
+    /* what is sensory play? */
+
+    .right-align {
+        width: 100px;
+        font-size: 35%;
+        padding: 1px;
+    }
+
+    .left-align {
+        width: 100px;
+        font-size: 35%;
+        padding: 1px;
+    }
+
+    .senses-info-left {
+        width: 200px;
+        font-size: 75%;
+    }
+
+    .senses-info-right {
+        width: 200px;
+        font-size: 75%;
+    }
+
+    /* Play in Motion */
+
+    #iframe {
+        width: 150px;
+        height: 100px;
+    }
+
+    /* Top 10 Activities */
+
+    #top10-pane {
+        width: 200px;
+        height: 780px;
+        font-size: 35%;
+    }
+
+    #water-img {
+        top: 350px;
+    }
+
+    .activities-style {
+        width: 100px;
+    }
+
+    /* Help with Anxiety */
+
+    #anxiety-img {
+        width: 150px;
+        height: 90px;
+    }
+
+    #anxiety-pane {
+        width: 200px;
+    }
+
+    #anxiety-pane figcaption {
+        font-size: 45%;
+    }
+
+    .anxiety-activity {
+        width: 30px;
+        height: 30px;
     }
 }
 
@@ -1001,122 +1432,226 @@ footer li {
     footer p {
         font-size: 30%;
     }
-}
 
-@media screen and (max-width: 229px) {
+    @media screen and (max-width: 255px) {
 
-    /* Header */
+        /* About page */
 
-    #logo {
-        font-size: 85%;
+        #about-menu h2 {
+            font-size: 70%;
+        }
+
+        /*separate page navigation */
+
+        #sub-menu {
+            font-size: 40%;
+        }
+
+        /* Classes used across page */
+
+        .sections-headers {
+            padding: 8px;
+            font-size: 60%;
+        }
+
+        .solid-background {
+            width: 180px;
+        }
+
+        .solid-orange {
+            width: 180px;
+            font-size: 25%;
+        }
+
+        .square-image {
+            width: 30px;
+            height: 30px;
+            padding: 0px;
+        }
+
+        /* what is sensory play? */
+
+        .right-align {
+            width: 80px;
+            font-size: 25%;
+            padding: 1px;
+        }
+
+        .left-align {
+            width: 80px;
+            font-size: 25%;
+            padding: 1px;
+        }
+
+        .senses-info-left {
+            width: 180px;
+            font-size: 60%;
+        }
+
+        .senses-info-right {
+            width: 180px;
+            font-size: 60%;
+        }
+
+        /* Play in Motion */
+
+        #iframe {
+            width: 150px;
+            height: 100px;
+        }
+
+        /* Top 10 Activities */
+
+        #top10-pane {
+            width: 180px;
+            height: 900px;
+            font-size: 25%;
+        }
+
+        #water-img {
+            top: 450px;
+        }
+
+        .activities-style {
+            width: 80px;
+        }
+
+        /* Help with Anxiety */
+
+        #anxiety-img {
+            width: 150px;
+            height: 90px;
+        }
+
+        #anxiety-pane {
+            width: 180px;
+        }
+
+        #anxiety-pane figcaption {
+            font-size: 30%;
+        }
+
+        .anxiety-activity {
+            width: 20px;
+            height: 20px;
+        }
     }
 
-    /* Nav */
+    @media screen and (max-width: 229px) {
 
-    #menu {
-        font-size: 75%;
+        /* Header */
+
+        #logo {
+            font-size: 85%;
+        }
+
+        /* Nav */
+
+        #menu {
+            font-size: 75%;
+        }
+
+        /* Home Page */
+
+        #hero-area {
+            background: none;
+            background-color: #E8A87C;
+        }
+
+        #hero-text {
+            font-size: 40%;
+            padding: 1px;
+        }
+
+        #learn-more {
+            font-size: 35%;
+            left: 10%;
+            bottom: 53%;
+        }
+
+        /* Footer */
+
+        footer ul {
+            float: none;
+            margin: 0 auto;
+        }
+
+        footer li {
+            font-size: 60%;
+        }
+
+        #footer-logo {
+            float: none;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 60%;
+        }
+
+        footer p {
+            font-size: 10%;
+        }
     }
 
-    /* Home Page */
+    @media screen and (max-width: 170px) {
 
-    #hero-area {
-        background: none;
-        background-color: #E8A87C;
+        #learn-more {
+            left: 11%;
+            bottom: 53%;
+        }
+
+        /* Footer */
+
+        footer p {
+            font-size: 5%;
+        }
     }
 
-    #hero-text {
-        font-size: 40%;
-        padding: 1px;
-    }
+    @media screen and (max-width: 163px) {
 
-    #learn-more {
-        font-size: 35%;
-        left: 10%;
-        bottom: 53%;
-    }
+        /* Header */
 
-    /* Footer */
+        #logo {
+            font-size: 80%;
+        }
 
-    footer ul {
-        float: none;
-        margin: 0 auto;
-    }
+        /* Nav */
 
-    footer li {
-        font-size: 60%;
-    }
+        #menu {
+            font-size: 70%;
+        }
 
-    #footer-logo {
-        float: none;
-        margin: 0 auto;
-        text-align: center;
-        font-size: 60%;
-    }
+        /* Home Page */
 
-    footer p {
-        font-size: 10%;
-    }
-}
+        #hero-text {
+            font: 35%
+        }
 
-@media screen and (max-width: 170px) {
+        #learn-more {
+            bottom: 54%;
+            left: 15%;
+        }
 
-    #learn-more {
-        left: 11%;
-        bottom: 53%;
-    }
+        /* Footer */
 
-    /* Footer */
+        footer ul {
+            float: none;
+            margin: 0 auto;
+        }
 
-    footer p {
-        font-size: 5%;
-    }
-}
+        footer li {
+            font-size: 35%;
+            text-align: center;
+        }
 
-@media screen and (max-width: 163px) {
+        #footer-logo {
+            float: none;
+            margin: 0 auto;
+            font-size: 15%;
+            text-align: center;
+        }
 
-    /* Header */
-
-    #logo {
-        font-size: 80%;
-    }
-
-    /* Nav */
-
-    #menu {
-        font-size: 70%;
-    }
-
-    /* Home Page */
-
-    #hero-text {
-        font: 35%
-    }
-
-    #learn-more {
-        bottom: 54%;
-        left: 15%;
-    }
-
-    /* Footer */
-
-    footer ul {
-        float: none;
-        margin: 0 auto;
-    }
-
-    footer li {
-        font-size: 35%;
-        text-align: center;
-    }
-
-    #footer-logo {
-        float: none;
-        margin: 0 auto;
-        font-size: 15%;
-        text-align: center;
-    }
-
-    footer p {
-        font-size: 0.5%;
+        footer p {
+            font-size: 0.5%;
+        }
     }
 }
