@@ -50,7 +50,6 @@ a {
     font-weight: 700;
     font-size: 115%;
     font-family: Itim, sans-serif;
-
 }
 
 #menu ul {
@@ -141,7 +140,7 @@ li.dropdown {
 }
 
 .sticky+.content {
-    padding-top: 60px;
+    padding-top: 80px;
 }
 
 /* footer */
@@ -262,7 +261,8 @@ footer li {
 }
 
 #learn-more {
-    font-weight: 600;
+    font-family: itim, sans-serif;
+    font-weight: 700;
     font-size: 110%;
     background-color: #44b3a5;
     padding: 10px;
@@ -281,10 +281,11 @@ footer li {
 
 /* about page */
 
-#about-menu h1 {
+#about-menu h2 {
     font-size: 200%;
     text-align: center;
     padding: 10px;
+    margin: 0 auto;
 }
 
 /*separate page navigation */
@@ -337,49 +338,32 @@ footer li {
     margin: 15px;
 }
 
-#sound {
-    color: #C38D9D;
+.senses_info {
     text-align: left;
     font-size: 135%;
     width: 900px;
     padding: 35px 10px;
     margin: 0 auto;
+}
+
+#sound {
+    color: #C38D9D;
 }
 
 #sight {
     color: #85CDCA;
-    text-align: right;
-    font-size: 135%;
-    width: 900px;
-    padding: 35px 10px;
-    margin: 0 auto;
 }
 
 #smell {
     color: #DFDCD9;
-    text-align: right;
-    font-size: 135%;
-    width: 900px;
-    padding: 35px 10px;
-    margin: 0 auto;
 }
 
 #touch {
     color: #7F9887;
-    text-align: left;
-    font-size: 135%;
-    width: 900px;
-    padding: 35px 10px;
-    margin: 0 auto;
 }
 
 #taste {
     color: #DD9A89;
-    text-align: right;
-    font-size: 135%;
-    width: 900px;
-    padding: 35px 10px;
-    margin: 0 auto;
 }
 
 /* Play in Motion */
@@ -457,6 +441,7 @@ footer li {
     background-color: #85CDCA;
     width: 900px;
     padding: 10px;
+    border-bottom: 30px #fff solid;
     margin: 0 auto;
 }
 
@@ -473,7 +458,6 @@ footer li {
     height: 200px;
     padding: 10px;
 }
-
 
 /* Tooltip for Anxiety activities */
 
@@ -519,6 +503,12 @@ footer li {
 
 @media screen and (max-width: 1090px) {
 
+    /* sticky nav */
+
+    .sticky+.content {
+        padding-top: 100px;
+    }
+
     /* Home Page */
 
     #hero-area {
@@ -532,6 +522,12 @@ footer li {
 
 @media screen and (max-width: 970px) {
 
+    /* sticky nav */
+
+    .sticky+.content {
+        padding-top: 100px;
+    }
+
     /* Classes used across pages */
 
     .sections-headers {
@@ -542,6 +538,7 @@ footer li {
         width: 800px;
         padding: 5px;
     }
+
     .solid-orange {
         line-height: 150%;
     }
@@ -565,23 +562,7 @@ footer li {
         line-height: 150%;
     }
 
-    #sound {
-        width: 800px;
-    }
-
-    #sight {
-        width: 800px;
-    }
-
-    #smell {
-        width: 800px;
-    }
-
-    #touch {
-        width: 800px;
-    }
-
-    #taste {
+    .senses_info {
         width: 800px;
     }
 
@@ -660,6 +641,12 @@ footer li {
         display: none;
     }
 
+            /* sticky nav */
+
+            .sticky+.content {
+                padding-top: 150px;
+            }
+
     /* Footer */
 
     footer li {
@@ -724,23 +711,7 @@ footer li {
         line-height: 130%;
     }
 
-    #sound {
-        width: 700px;
-    }
-
-    #sight {
-        width: 700px;
-    }
-
-    #smell {
-        width: 700px;
-    }
-
-    #touch {
-        width: 700px;
-    }
-
-    #taste {
+    .senses_info {
         width: 700px;
     }
 
@@ -775,7 +746,6 @@ footer li {
     #anxiety-pane {
         width: 700px;
     }
-
 
     .anxiety-activity {
         width: 180px;
@@ -834,23 +804,7 @@ footer li {
         font-size: 90%;
     }
 
-    #sound {
-        width: 600px;
-    }
-
-    #sight {
-        width: 600px;
-    }
-
-    #smell {
-        width: 600px;
-    }
-
-    #touch {
-        width: 600px;
-    }
-
-    #taste {
+    .senses_info {
         width: 600px;
     }
 
