@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&family=Montserrat&display=swap');
 
-/* default styling */
+/* Default styling */
 
 * {
     margin: 0;
@@ -29,7 +29,7 @@ a {
     color: #333333;
 }
 
-/* header */
+/* Header */
 
 #header {
     background-color: #44b3a5;
@@ -44,7 +44,7 @@ a {
     letter-spacing: 3px;
 }
 
-/* navigation menu */
+/* Navigation menu */
 
 #menu {
     font-weight: 700;
@@ -76,11 +76,7 @@ a {
     color: white;
 }
 
-.page-content {
-    padding: 16px;
-}
-
-/* dropdown menu */
+/* Dropdown menu */
 
 li a,
 .dropbtn {
@@ -139,11 +135,7 @@ li.dropdown {
     will-change: transform;
 }
 
-.sticky+.page-content {
-    padding-top: 60px;
-}
-
-/* footer */
+/* Footer */
 
 footer {
     background-color: #DFDCD9;
@@ -165,7 +157,7 @@ footer p {
     font-size: 50%;
 }
 
-/* social media icons */
+/* Social media icons */
 
 footer ul {
     padding: 10px;
@@ -184,52 +176,7 @@ footer li {
     font-size: 150%;
 }
 
-/* Classes used across pages */
-
-.sections-headers {
-    text-align: center;
-    padding: 40px;
-}
-
-.solid-background {
-    text-align: center;
-    width: 900px;
-    padding: 35px 10px;
-    margin: 0 auto;
-    color: #101010;
-}
-
-.solid-orange {
-    background-color: #E8A87C;
-    line-height: 200%;
-}
-
-.solid-blue {
-    background-color: #85CDCA;
-}
-
-.solid-pink {
-    background-color: #C38D9D;
-}
-
-.solid-grey {
-    background-color: #DFDCD9;
-}
-
-.solid-green {
-    background-color: #7F9887;
-}
-
-.solid-peach {
-    background-color: #DD9A89;
-}
-
-.square-image {
-    width: 300px;
-    height: 300px;
-}
-
-/* home page */
+/* Home page */
 
 #hero-area {
     text-align: left;
@@ -279,7 +226,7 @@ footer li {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* about page */
+/* About page */
 
 #about-menu h2 {
     font-size: 200%;
@@ -313,7 +260,52 @@ footer li {
     content: "|      ";
 }
 
-/* what is sensory play? */
+/* Classes used across page */
+
+.sections-headers {
+    text-align: center;
+    padding: 40px;
+}
+
+.solid-background {
+    text-align: center;
+    width: 900px;
+    padding: 35px 10px;
+    margin: 0 auto;
+    color: #101010;
+}
+
+.solid-orange {
+    background-color: #E8A87C;
+    line-height: 200%;
+}
+
+.solid-blue {
+    background-color: #85CDCA;
+}
+
+.solid-pink {
+    background-color: #C38D9D;
+}
+
+.solid-grey {
+    background-color: #DFDCD9;
+}
+
+.solid-green {
+    background-color: #7F9887;
+}
+
+.solid-peach {
+    background-color: #DD9A89;
+}
+
+.square-image {
+    width: 300px;
+    height: 300px;
+}
+
+/* What is sensory play? */
 
 .right-align {
     width: 500px;
@@ -507,7 +499,13 @@ footer li {
     visibility: visible;
 }
 
-/* @media queries */
+/* Hear from Each Other */
+
+
+
+/* Contact Us */
+
+/* @Media queries */
 
 @media screen and (max-width: 1090px) {
 
@@ -524,13 +522,9 @@ footer li {
 
 @media screen and (max-width: 970px) {
 
-    /* sticky nav */
+    /* About page */
 
-    .sticky+.page-content {
-        padding-top: 70px;
-    }
-
-    /* Classes used across pages */
+    /* Classes used across page */
 
     .sections-headers {
         padding: 30px;
@@ -550,9 +544,7 @@ footer li {
         height: 250px;
     }
 
-    /* about page */
-
-    /* what is sensory play? */
+    /* What is sensory play? */
 
     .right-align {
         width: 420px;
@@ -647,12 +639,6 @@ footer li {
         display: none;
     }
 
-    /* sticky nav */
-
-    .sticky+.page-content {
-        padding-top: 160px;
-    }
-
     /* Footer */
 
     footer li {
@@ -683,11 +669,7 @@ footer li {
 
 @media screen and (max-width: 870px) {
 
-    .sticky+.page-content {
-        padding-top: 180px;
-    }
-
-    /* about page */
+    /* About page */
 
     /* Classes used across pages */
 
@@ -709,7 +691,7 @@ footer li {
         height: 220px;
     }
 
-    /* what is sensory play? */
+    /* What is sensory play? */
 
     .right-align {
         width: 380px;
@@ -770,8 +752,16 @@ footer li {
 
 @media screen and (max-width: 770px) {
 
-    .sticky+.page-content {
-        padding-top: 190px;
+    /* About page */
+
+    #about-menu h1 {
+        font-size: 150%;
+    }
+
+    /*Separate page navigation */
+
+    #sub-menu {
+        font-size: 80%;
     }
 
     /* Classes used across pages */
@@ -796,19 +786,7 @@ footer li {
         height: 190px;
     }
 
-    /* about page */
-
-    #about-menu h1 {
-        font-size: 150%;
-    }
-
-    /*separate page navigation */
-
-    #sub-menu {
-        font-size: 80%;
-    }
-
-    /* what is sensory play? */
+    /* What is sensory play? */
 
     .right-align {
         width: 280px;
@@ -890,14 +868,13 @@ footer li {
 
 @media screen and (max-width: 670px) {
 
-
     /* About page */
 
     #about-menu h2 {
         font-size: 140%;
     }
 
-    /*separate page navigation */
+    /*Separate page navigation */
 
     #sub-menu {
         font-size: 80%;
@@ -924,7 +901,6 @@ footer li {
         width: 150px;
         height: 150px;
     }
-
 
     /* what is sensory play? */
 
@@ -1004,29 +980,6 @@ footer li {
         font-size: 90%;
     }
 
-    /* Classes used across pages */
-
-    .sections-headers {
-        padding: 20px;
-        font-size: 100%;
-    }
-
-    .solid-background {
-        width: 400px;
-    }
-
-    .solid-orange {
-        width: 400px;
-        line-height: 120%;
-        font-size: 65%;
-        padding: 3px;
-    }
-
-    .square-image {
-        width: 120px;
-        height: 120px;
-    }
-
     /* Home Page */
 
     #hero-area {
@@ -1043,22 +996,45 @@ footer li {
         font-size: 70%;
         padding: 5px;
         left: 8%;
-        bottom: 51%;
+        bottom: 52%;
     }
 
-    /* about page */
+    /* About page */
 
     #about-menu h2 {
         font-size: 100%;
     }
 
-    /*separate page navigation */
+    /*Separate page navigation */
 
     #sub-menu {
         font-size: 65%;
     }
 
-    /* what is sensory play? */
+        /* Classes used across pages */
+
+        .sections-headers {
+            padding: 20px;
+            font-size: 100%;
+        }
+    
+        .solid-background {
+            width: 400px;
+        }
+    
+        .solid-orange {
+            width: 400px;
+            line-height: 120%;
+            font-size: 65%;
+            padding: 3px;
+        }
+    
+        .square-image {
+            width: 120px;
+            height: 120px;
+        }
+
+    /* What is sensory play? */
 
     .right-align {
         width: 185px;
@@ -1130,7 +1106,15 @@ footer li {
 
 @media screen and (max-width: 480px) {
 
-    /* Classes used across pages */
+    /* Home page */
+
+    #learn-more {
+        bottom: 51%;
+    }
+
+    /* About page */
+
+    /* Classes used across page*/
 
     .solid-background {
         width: 300px;
@@ -1147,9 +1131,7 @@ footer li {
         height: 100px;
     }
 
-    /* about page */
-
-    /* what is sensory play? */
+    /* What is sensory play? */
 
     .right-align {
         width: 150px;
@@ -1281,7 +1263,7 @@ footer li {
         font-size: 80%;
     }
 
-    /*separate page navigation */
+    /*Separate page navigation */
 
     #sub-menu {
         font-size: 50%;
@@ -1469,7 +1451,7 @@ footer li {
             padding: 0px;
         }
 
-        /* what is sensory play? */
+        /* What is sensory play? */
 
         .right-align {
             width: 80px;
