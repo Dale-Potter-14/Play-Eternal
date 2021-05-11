@@ -146,6 +146,15 @@ li.dropdown {
     will-change: transform;
 }
 
+.content {
+    padding: 16px;
+  }
+  
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
 /* Footer */
 
 footer {
