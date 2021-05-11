@@ -233,6 +233,8 @@ footer li {
     will-change: transform;
 }
 
+/* Shadow code from W3 school tutorials */
+
 #learn-more:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
@@ -515,9 +517,54 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
 /* Hear from Each Other */
 
+#feedback-heading
+{
+    font-size: 150%;
+    text-align: center;
+    padding: 40px 10px 10px 10px;
+}
 
+.profile-pictures {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 2px;
+    border:#333333 solid 1px;
+    margin: 1px;
+    float: left;
+}
+
+.feedback-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    border-bottom: 30px #fff solid;
+}
+
+#feed-sub {
+    font-size: 150%;
+    margin: 0 auto;
+    padding: 10px 10px 0px 10px;
+    width: 900px;
+    height: fit-content;
+}
+
+.feedback-grid {
+    text-align: start;
+    width: 425px;
+    height: 150px;
+    line-height: 110%;
+    font-size: 65%;
+    padding: 5px;
+    margin: 3px;
+}
 
 /* Contact Us */
+
+#contact-us-heading {
+    font-size: 150%;
+    text-align: center;
+    padding: 40px 10px 10px 10px;
+}
 
 /* @Media queries */
 
