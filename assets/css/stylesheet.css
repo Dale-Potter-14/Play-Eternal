@@ -551,7 +551,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     border-bottom: 30px #fff solid;
 }
 
-#feed-sub {
+.feed-sub {
     font-size: 150%;
     margin: 0 auto;
     padding: 10px 10px 0px 10px;
@@ -643,10 +643,8 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 }
 
 .radio-feedback {
-
-    margin: 20px 2px 20px 2px;
+    margin: 20px 2px 40px 2px;
 }
-
 
 .submit-info {
     margin-top: 20px;
