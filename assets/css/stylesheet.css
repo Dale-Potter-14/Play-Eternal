@@ -4,6 +4,10 @@
 
 /* Default styling */
 
+html {
+    scroll-behavior: smooth;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -207,7 +211,6 @@ footer li {
     background-size: cover;
     background-position: top;
     position: relative;
-    z-index: -2;
     will-change: transform;
     border-top: 5px white solid;
 
@@ -222,7 +225,6 @@ footer li {
     padding-top: 20px;
     padding-bottom: 20px;
     position: absolute;
-    z-index: -1;
     will-change: transform;
 }
 
@@ -237,11 +239,8 @@ footer li {
     background-color: #44b3a5;
     padding: 10px;
     border-radius: 12px;
+    margin: 20px;
     width: fit-content;
-    position: absolute;
-    z-index: 1;
-    left: 11%;
-    bottom: 16.5%;
     will-change: transform;
 }
 
@@ -260,30 +259,6 @@ footer li {
     margin: 0 auto;
 }
 
-/*separate page navigation */
-
-#sub-menu {
-    font-weight: 700;
-    font-size: 100%;
-    font-family: Itim, sans-serif;
-}
-
-#sub-menu ul {
-    margin: auto 0;
-    text-align: center;
-}
-
-#sub-menu li {
-    text-align: center;
-    display: inline;
-    margin-left: 3px;
-    width: 25px;
-    list-style: none;
-}
-
-#sub-menu li:not(:first-child):before {
-    content: "|      ";
-}
 
 /* Classes used across page */
 
@@ -667,16 +642,21 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
 /* @Media queries */
 
+/* Only stick if nav can fit */
+
+@media (min-height: 300px) {
+    nav ul {
+      position: sticky;
+      top: 0;
+    }
+  }
+
 @media screen and (max-width: 1090px) {
 
     /* Home Page */
 
     #hero-area {
         height: 500px;
-    }
-
-    #learn-more {
-        bottom: 29%;
     }
 }
 
@@ -799,6 +779,10 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
         display: none;
     }
 
+    .sticky+.content {
+        padding-top: 90px;
+    }
+
     /* Footer */
 
     footer li {
@@ -822,8 +806,6 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
     #learn-more {
         font-size: 90%;
-        left: 23%;
-        bottom: 28%;
     }
 }
 
@@ -916,12 +898,6 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
     #about-menu h1 {
         font-size: 150%;
-    }
-
-    /*Separate page navigation */
-
-    #sub-menu {
-        font-size: 80%;
     }
 
     /* Classes used across pages */
@@ -1018,12 +994,6 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     #hero-area {
         height: 300px;
     }
-
-    #learn-more {
-        font-size: 90%;
-        left: 18%;
-        bottom: 35%;
-    }
 }
 
 @media screen and (max-width: 670px) {
@@ -1032,12 +1002,6 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
     #about-menu h2 {
         font-size: 140%;
-    }
-
-    /*Separate page navigation */
-
-    #sub-menu {
-        font-size: 80%;
     }
 
     /* Classes used across page */
@@ -1147,28 +1111,21 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     }
 
     #hero-text {
-        height: 200px;
+        height: fit-content;
         width: fit-content;
         font-size: 70%;
     }
 
     #learn-more {
         font-size: 70%;
-        padding: 5px;
-        left: 8%;
-        bottom: 52%;
+        padding: 2px;
+        margin: 2px 2px 2px 10px;
     }
 
     /* About page */
 
     #about-menu h2 {
         font-size: 100%;
-    }
-
-    /*Separate page navigation */
-
-    #sub-menu {
-        font-size: 65%;
     }
 
     /* Classes used across pages */
@@ -1265,12 +1222,6 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 }
 
 @media screen and (max-width: 480px) {
-
-    /* Home page */
-
-    #learn-more {
-        bottom: 51%;
-    }
 
     /* About page */
 
@@ -1399,8 +1350,6 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     #learn-more {
         font-size: 55%;
         padding: 2px;
-        left: 6%;
-        bottom: 52%;
     }
 
     /* Footer */
@@ -1421,12 +1370,6 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
     #about-menu h2 {
         font-size: 80%;
-    }
-
-    /*Separate page navigation */
-
-    #sub-menu {
-        font-size: 50%;
     }
 
     /* Classes used across page */
@@ -1551,8 +1494,6 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     #learn-more {
         font-size: 40%;
         padding: 1px;
-        left: 7%;
-        bottom: 53%;
     }
 
     footer ul {
@@ -1581,12 +1522,6 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
         #about-menu h2 {
             font-size: 70%;
-        }
-
-        /*separate page navigation */
-
-        #sub-menu {
-            font-size: 40%;
         }
 
         /* Classes used across page */
@@ -1707,8 +1642,6 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
         #learn-more {
             font-size: 35%;
-            left: 10%;
-            bottom: 53%;
         }
 
         /* Footer */
@@ -1736,11 +1669,6 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
     @media screen and (max-width: 170px) {
 
-        #learn-more {
-            left: 11%;
-            bottom: 53%;
-        }
-
         /* Footer */
 
         footer p {
@@ -1766,11 +1694,6 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
         #hero-text {
             font: 35%
-        }
-
-        #learn-more {
-            bottom: 54%;
-            left: 15%;
         }
 
         /* Footer */

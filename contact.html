@@ -26,8 +26,7 @@
         <!--Navigation Menu-->
         <nav id="menu">
             <ul>
-                <!--Javascript and Dropdown from W3 school tutorial for sticky nav bar and dropdown menu - adjusted for this site
-                https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_sticky
+                <!--Dropdown from W3 school tutorial for dropdown menu - adjusted for this site
                 https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar-->
                 <li><a href="index.html">Home</a></li>
                 <li class="dropdown"><a href="about.html" class="dropbtn">All About
@@ -108,26 +107,6 @@
     </footer>
     <!-- Font awesome script-->
     <script src="https://kit.fontawesome.com/bd9c348b33.js" crossorigin="anonymous"></script>
-
-    <!--Javascript from W3 schools tutorial for sticky nav bar
-    https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar-->
-
-    <script>
-        window.onscroll = function () {
-            myFunction()
-        };
-
-        var header = document.getElementById("header");
-        var sticky = header.offsetTop;
-
-        function myFunction() {
-            if (window.pageYOffset >= sticky) {
-                header.classList.add("sticky")
-            } else {
-                header.classList.remove("sticky");
-            }
-        }
-    </script>
 </body>
 
 </html>
