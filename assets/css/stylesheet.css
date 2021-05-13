@@ -51,6 +51,7 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    z-index: 2;
 }
 
 #logo {
@@ -215,24 +216,25 @@ footer li {
 
 #hero-area {
     background: url('../images/home_page.jpg');
-    height: 600px;
+    height: 1000px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 10% 30%;
     position: relative;
     z-index: -1;
+    margin: 0 auto;
 }
 
 #hero-text {
     height: 300px;
-    width: 500px;
+    width: 600px;
     background-color: rgb(255, 255, 255, 0.8);
     padding-top: 20px;
     padding-bottom: 20px;
     position: absolute;
     z-index: 1;
-    bottom: 200px;
+    top: 220px;
     left: 80px;
 }
 
@@ -250,7 +252,7 @@ footer li {
 }
 
 #learn-more {
-    margin: 30px 20px 0 20px;
+    margin: 40px 20px 0 20px;
     padding: 5px 15px;
     text-align: center;
     font-size: 110%;
@@ -649,3 +651,63 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* @Media queries */
+
+@media screen and (max-width: 3072px)(min-width: 2000px) {
+
+    /* Home Page */
+
+    #hero-area {
+        background: url('../images/home-page-large.jpg');
+        width: 100%;
+        height: 2000px;
+
+    }
+
+    #hero-text {
+        top: 400px;
+        left: 60px;
+        width: 900px;
+        font-size: 170%;
+        height: 500px;
+        padding: 20px;
+
+    }
+
+
+    #learn-more {
+        margin: 50px 20px 0px 30px;
+
+    }
+}
+
+@media screen and (max-width: 1440px){
+    /* Home page */
+
+#hero-text {
+    top: 350px;
+    left: 60px;
+}
+
+@media screen and (max-width: 1088px) {
+
+    /* Home Page */
+
+    #hero-area {
+        width: 100%;
+    }
+
+    #hero-text {
+        top: 200px;
+        left: 60px;
+        width: 350px;
+        font-size: 90%;
+        height: 350px;
+    }
+
+    #learn-more {
+        margin: 20px 20px 0px 20px;
+        padding: 4px 12px;
+
+    }
+}
