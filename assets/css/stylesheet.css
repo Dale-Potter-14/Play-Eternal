@@ -6,7 +6,10 @@
 
 html {
     scroll-behavior: smooth;
-  }
+    position: relative;
+    min-height: 100%;
+}
+
 
 * {
     margin: 0;
@@ -41,12 +44,15 @@ a {
     background-color: #44b3a5;
     width: 100%;
     height: 75px;
-    z-index: 0;
+    padding: 30px 20px 0px 10px;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row;
 }
 
 #logo {
-    float: left;
-    margin: 15px 5px 15px 15px;
     letter-spacing: 3px;
 }
 
@@ -56,13 +62,13 @@ a {
     font-weight: 700;
     font-size: 115%;
     font-family: Itim, sans-serif;
+    border: 2px solid black;
+
 }
 
 #menu ul {
-    margin: 25px 10px 5px 0;
     text-align: right;
     width: auto;
-    float: right;
 }
 
 #menu li {
@@ -106,7 +112,6 @@ li a:hover,
 li.dropdown {
     position: relative;
     display: inline-block;
-    will-change: transform;
 }
 
 .dropdown-content {
@@ -115,11 +120,10 @@ li.dropdown {
     background-color: #44b3a5;
     min-width: 210px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+
     top: 22px;
     left: 50%;
     margin-left: -100px;
-    will-change: transform;
 }
 
 .dropdown-content a {
@@ -143,29 +147,33 @@ li.dropdown {
 /* Javascript from W3 school tutorial for sticky nav bar and adjusted for this site
     https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_sticky */
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: auto;
-    will-change: transform;
-}
-
-.content {
-    padding: 16px;
-}
-
-
-.sticky+.content {
-    padding-top: 60px;
-}
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: auto;
+    }
+    
+    .content {
+   padding-top: 20px;
+    }
+    
+    
+    .sticky+.content {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
 
 /* Footer */
 
 footer {
     background-color: #DFDCD9;
-    width: auto;
     height: 100px;
+    width: 100%;
     overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 #footer-logo {
@@ -205,14 +213,12 @@ footer li {
 #hero-area {
     text-align: left;
     background: url('../images/home_page.jpg');
-    height: 600px;
+    height: 800px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
     position: relative;
-    will-change: transform;
-    border-top: 5px white solid;
+    z-index: -2;
 
 }
 
@@ -220,12 +226,12 @@ footer li {
     height: 300px;
     width: 500px;
     background-color: rgb(255, 255, 255, 0.8);
-    bottom: 8%;
+    bottom: 25%;
     left: 8%;
     padding-top: 20px;
     padding-bottom: 20px;
     position: absolute;
-    will-change: transform;
+    z-index: 9999;
 }
 
 .text-area {
@@ -233,15 +239,16 @@ footer li {
 }
 
 #learn-more {
-    font-family: itim, sans-serif;
-    font-weight: 700;
+    margin: 25px 20px 0 20px;
+    padding: 5px 15px;
+    text-align: center;
     font-size: 110%;
+    font-family: Itim, sans-serif;
     background-color: #44b3a5;
-    padding: 10px;
-    border-radius: 12px;
-    margin: 20px;
-    width: fit-content;
-    will-change: transform;
+    color:#101010;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    
 }
 
 /* Shadow code from W3 school tutorials */
@@ -303,6 +310,8 @@ footer li {
 .square-image {
     width: 300px;
     height: 300px;
+    border: 3px solid #333333;
+    padding: 3px;
 }
 
 /* What is sensory play? */
@@ -380,48 +389,37 @@ footer li {
 
 #top10-pane {
     width: 900px;
-    height: 1110px;
+    height: auto;
     margin: 0 auto;
-    position: relative;
-    z-index: -2;
-    will-change: transform;
+    display: flex;
+    flex-direction: row;
 }
 
-#play-dough-img {
-    top: 6px;
-    left: 10px;
-    border: 3px solid #333333;
-    padding: 3px;
-    position: absolute;
-    z-index: -1;
-    will-change: transform;
+#play-images {
+    display: flex;
+    flex-direction: column;
 }
 
-#water-img {
-    top: 400px;
-    left: 10px;
-    border: 3px solid #333333;
-    padding: 3px;
-    position: absolute;
-    z-index: -1;
-    will-change: transform;
+.play-image-internal {
+    margin: 30px 25px;
 }
 
-#mud-img {
-    bottom: 6px;
-    left: 10px;
-    border: 3px solid #333333;
-    padding: 3px;
-    position: absolute;
-    z-index: -1;
-    will-change: transform;
+#activities-boxes {
+    display: flex;
+    flex-direction: column;
 }
 
 .activities-style {
     margin: 5px 5px 5px 0;
     width: 500px;
-    float: right;
     padding: 10px;
+}
+
+.activities-style h6 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 90%;
 }
 
 /* Help with Anxiety */
@@ -468,7 +466,6 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted #333333;
-    will-change: transform;
 }
 
 .tooltip .tooltiptext {
@@ -484,7 +481,6 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     bottom: 150%;
     left: 50%;
     margin-left: -100px;
-    will-change: transform;
 }
 
 .tooltip .tooltiptext::after {
@@ -561,7 +557,6 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     background-size: cover;
     background-position: center;
     position: relative;
-    will-change: transform;
     border-top: 30px white solid;
 }
 
@@ -573,9 +568,8 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     background-color: rgba(255, 253, 253, 0.8);
     bottom: 5%;
     right: 8%;
-    padding: 20px;
+    padding: 20px 40px 20px 20px;
     position: absolute;
-    will-change: transform;
     font-size: 40%;
     font-weight: 800;
 }
@@ -585,9 +579,9 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     width: 100%;
     height: 20px;
     margin: 20px 0 20px 0;
+    padding: 5px 10px;
     border: 1px solid #333333;
     border-radius: 5px;
-    will-change: transform;
 }
 
 .form-input:hover {
@@ -601,20 +595,24 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     border: 1px solid #333333;
     border-radius: 5px;
     background: transparent;
-    will-change: transform;
     font-size: 100%;
     font-family: Montserrat, sans-serif;
+    padding: 5px 10px;
+}
+
+.text-area-pane:hover {
+    border-color: #44b3a5;
 }
 
 .form-labels {
     width: fit-content;
     height: fit-content;
-    border: 1px solid #333333;
-    border-radius: 5px;
+    border: none;
     margin-right: 10px;
-    background-color: #44b3a5;
-    will-change: transform;
     padding: 3px;
+    font-size: 110%;
+    font-weight:900;
+    color:#101010;
 }
 
 .radio-feedback {
@@ -622,16 +620,16 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 }
 
 .submit-info {
-    margin-top: 20px;
-    padding: 15px 32px 15px 32px;
+    margin-top: 5px 10px;
+    padding: 10px 30px;
     text-align: center;
     font-size: 120%;
     font-family: Itim, sans-serif;
     background-color: #44b3a5;
-    color: #333333;
+    color:#101010;
     border: 1px solid #333333;
     border-radius: 5px;
-    margin-right: 10px;
+    
 }
 
 /* Shadow code from W3 schools */
@@ -716,7 +714,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     }
 
     #mud-img {
-        bottom: 4px;
+        top: 815px;
     }
 
     .activities-style {
@@ -785,7 +783,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     /* Homepage */
 
     #hero-area {
-        height: fit-content;
+        height: 400px;
     }
 
     #hero-text {
@@ -813,7 +811,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     }
 
     .solid-background {
-        width:fit-content;
+        max-width: 870px;
         padding: 5px;
     }
 
@@ -829,53 +827,45 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     /* What is sensory play? */
 
     .right-align {
-        width: fit-content;
-        line-height: 130%;
+        max-width: fit-content;
+        line-height: 110%;
     }
 
     .left-align {
-        width: fit-content;
-        line-height: 130%;
-    }
-
-    .senses-info-left {
-        width: fit-content;
-    }
-
-    .senses-info-right {
-        width: fit-content;
+        max-width: fit-content;
+        line-height: 110%;
     }
 
     /* Play in Motion */
 
     #iframe {
-        width: fit-content;
+        max-width: fit-content;
         height: auto;
     }
 
     /* Top 10 Activities */
 
     #top10-pane {
-        width: fit-content;
-        height: fit-content;
+        max-width: fit-content;
+        max-height: fit-content;
     }
 
     #water-img {
-        top: 450px;
+        top: 400px;
     }
 
     #mud-img {
-        bottom: 4px;
+        top: 840px;
     }
 
     .activities-style {
-        width: fit-content;
+        max-width: fit-content;
     }
 
     /* Help with Anxiety */
 
     #anxiety-pane {
-        width: fit-content;
+        max-width: fit-content;
     }
 
     .anxiety-activity {
@@ -885,7 +875,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 860px) {
 
     /* About page */
 
@@ -898,32 +888,56 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     .sections-headers {
         padding: 20px;
         font-size: 150%;
+        
     }
 
     .solid-orange {
-        line-height: 130%;
-        font-size: 90%;
+        max-width: 670px;
+        line-height: 110%;
+        font-size: 80%;
+        padding: 2px;
+    }
+
+    .solid-background {
+        max-width: 670px;
+        padding: 2px;
     }
 
     .square-image {
-        width: 190px;
-        height: 190px;
+        width: 150px;
+        height: 150px;
     }
 
     /* What is sensory play? */
 
     .right-align {
-        font-size: 90%;
+        font-size: 80%;
     }
 
     .left-align {
-        font-size: 90%;
+        font-size: 80%;
+    }
+
+    .senses-info-left {
+        max-width: 670px;
+    }
+
+    .senses-info-right {
+        max-width: 670px;
     }
 
     /* Top 10 Activities */
 
     #top10-pane {
-        font-size: 90%;
+        font-size: 80%;
+    }
+
+    #water-img {
+        top: 300px;
+    }
+
+    #mud-img {
+        top: 650px;
     }
 
     /* Help with Anxiety */
@@ -942,7 +956,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     /* Tooltip */
 
     .tooltip .tooltiptext {
-        font-size: 80%;
+        font-size: 75%;
     }
 }
 
@@ -983,6 +997,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
     .senses-info-left {
         font-size: 90%;
+        
     }
 
     .senses-info-right {
@@ -1009,7 +1024,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     /* Tooltip */
 
     .tooltip .tooltiptext {
-        width: fit-content;
+        max-width: fit-content;
         font-size: 85%;
     }
 }
@@ -1031,7 +1046,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     /* Home Page */
 
     #hero-area {
-        height: fit-content;
+        height: 200px;
     }
 
     #hero-text {
@@ -1041,9 +1056,8 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     }
 
     #learn-more {
-        font-size: 70%;
-        padding: 2px;
-        margin: 2px 2px 2px 10px;
+        padding: 4px;
+        margin: 10px 2px 2px 20px;
     }
 
     /* About page */
@@ -1060,7 +1074,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     }
 
     .solid-background {
-        width: fit-content;
+        max-width: fit-content;
     }
 
     .solid-orange {
@@ -1130,6 +1144,13 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 }
 
 @media screen and (max-width: 480px) {
+
+    /* Home Page */
+
+    #learn-more {
+        padding: 4px;
+        margin: 5px 2px 2px 20px;
+    }
 
     /* About page */
 
@@ -1209,7 +1230,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     }
 
     #hero-text {
-        font-size: 60%;
+        font-size: 68%;
         padding: 0px;
     }
 
@@ -1218,8 +1239,9 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     }
 
     #learn-more {
-        font-size: 55%;
+        font-size: 95%;
         padding: 2px;
+        margin: 2px 2px 0px 5px;
     }
 
     /* Footer */
@@ -1311,7 +1333,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
     }
 }
 
-@media screen and (max-width: 292px) {
+@media screen and (max-width: 316px) {
 
     /* Header */
 
@@ -1327,15 +1349,16 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
     /* Home Page */
 
-
     #hero-text {
-        font-size: 50%;
+        font-size: 60%;
+        letter-spacing: normal;
         padding: 0px;
     }
 
     #learn-more {
-        font-size: 40%;
         padding: 1px;
+        font-size: 95%;
+        margin: 0px 0px 0px 4px;
     }
 
     footer ul {
@@ -1435,7 +1458,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
         }
     }
 
-    @media screen and (max-width: 229px) {
+    @media screen and (max-width: 242px) {
 
         /* Header */
 
@@ -1453,12 +1476,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
 
         #hero-text {
-            font-size: 40%;
-            padding: 1px;
-        }
-
-        #learn-more {
-            font-size: 35%;
+            font-size: 55%;
         }
 
         /* Footer */
@@ -1484,7 +1502,14 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
         }
     }
 
-    @media screen and (max-width: 170px) {
+    @media screen and (max-width: 222px) {
+
+        /* Home Page */
+
+
+        #hero-text {
+            font-size: 50%;
+        }
 
         /* Footer */
 
@@ -1493,7 +1518,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
         }
     }
 
-    @media screen and (max-width: 163px) {
+    @media screen and (max-width: 191px) {
 
         /* Header */
 
@@ -1510,7 +1535,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
         /* Home Page */
 
         #hero-text {
-            font: 35%
+            font: 40%
         }
 
         /* Footer */
@@ -1535,5 +1560,18 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
         footer p {
             font-size: 0.5%;
         }
+    }
+
+    @media screen and (max-width: 186px) {}
+
+    /* Home Page */
+
+    #hero-area {
+        margin-bottom: 15px;
+    }
+
+    #hero-text {
+        font: 30%;
+        height: fit-content;
     }
 }

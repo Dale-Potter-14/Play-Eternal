@@ -43,6 +43,7 @@
             </ul>
         </nav>
     </header>
+            <!--The div content section is added to allow for enough content padding when styling for the sticky header bar-->
     <div class="content">
         <section>
             <!--Contact Us section-->
@@ -52,15 +53,15 @@
                 <div id="contact-us-area">
                     <div id="form-background">
                         <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form">
-                            <label for="name" class="form-labels"> Name: </label><input type="text" id="name"
+                            <label for="name" class="form-labels"> Name </label><input type="text" id="name"
                                 name="first-name" required class="form-input">
-                            <label for="surname" class="form-labels">Surname: </label><input type="text" id="surname"
+                            <label for="surname" class="form-labels">Surname </label><input type="text" id="surname"
                                 name="last-name" required class="form-input">
-                            <label for="email" class="form-labels">Email Address: </label><input type="email" id="email"
+                            <label for="email" class="form-labels">Email Address </label><input type="email" id="email"
                                 name="email-address" required class="form-input">
-                            <label for="ages-kids" class="form-labels">Child/Children's Age/s: </label><input
+                            <label for="ages-kids" class="form-labels">Child/Children's Age/s </label><input
                                 type="text" id="ages-kids" name="ages-of-children" required class="form-input">
-                            <label for="feedback-choice-one" class="form-labels">Feedback: </label>
+                            <label for="feedback-choice-one" class="form-labels">Feedback </label>
                             <input type="radio" id="feedback-choice-one" name="feedback-choice"
                                 value="The site met all of my needs" class="radio-feedback" required><label
                                 for="feedback-choice-one" class="radio-feedback">The site
@@ -73,16 +74,16 @@
                                 value="The site met very few of my needs" class="radio-feedback"><label
                                 for="feedback-choice-three" class="radio-feedback">The site
                                 met very few of my needs</label>
-                            <label for="feedback-page" class="form-labels">Feedback on our website: </label><textarea
+                            <label for="feedback-page" class="form-labels">Feedback on our website </label><textarea
                                 id="feedback-page" name="feedback-on-website" class="text-area-pane"
                                 >Please provide us with any feedback on our site...</textarea>
-                            <label for="questions" class="form-labels">Questions: </label><textarea id="questions"
+                            <label for="questions" class="form-labels">Questions </label><textarea id="questions"
                                 name="questions" class="text-area-pane"
                                 >Please ask us any questions/enquiries you may have...</textarea>
-                            <label for="recommendations-page" class="form-labels">Recommendations: </label><textarea
+                            <label for="recommendations-page" class="form-labels">Recommendations </label><textarea
                                 id="recommendations-page" name="Recommendations"
                                 class="text-area-pane">Let us know any personal Sensory Play recommendations you would like to make...</textarea>
-                            <input class="submit-info" type="submit" value="Submit">
+                            <button class="submit-info" type="submit">Submit</button>
                         </form>
                     </div>
                 </div>
@@ -107,6 +108,24 @@
     </footer>
     <!-- Font awesome script-->
     <script src="https://kit.fontawesome.com/bd9c348b33.js" crossorigin="anonymous"></script>
+        <!--Javascript from W3 schools tutorial for sticky nav bar
+    https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_sticky-->
+    <script>
+        window.onscroll = function () {
+            myFunction()
+        }
+
+        var header = document.getElementById("header");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                header.classList.add("sticky")
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
 </body>
 
 </html>

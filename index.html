@@ -43,6 +43,7 @@
         </nav>
     </header>
     <!--Home Page-->
+    <!--The div content section is added to allow for enough content padding when styling for the sticky header bar-->
     <div class="content">
         <section>
             <!--Hero Image-->
@@ -61,7 +62,7 @@
                         be experiencing. Most of all they will have fun!</p>
                     <br>
                     <h3 class="text-area">What can I do as a parent?</h3>
-                    <div id="learn-more"><a href="about.html">Learn More</a></div>
+                    <button id="learn-more" onclick="location.href='about.html'">Learn More</button>
                 </div>
             </div>
             
@@ -87,5 +88,23 @@
 
     <!-- Font awesome script-->
     <script src="https://kit.fontawesome.com/bd9c348b33.js" crossorigin="anonymous"></script>
+        <!--Javascript from W3 schools tutorial for sticky nav bar
+    https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_sticky-->
+    <script>
+        window.onscroll = function () {
+            myFunction()
+        }
+
+        var header = document.getElementById("header");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                header.classList.add("sticky")
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
 </body>
 </html>
