@@ -62,8 +62,10 @@ a {
     font-weight: 700;
     font-size: 115%;
     font-family: Itim, sans-serif;
-    border: 2px solid black;
-
+    width: 80%;
+    height: 55%;
+    margin-left: 25px;
+    padding-top: 10px;
 }
 
 #menu ul {
