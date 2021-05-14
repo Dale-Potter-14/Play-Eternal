@@ -574,12 +574,12 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 }
 
 .feedback-heading {
-    font-size: 1.2rem;
+    font-size: 1.35rem;
     font-weight: 800;
 }
 
 .feedback-font {
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     font-weight: 600;
 }
 
@@ -691,7 +691,9 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
 /* @Media queries */
 
-@media screen and (max-width: 5000px) {
+
+
+@media screen and (max-width: 6000px) {
     /* Default*/
 
     html {
@@ -857,13 +859,13 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
     #feedback-container {
         margin: 0 auto;
-        padding-top: 200px;
+        padding-top: 100px;
         padding-bottom: 100px;
     }
 
     #recommendations-container {
         margin: 0 auto;
-        padding-top: 200px;
+        padding-top: 100px;
         padding-bottom: 100px;
     }
 
@@ -897,7 +899,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
     #form-background {
         height: fit-content;
-        width: 900px;
+        width: 1200px;
         bottom: 12%;
         right: 5%;
     }
@@ -930,17 +932,17 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
     }
 
-    @media screen and (max-width: 2999px) {
+    @media screen and (max-width: 3000px) {
         /* Default styling */
 
         html {
-            font-size: 62.5%;
+            font-size: 80%;
         }
 
         /* Header */
 
         #header {
-            height: 75px;
+            height: 100px;
         }
 
         /* Navigation menu */
@@ -948,36 +950,35 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
         /* Dropdown menu */
 
         .dropdown-content {
-            top: 22px;
+            min-width: 210px;
+            top: 28px;
             left: 50%;
             margin-left: -100px;
         }
 
-
         /* Make Header sticky */
 
         .content {
-            padding-top: 20px;
+            padding-top: 50px;
         }
 
 
         .sticky+.content {
             padding-top: 120px;
-            padding-bottom: 300px;
+            padding-bottom: 120px;
         }
+        
+         /* Footer */
 
-        /* Footer */
-
-        footer {
-            height: 100px;
-            width: 100%;
-        }
+    footer {
+        height: 150px;
+    }
 
         /* Home page */
 
         #hero-area {
             background: url('../images/home_page.jpg');
-            height: 1000px;
+            height: 1500px;
             width: 100%;
             background-repeat: no-repeat;
             background-size: cover;
@@ -985,89 +986,60 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
         }
 
         #hero-text {
-            height: 300px;
+            height: 440px;
             width: 600px;
             padding-top: 20px;
             padding-bottom: 20px;
-            top: 230px;
-            left: 60px;
-        }
-
-        #hero-text p {
-            padding-top: 10px;
-        }
-
-        #hero-text h3 {
-            padding-top: 10px;
-        }
-
-        .text-area {
-            margin-left: 20px;
+            top: 350px;
+            left: 80px;
         }
 
         #learn-more {
-            margin: 20px 20px 0 20px;
-            padding: 5px 15px;
+            margin: 30px 20px 0 20px;
         }
 
         /* About page */
 
-        #about-menu h2 {
-            padding: 30px 10px 10px 10px;
-        }
-
-
         /* Classes used across page */
 
         .sections-headers {
-            padding: 40px;
+            padding: 50px;
         }
 
         .solid-background {
-            width: 900px;
-            padding: 35px 10px;
+            width: 1000px;
         }
 
         .solid-orange {
-            line-height: 200%;
+            line-height: 130%;
         }
 
         .square-image {
             width: 300px;
             height: 300px;
-            border: 3px solid #333333;
-            padding: 3px;
         }
 
         /* What is sensory play? */
 
         .right-align {
-            width: 500px;
-            padding-right: 35px;
-            padding-top: 20px;
-            line-height: 200%;
+            width: 600px;
+            padding-right: 10px;
+            padding-top: 10px;
+            line-height: 130%;
         }
 
         .left-align {
-            width: 500px;
-            padding: 20px 20px 0px 35px;
-            line-height: 200%;
-        }
-
-        .play-by-pic {
-            padding: 3px;
-            border: solid 3px #333333;
-            margin: 15px;
+            width: 600px;
+            padding: 10px 10px 0px 10px;
+            line-height: 130%;
         }
 
         .senses-info-left {
-            width: 900px;
-            padding: 35px 10px;
+            width: 1000px;
         }
 
         .senses-info-right {
-            width: 900px;
-            padding: 35px 10px;
+            width: 1000px;
         }
 
 
@@ -1083,61 +1055,34 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
         /* Top 10 Activities */
 
         #top10-pane {
-            width: 900px;
-            height: auto;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: row;
+            width: 1000px;
         }
 
-        #play-images {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
 
         .play-image-internal {
-            margin: 40px 25px;
+            margin: 0px 25px 150px 25px;
         }
 
-        #activities-boxes {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
 
         .activities-style {
-            margin: 5px 5px 5px 0;
-            width: 500px;
-            padding: 10px;
+            width: 600px;
         }
 
         /* Help with Anxiety */
 
         #anxiety-img {
-            width: 500px;
-            height: 400px;
-            padding: 3px;
+            width: 900px;
+            height: 800px;
         }
 
         #anxiety-pane {
-            display: grid;
-            grid-template-columns: auto auto auto;
-            width: 900px;
-            padding: 10px;
-            border-bottom: 30px #fff solid;
+            width: 1000px;
         }
 
-        .grid-figure {
-            padding: 15px;
-        }
 
         .anxiety-activity {
-            width: 200px;
-            height: 200px;
-            padding: 10px;
+            width: 220px;
+            height: 220px;
         }
 
         /* Tooltip for Anxiety activities */
@@ -1147,11 +1092,11 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
 
         .tooltip .tooltiptext {
-            width: 200px;
+            width: 220px;
             padding: 5px 0;
             bottom: 150%;
             left: 50%;
-            margin-left: -100px;
+            margin-left: -110px;
         }
 
         .tooltip .tooltiptext::after {
@@ -1162,65 +1107,61 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
         /* Hear from Each Other */
 
-        #feedback-heading {
-            padding: 40px 10px 40px 10px;
+        #feedback-container {
+            margin: 0 auto;
+            padding-top: 0px;
+            padding-bottom: 100px;
         }
+
+        #recommendations-container {
+            margin: 0 auto;
+            padding-top: 0px;
+            padding-bottom: 200px;
+        }
+
 
         .profile-pictures {
             width: 80px;
             height: 80px;
-            border-radius: 50%;
-            padding: 2px;
         }
 
-
         .feed-sub {
-            padding: 30px 10px 0px 10px;
-            width: 900px;
+            padding: 35px 10px 0px 10px;
+            width: 1200px;
             height: fit-content;
+            text-indent: 2%;
         }
 
         .feedback-section {
+            height: fit-content;
+            width: 1200px;
             border-bottom: 30px #fff solid;
         }
 
 
         .feedback-grid {
-            width: 425px;
-            height: 180px;
-            line-height: 110%;
-            padding: 0px 5px 5px 5px;
-            margin: 0px 3px 3px 3px;
+            width: 500px;
+            height: 250px;
+            line-height: 100%;
+            padding: 0px 5px 5px 10px;
+            margin: 0px 3px 3px 20px;
         }
 
-        .feedback-image {
-            margin: 5px;
-        }
 
 
         /* Get In Touch */
 
-        #contact-us-heading {
-            padding: 40px 10px 10px 10px;
-        }
-
-        #contact-us-heading h3 {
-            padding: 20px 10px 10px 20px;
-        }
-
         #contact-us-area {
-            height: 900px;
-            width: 100%;
-            border-top: 30px white solid;
+            height: 1000px;
         }
 
         /* Form */
 
         #form-background {
             height: fit-content;
-            width: 800px;
-            bottom: 0.5%;
-            right: 0.5%;
+            width: 850px;
+            bottom: 3%;
+            right: 1.5%;
             padding: 20px 40px 20px 20px;
         }
 
@@ -1251,36 +1192,119 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
         }
 
 
-        @media screen and (max-width: 1440px) {
-            /* Home page */
+        @media screen and (max-width: 2000px) {
 
-            #hero-text {
-                top: 350px;
-                left: 60px;
+            /* Default styling */
+
+            html {
+                font-size: 62.5%;
             }
+
+            /* Header */
+
+            #header {
+                height: 75px;
+            }
+
+            /* Navigation menu */
+
+            /* Dropdown menu */
+
+            .dropdown-content {
+                top: 20px;
+            }
+
+            /* Make Header sticky */
+
+            .content {
+                padding-top: 50px;
+            }
+
+
+            .sticky+.content {
+                padding-top: 120px;
+                padding-bottom: 120px;
+            }
+
+         /* Footer */
+
+         footer {
+            height: 100px;
         }
 
-        @media screen and (max-width: 1088px) {
-
-            /* Home Page */
+            /* Home page */
 
             #hero-area {
-                width: 100%;
+                height: 800px;
+                border-bottom: solid white 10px;
             }
 
             #hero-text {
-                top: 200px;
-                left: 60px;
-                width: 350px;
-                font-size: 90%;
-                height: 350px;
+                height: 450px;
+                width: 400px;
+                padding-top: 10px;
+                padding-bottom: 2px;
+                top: 350px;
+                left: 40px;
             }
 
             #learn-more {
-                margin: 20px 20px 0px 20px;
-                padding: 4px 12px;
+                margin: 30px 20px 0 20px;
+            }
 
+            /* About page */
+
+            /* Top 10 Activities */
+
+            .play-image-internal {
+                margin: 0px 25px 60px 25px;
+            }
+
+            /* Help with Anxiety */
+
+            #anxiety-img {
+                width: 700px;
+                height: 600px;
             }
         }
+
+        /* Hear from Each Other */
+
+        .feed-sub {
+            padding: 10px 10px 0px 10px;
+            width: 1000px;
+
+        }
+
+        .feedback-section {
+            width: 1000px;
+        }
+
+
+        .feedback-grid {
+            width: 450px;
+            height: 280px;
+            line-height: 100%;
+            padding: 8px 5px 5px 10px;
+            margin: 8px 3px 3px 20px;
+        }
+
+
+        /* Get In Touch */
+
+        #contact-us-area {
+            height: 1000px;
+        }
+
+        /* Form */
+
+        #form-background {
+            width: 700px;
+            bottom: 5%;
+            right: 1.5%;
+            padding: 20px 40px 20px 20px;
+        }
     }
+
+    @media screen and (max-width: 1088px) {}
 }
