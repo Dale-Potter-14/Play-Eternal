@@ -167,7 +167,7 @@ For the primary user - parents, to provide them with a user-friendly solution to
 
 ### Feature Trade Off
 
-![Feature Trade-Off Table](https://raw.githubusercontent.com/Claire-Potter/Play-Eternal/master/project-documents/project-images/scop-table.png)
+![Feature Trade-Off Table](https://raw.githubusercontent.com/Claire-Potter/Play-Eternal/master/project-documents/project-images/scope-table.png)
 
 
 This site will be developed as a minimum viable product. Future releases could include additional functionality depending on the success of the first release. Additional to the table above, there is a potential selling opportunity to sell subscriptions to utilise the site to school boards and practices which again would depend on the performance of the initial site.
@@ -227,7 +227,7 @@ Development conventions and best practice have been applied as far as possible t
 1. <a href="https://raw.githubusercontent.com/Claire-Potter/Play-Eternal/master/project-documents/mobile-wireframes/home-page.png" target="_blank">Home Page</a>
 2. <a href="https://raw.githubusercontent.com/Claire-Potter/Play-Eternal/master/project-documents/mobile-wireframes/what-is-sensory-play.png" target="_blank">What is Sensory Play and Play in Motion</a>
 3. <a href="https://raw.githubusercontent.com/Claire-Potter/Play-Eternal/master/project-documents/mobile-wireframes/sensory-play-activities.png" target="_blank">Sensory Play Activities</a>
-4. <a href="" target="_blank">Sensory Play and Anxiety</a>
+4. <a href="https://raw.githubusercontent.com/Claire-Potter/Play-Eternal/master/project-documents/mobile-wireframes/sensory-play-and-anxiety.png" target="_blank">Sensory Play and Anxiety</a>
 5. <a href="https://raw.githubusercontent.com/Claire-Potter/Play-Eternal/master/project-documents/mobile-wireframes/hear-from-each-other.png" target="_blank">Hear from Each Other</a>
 6. <a href="https://raw.githubusercontent.com/Claire-Potter/Play-Eternal/master/project-documents/mobile-wireframes/get-in-touch.png" target="_blank">Get in Touch</a>
 
