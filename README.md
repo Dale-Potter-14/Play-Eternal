@@ -301,37 +301,42 @@ For further information on the sticky navigation please click here.
 
 ![Header Logo image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/header-logo.PNG?raw=true)
 
-	 - The logo is created using the Itim font from Google fonts with the letter spacing set at 3px and the hand holding heart icon from Font Awesome. It contains a link back to the home page as it is an expected behaviour that clicking the logo will take a user home.
+ - The logo is created using the Itim font from Google fonts with the letter spacing set at 3px and the hand holding heart icon from Font Awesome. It contains a link back to the home page as it is an expected behaviour that clicking the logo will take a user home.
 
 -   **Navigation Bar**
 
 ![Navigation Bar image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/navigation-bar.PNG?raw=true)
 
-    -   The navigation bar is identical across all four pages to allow for easy navigation. 
+   -   The navigation bar is identical across all four pages to allow for easy navigation. 
     - The bar  includes the following:
 	    - The active page is highlighted with a different font colour and background colour.
+	    
  ![Navigation Active image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/navigation-active.PNG?raw=true)
-	    - The All About Sensory Play includes a drop-down menu to the separate page sections as this is the longest page with the most content.
-	    - For further information on the drop-down please click here.
+ 
+  - The All About Sensory Play includes a drop-down menu to the separate page sections as this is the longest page with the most content.
+ - For further information on the drop-down please click here.
 	    
  ![Navigation dropdown image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/navigation-dropdown.jpg?raw=true)
-    -   The navigation provides the user with the ability to navigate across all pages with ease.
+ 
+  -   The navigation provides the user with the ability to navigate across all pages with ease.
+   
 ## Footer
 
-![Footer image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/footer.png?raw=true)
+![Footer image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/Footer.PNG?raw=true)
     
 The footer section is fixed to the bottom of the page and it includes a logo and social media icons. It is consistent across all four site pages.
+
  - **Footer Logo**
 
  ![Footer Logo image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/footer-logo.PNG?raw=true)
 
-	 - The logo is a smaller version of the Header logo but displayed vertically. Underneath the page copyright is included. Like the Header, it includes a link back to the home page as this is common for websites to do.
+ - The logo is a smaller version of the Header logo but displayed vertically. Underneath the page copyright is included. Like the Header, it includes a link back to the home page as this is common for websites to do.
 	 
 -   **Social Media Icons**
 
 ![Social Media Icons image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/social-media-icons.PNG?raw=true)
 
-    -   The Social Media Icons are grouped together and included on the right hand side of the footer as this is a common section for the icons to be located so the user can expect to find them there.
+   -   The Social Media Icons are grouped together and included on the right hand side of the footer as this is a common section for the icons to be located so the user can expect to find them there.
     - The Icons contain links to Facebook, Instagram and Twitter and the social media sites will open on individual pages so they do not take the user away from our site.
     - They provide the user with an easy way to connect to Play Eternal's social media sites to be able to interact socially.
 
@@ -344,7 +349,7 @@ The Home Page has been created to include a Hero Image with a text box overlay. 
  -   **The landing page image**
 ![Home Page image](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/home-page.jpg?raw=true)
 
-		- The landing page image is a background image which is a photograph of a little girl playing with a hoop. The colours makes sense with the site colour scheme. The text area has been placed so that the little girl is looking directly at it, leading the user to read the information. The area is responsive and will resize. When the screen width is smaller, the image is replaced with a smaller image of a boy playing so that it fits and is clearly visible.
+- The landing page image is a background image which is a photograph of a little girl playing with a hoop. The colours makes sense with the site colour scheme. The text area has been placed so that the little girl is looking directly at it, leading the user to read the information. The area is responsive and will resize. When the screen width is smaller, the image is replaced with a smaller image of a boy playing so that it fits and is clearly visible.
 
 ![Home Page image small](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/home-page-smaller.jpg?raw=true)
 	
@@ -352,13 +357,13 @@ The Home Page has been created to include a Hero Image with a text box overlay. 
 
  ![Text Area Image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/text-area.PNG?raw=true)
 
-		- The text area contains a call to action to parents, as our primary user, it provides description as to why they would need sensory play for their child and it then invites them to follow the learn more button to learn how to help their child. By utilising a call to action it entices the user to click to access the next page.
+- The text area contains a call to action to parents, as our primary user, it provides description as to why they would need sensory play for their child and it then invites them to follow the learn more button to learn how to help their child. By utilising a call to action it entices the user to click to access the next page.
 
  -   **The Learn More Button**
 
  ![Learn More Image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/learn-more-button.PNG?raw=true)
 
-	 - The learn more button will take the user to the All About Sensory Play page. It is formatted to stand out within the text area and includes a button shadow when the user hovers over it to provide the feeling of pushing a button.
+ - The learn more button will take the user to the All About Sensory Play page. It is formatted to stand out within the text area and includes a button shadow when the user hovers over it to provide the feeling of pushing a button.
 
 	
 ## All About Sensory Play
@@ -371,40 +376,40 @@ The All About Sensory Play page is the main content page of the site. It's purpo
 
  ![What is Sensory Play Page](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/what-is-sensory-play.PNG?raw=true)
     
- 	  -   This section provides a simple explanation of sensory play. It is important to keep the information concise and to the point to ensure the user does not lose interest and keeps on exploring.
-  	  - Each sub-point of information has an individually coloured background. The colours are repeated across the site to create a concise experience.
-  	  - There is an explanation of sensory play across all the senses - Sight, Sound, Smell, Touch and Taste to help the user connect with their own senses and get an understanding of how to introduce sensory play into their child's life. 
-   	 - An engaging image is included per sense. The images all include children so as the user can relate the sense with playing with their child.
-   	 -   This user will see the value of sensory play through this section as it provides understanding as well as making it relatable.
+   -   This section provides a simple explanation of sensory play. It is important to keep the information concise and to the point to ensure the user does not lose interest and keeps on exploring.
+    - Each sub-point of information has an individually coloured background. The colours are repeated across the site to create a concise experience.
+    - There is an explanation of sensory play across all the senses - Sight, Sound, Smell, Touch and Taste to help the user connect with their own senses and get an understanding of how to introduce sensory play into their child's life. 
+    - An engaging image is included per sense. The images all include children so as the user can relate the sense with playing with their child.
+    -   This user will see the value of sensory play through this section as it provides understanding as well as making it relatable.
 
  -   **Play in Motion**
 
   ![Play in Motion Page](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/play-in-motion.PNG?raw=true)
     
-	   -   This section includes a six minute video clip on sensory play and play ideas in the home.
-  	  - It provides the user with the option to explore the information in a visual format. It is important for a user to engage with material in a format that they are comfortable with.
-   	 -   The video is hosted on YouTube but play directly on the site. It can be enlarged to full screen.
+  -   This section includes a six minute video clip on sensory play and play ideas in the home.
+   - It provides the user with the option to explore the information in a visual format. It is important for a user to engage with material in a format that they are comfortable with.
+    -   The video is hosted on YouTube but play directly on the site. It can be enlarged to full screen.
 
  -   **Activities**
 
   ![Activities Page](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/sensory-play-activities.PNG?raw=true)
     
-	   -   The Activities section introduces the user to the top ten recommended sensory play activities. All of the activities are very simple, easy and affordable to create at home.
-  	  - The section adds value to the user as they will be able to use the information to create the activities in their own home without breaking the budget. 
-  	  - Each activity has its own coloured background just like the What is Sensory Play section, to continue the narrative of the page.
-   	 - Three images are included alongside the activities to provide some colour and display of sensory play.
+   -   The Activities section introduces the user to the top ten recommended sensory play activities. All of the activities are very simple, easy and affordable to create at home.
+    - The section adds value to the user as they will be able to use the information to create the activities in their own home without breaking the budget. 
+   - Each activity has its own coloured background just like the What is Sensory Play section, to continue the narrative of the page.
+    - Three images are included alongside the activities to provide some colour and display of sensory play.
 
  -   **Help with Anxiety**
 
   ![Help with Anxiety Page](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/help-with-anxiety.PNG?raw=true)
     
- 	  -   This page section directly answers our user's need for help with childhood anxiety.
- 	   - It includes a brief explanation of what childhood anxiety might look like and what a parent can do to help.
- 	   - It then provides some mindful and calming activities for the user to take away and do with their child.
-  	  - This section provides value to the user at it provides a practical solution to their problem.
-	    - As there is a lot of written information on the page, the anxiety activities section is presented as a compact grid of  six images with an image caption providing the activity name.
- 	   - By simply hovering over the image caption, a tool-tip pop-up provides a description of the activity. The user will be prompted to hover as the image caption has a dotted underline, which is commonly used to show tool-tips and familiar to users.
-  	  - For further information on the tool-tip please click here.
+   -   This page section directly answers our user's need for help with childhood anxiety.
+   - It includes a brief explanation of what childhood anxiety might look like and what a parent can do to help.
+    - It then provides some mindful and calming activities for the user to take away and do with their child.
+   - This section provides value to the user at it provides a practical solution to their problem.
+   - As there is a lot of written information on the page, the anxiety activities section is presented as a compact grid of  six images with an image caption providing the activity name.
+   - By simply hovering over the image caption, a tool-tip pop-up provides a description of the activity. The user will be prompted to hover as the image caption has a dotted underline, which is commonly used to show tool-tips and familiar to users.
+   - For further information on the tool-tip please click here.
 
 ![Anxiety Tooltip](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/anxiety-tooltip.PNG?raw=true)
  
@@ -418,28 +423,30 @@ The All About Sensory Play page is the main content page of the site. It's purpo
 
  ![Feedback Section](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/feedback.PNG?raw=true)
 
-	 - The feedback section contains four individual feedback write ups. Each person has a profile picture and a heading with their name, children's ages or their role (for the teachers or occupational therapist). It is important for the user to build confidence in sensory play through reading the encouraging and positive feedback.
+ - The feedback section contains four individual feedback write ups. Each person has a profile picture and a heading with their name, children's ages or their role (for the teachers or occupational therapist). It is important for the user to build confidence in sensory play through reading the encouraging and positive feedback.
+ - 
  -   **Recommendations**
 
 ![Recommendations Section](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/recommendations.PNG?raw=true)
 
 
-	 - The recommendation section mirrors the feedback section in its setup for consistency. It is important for parents and experts to be able to vocalise their own recommendations and for a user to be able to read them and use their suggestions or come up with their own own creative sensory play. 
+ - The recommendations section mirrors the feedback section in its setup for consistency. It is important for parents and experts to be able to vocalise their own recommendations and for a user to be able to read them and use their suggestions or come up with their own own creative sensory play. 
  
  ## Get In Touch
 
 ![Get In Touch Page](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/get-in-touch.PNG?raw=true)
 
  The get in touch section provides the user with the ability to contact the site owners. There is a background image of a little boy happily engaging in sensory play in his sand pit. It evokes a sense of accomplishment by reinforcing that sensory play can be easily implemented at home and benefit your child. It reflects the setup of the home page, like the back cover of a book, letting the user know they have reached the end of the site content.
+ 
  -  **Form**
 
  ![Form](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/form.PNG?raw=true)
 
-	 - The form is added as an overlay on the background image to reflect the text area on the front page. 
-	 - The form layout and display is kept as simple as possible to convey the message to the user that it is simple and easy to complete.
-	 - The name, surname, email, child/children's ages and feedback are added as input elements and are validated as required. The feedback on the website, questions and recommendations sections are added as text areas and are not required but optional.
-	 - This is the area in which a user can ask any questions they may have and provide their own feedback and recommendations which could be featured on the Hear from Each Other Page.
-	 - The Submit button reflects the same display options as the Learn More button found on the home page. 
+ - The form is added as an overlay on the background image to reflect the text area on the front page. 
+ - The form layout and display is kept as simple as possible to convey the message to the user that it is simple and easy to complete.
+ - The name, surname, email, child/children's ages and feedback are added as input elements and are validated as required. The feedback on the website, questions and recommendations sections are added as text areas and are not required but optional.
+ - This is the area in which a user can ask any questions they may have and provide their own feedback and recommendations which could be featured on the Hear from Each Other Page.
+ - The Submit button reflects the same display options as the Learn More button found on the home page. 
 
   ### Features Left to Implement
 -   Chat Page
