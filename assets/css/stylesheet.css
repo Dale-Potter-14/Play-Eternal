@@ -686,7 +686,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 }
 
 .submit-info {
-	margin-top: 5px 10px;
+	margin: 5px 10px;
 	padding: 10px 30px;
 	text-align: center;
 	font-size: 2rem;
@@ -882,7 +882,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 		margin: 20px 2px 40px 10px;
 	}
 	.submit-info {
-		margin-top: 5px 10px;
+		margin: 5px 10px;
 		padding: 10px 30px;
 	}
 	@media screen and (max-width: 3000px) {
@@ -1074,7 +1074,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			margin: 20px 2px 40px 10px;
 		}
 		.submit-info {
-			margin-top: 5px 10px;
+			margin: 5px 10px;
 			padding: 10px 30px;
 		}
 		@media screen and (max-width: 2000px) {
