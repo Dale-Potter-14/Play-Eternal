@@ -216,7 +216,7 @@ footer li {
 /* Home page */
 
 #hero-area {
-    background: url('../images/home_page.jpg');
+    background: url('../images/home-page.jpg');
     height: 1000px;
     width: 100%;
     background-repeat: no-repeat;
@@ -597,7 +597,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
 #contact-us-area {
     text-align: left;
-    background: url('../images/contact_us.jpg');
+    background: url('../images/contact-us.jpg');
     height: 900px;
     width: 100%;
     background-repeat: no-repeat;
@@ -977,7 +977,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
         /* Home page */
 
         #hero-area {
-            background: url('../images/home_page.jpg');
+            background: url('../images/home-page.jpg');
             height: 1500px;
             width: 100%;
             background-repeat: no-repeat;
