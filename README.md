@@ -178,27 +178,27 @@ This site will be developed as a minimum viable product. Future releases could i
 
 1. Responsive interface
 2. Dropdown navigation
-3. Sticky Header
-4. Links to Social Media
+3. Sticky header
+4. Links to social media
 5. External links open on blank page
-6. Multi-Page Website
+6. Multi-page website
 7. Smooth scrolling on About page
 8. User controls for video
 9. Form for questions and feedback
 
 #### Content Requirements
 
-1. Provide information on Sensory Play
-2. Recommend Activities
+1. Provide information on sensory play
+2. Recommend activities
 3. How can it help with anxiety?
-4. Feedback and Recommendations page
+4. Feedback and recommendations page
 5. Relevant dynamic images across site
-6. Video on Sensory Play
-7. Relevant Icons used across site
+6. Video on sensory play
+7. Relevant icons used across site
 8. Visually appealing and easy to read fonts
 9. Well thought out dynamic colour scheme
 
-#### Current Delivery Constraints
+#### Delivery Constraints
 
 1. Skill - Developer is learning HTML and CSS which affects her efficiency and ability. This is also her first time developing a website
 2. Time - limited time to complete and deliver the site
@@ -248,10 +248,32 @@ I felt it was necessary to keep the pages clean and simple to prevent the user f
 5. <a href="https://raw.githubusercontent.com/Claire-Potter/Play-Eternal/master/project-documents/design-mock-ups/hear-from-each-other.png" target="_blank">Hear From Each Other</a>
 6. <a href="https://raw.githubusercontent.com/Claire-Potter/Play-Eternal/master/project-documents/design-mock-ups/get-in-touch.png" target="_blank">Get In Touch</a>
 
+### Design Differences
+
+1. The Home Page logo - Play Eternal - the icon utilised was chosen from Font Awesome and is not a child in a square as per the mock up.
+2. In the navigation bar - Contact Us was renamed Get In Touch for consistency with the page title.
+3. A sub-navigation menu for the All About Sensory Play page was included instead of featuring a second navigation on the page directly. This provides a more consistent navigation approach instead of creating an additional menu.
+4. The Learn More button colour was changed from orange to teal as visually it looked more appealing. The arrow icon was removed to keep the look clean and simple and to align with the look of the submit button.
+5. The All About Sensory Play page - the icons used are from Font Awesome and slightly different to those shown in the mock up.
+6. Originally it was planned to have a transparency applied to the colour background boxes, however it made the content more difficult to read and did not work as well as a solid background so this was changed.
+7. The tooltip was included on the help with anxiety page which was not in the mock up.
+8. The Hear From Each Other background colours are once again not transparent.
+9. The number of children question was removed from the form on the Get In Touch page, as a user would provide the children's ages in the question below and number of children can be deduced from there.
+
+### Design Breakdown
+
+Talk about sizes, colours choices etc -everything made in CSS.
+
 ## Technologies
+
+The following languages were used to create the website:
+
 1. HTML
 2. CSS
 3. JavaScript
+
+Libraries, frameworks and other technologies:
+
 
 # Features
 
@@ -269,33 +291,45 @@ The Play Eternal site consists of the following Features:
 
 ## Header
 
-![enter image description here](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/header.PNG?raw=true)
+![Header image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/header.PNG?raw=true)
 The Header is consistent across all four site pages. It contains the site logo and the navigation bar. Its display setting is flex and the flex-direction is set as row. For ease of use the Header has been fixed and made sticky across all pages so that as the user scrolls, the navigation is still available. To ensure that the site is responsive the flex-direction is changed to column for smaller screen widths.
 For further information on the sticky navigation please click here.
 
-![enter image description here](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/header-sticky.PNG?raw=true)
+![Sticky Header image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/sticky-nav.PNG?raw=true)
 
  - **Header Logo**
+
+![Header Logo image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/header-logo.PNG?raw=true)
+
 	 - The logo is created using the Itim font from Google fonts with the letter spacing set at 3px and the hand holding heart icon from Font Awesome. It contains a link back to the home page as it is an expected behaviour that clicking the logo will take a user home.
 
 -   **Navigation Bar**
 
+![Navigation Bar image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/navigation-bar.PNG?raw=true)
+
     -   The navigation bar is identical across all four pages to allow for easy navigation. 
     - The bar  includes the following:
 	    - The active page is highlighted with a different font colour and background colour.
-	    ![enter image description here](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/Navigation-Active.PNG?raw=true)
+ ![Navigation Active image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/navigation-active.PNG?raw=true)
 	    - The All About Sensory Play includes a drop-down menu to the separate page sections as this is the longest page with the most content.
 	    - For further information on the drop-down please click here.
 	    
-	    ![enter image description here](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/Navigation-Dropdown.jpg?raw=true)
+ ![Navigation dropdown image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/navigation-dropdown.jpg?raw=true)
     -   The navigation provides the user with the ability to navigate across all pages with ease.
 ## Footer
+
+![Footer image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/footer.png?raw=true)
     
 The footer section is fixed to the bottom of the page and it includes a logo and social media icons. It is consistent across all four site pages.
  - **Footer Logo**
+
+ ![Footer Logo image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/footer-logo.PNG?raw=true)
+
 	 - The logo is a smaller version of the Header logo but displayed vertically. Underneath the page copyright is included. Like the Header, it includes a link back to the home page as this is common for websites to do.
 	 
 -   **Social Media Icons**
+
+![Social Media Icons image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/social-media-icons.PNG?raw=true)
 
     -   The Social Media Icons are grouped together and included on the right hand side of the footer as this is a common section for the icons to be located so the user can expect to find them there.
     - The Icons contain links to Facebook, Instagram and Twitter and the social media sites will open on individual pages so they do not take the user away from our site.
@@ -303,21 +337,39 @@ The footer section is fixed to the bottom of the page and it includes a logo and
 
 ## Home Page
 
+![Home Page image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/home-page-site.PNG?raw=true)
+
+
 The Home Page has been created to include a Hero Image with a text box overlay. It has been kept simple with limited information, to create an invitation to the user to explore the rest of the site. It is like the cover of a book - inviting the user in to read/explore further.
  -   **The landing page image**
+![Home Page image](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/home-page.jpg?raw=true)
+
 		- The landing page image is a background image which is a photograph of a little girl playing with a hoop. The colours makes sense with the site colour scheme. The text area has been placed so that the little girl is looking directly at it, leading the user to read the information. The area is responsive and will resize. When the screen width is smaller, the image is replaced with a smaller image of a boy playing so that it fits and is clearly visible.
+
+![Home Page image small](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/home-page-smaller.jpg?raw=true)
 	
  -   **The Text Area**
+
+ ![Text Area Image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/text-area.PNG?raw=true)
+
 		- The text area contains a call to action to parents, as our primary user, it provides description as to why they would need sensory play for their child and it then invites them to follow the learn more button to learn how to help their child. By utilising a call to action it entices the user to click to access the next page.
+
  -   **The Learn More Button**
+
+ ![Learn More Image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/learn-more-button.PNG?raw=true)
+
 	 - The learn more button will take the user to the All About Sensory Play page. It is formatted to stand out within the text area and includes a button shadow when the user hovers over it to provide the feeling of pushing a button.
 
 	
 ## All About Sensory Play
+
+ ![All About Sensory Play Page](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/all-about-sensory-play.PNG?raw=true)
 	
 The All About Sensory Play page is the main content page of the site. It's purpose is to educate the user on what sensory play is, provide ideas on sensory play activities and explain how sensory play can assist with childhood anxiety. The page should encourage the user to pursue sensory play activities to see the benefit of including them to support their child's development. Our specific user has been seeking help for her child's anxiety, the help with anxiety section provides this. The page has been created as a continuous page with sections instead of separate pages as users are used to a continuous scroll action and it minimises the amounts of clicks required to access the site features. A scroll-behavior setting set to smooth has been added to the html in the CSS to improve the ease of scrolling.
 
  -   **What is Sensory Play ?**
+
+ ![What is Sensory Play Page](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/what-is-sensory-play.PNG?raw=true)
     
  	  -   This section provides a simple explanation of sensory play. It is important to keep the information concise and to the point to ensure the user does not lose interest and keeps on exploring.
   	  - Each sub-point of information has an individually coloured background. The colours are repeated across the site to create a concise experience.
@@ -326,12 +378,16 @@ The All About Sensory Play page is the main content page of the site. It's purpo
    	 -   This user will see the value of sensory play through this section as it provides understanding as well as making it relatable.
 
  -   **Play in Motion**
+
+  ![Play in Motion Page](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/play-in-motion.PNG?raw=true)
     
 	   -   This section includes a six minute video clip on sensory play and play ideas in the home.
   	  - It provides the user with the option to explore the information in a visual format. It is important for a user to engage with material in a format that they are comfortable with.
    	 -   The video is hosted on YouTube but play directly on the site. It can be enlarged to full screen.
 
  -   **Activities**
+
+  ![Activities Page](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/sensory-play-activities.PNG?raw=true)
     
 	   -   The Activities section introduces the user to the top ten recommended sensory play activities. All of the activities are very simple, easy and affordable to create at home.
   	  - The section adds value to the user as they will be able to use the information to create the activities in their own home without breaking the budget. 
@@ -339,6 +395,8 @@ The All About Sensory Play page is the main content page of the site. It's purpo
    	 - Three images are included alongside the activities to provide some colour and display of sensory play.
 
  -   **Help with Anxiety**
+
+  ![Help with Anxiety Page](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/help-with-anxiety.PNG?raw=true)
     
  	  -   This page section directly answers our user's need for help with childhood anxiety.
  	   - It includes a brief explanation of what childhood anxiety might look like and what a parent can do to help.
@@ -347,20 +405,35 @@ The All About Sensory Play page is the main content page of the site. It's purpo
 	    - As there is a lot of written information on the page, the anxiety activities section is presented as a compact grid of  six images with an image caption providing the activity name.
  	   - By simply hovering over the image caption, a tool-tip pop-up provides a description of the activity. The user will be prompted to hover as the image caption has a dotted underline, which is commonly used to show tool-tips and familiar to users.
   	  - For further information on the tool-tip please click here.
+
+![Anxiety Tooltip](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/anxiety-tooltip.PNG?raw=true)
  
  ## Hear from Each Other
+
+![Hear From Each Other Page](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/hear-from-each-other.PNG?raw=true)
+
  The Hear from Each Other section provides the user with the opportunity to hear from other parents, teachers and occupational therapists. It is important for the user to receive positive affirmation regarding sensory play directly from other users of the site.
  
  -   **Feedback**
 
+ ![Feedback Section](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/feedback.PNG?raw=true)
+
 	 - The feedback section contains four individual feedback write ups. Each person has a profile picture and a heading with their name, children's ages or their role (for the teachers or occupational therapist). It is important for the user to build confidence in sensory play through reading the encouraging and positive feedback.
  -   **Recommendations**
+
+![Recommendations Section](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/recommendations.PNG?raw=true)
+
 
 	 - The recommendation section mirrors the feedback section in its setup for consistency. It is important for parents and experts to be able to vocalise their own recommendations and for a user to be able to read them and use their suggestions or come up with their own own creative sensory play. 
  
  ## Get In Touch
+
+![Get In Touch Page](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/get-in-touch.PNG?raw=true)
+
  The get in touch section provides the user with the ability to contact the site owners. There is a background image of a little boy happily engaging in sensory play in his sand pit. It evokes a sense of accomplishment by reinforcing that sensory play can be easily implemented at home and benefit your child. It reflects the setup of the home page, like the back cover of a book, letting the user know they have reached the end of the site content.
  -  **Form**
+
+ ![Form](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/form.PNG?raw=true)
 
 	 - The form is added as an overlay on the background image to reflect the text area on the front page. 
 	 - The form layout and display is kept as simple as possible to convey the message to the user that it is simple and easy to complete.
@@ -379,6 +452,64 @@ The All About Sensory Play page is the main content page of the site. It's purpo
 - As this is the first release of the site, the chat page was not included in the implementation due to its complexities. Rather, a simplified version in the form of a Feedback and Recommendations page.
 	- The implementation of the chat page would depend on the page traffic generated by the live site and the level of interaction received from the users would help to deem its feasibility.
 
+# Testing
+
+Introduction
+
+Bugs
+
+User Stories
+
+Features Testing
+
+Responsiveness and Compatibility
+
+Safari, Chrome, Firefox, Edge, Opera
+
+Devices and Screen Sizes
+
+W3C HTML Code Validator
+
+W3C CSS Jigsaw Validator
+
+Testing Accessibility
+
+Testing Performance with Google Lighthouse
+
+Peer Code Review
+
+# Deployment
+
+## Development Interface
+
+This website was developed on Gitpod using the Code Institute student template with changes frequently committed to git then pushed onto GitHub from the Gitpod terminal.
+
+The deployed version of the website is the master.
+
+## Page Deployment
+
+The website was deployed on GitHub using the following steps:
+
+1. Log onto GitHub
+2. Go to the “repositories” section
+3. Click on the repository:
+4. Once in the repository, click on "settings" located in the right handside of the menu on top of the repository
+5. Click on “Pages” located in the left handside menu
+6. Under “Source”, select “Master” in the first tab
+7. In the next tab, select “/root” if not already selected by default
+8. Click “Save” and the url should be displayed above the "source" section
+9. Now that the link is displayed, the website is deployed and can be accessed in the browser by clicking on the url
+deployment
+
+
+# References
+
+## Code
+
+## Content
+
+## Media
 
 
 
+# Acknowledgements
