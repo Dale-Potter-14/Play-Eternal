@@ -299,7 +299,13 @@ For further information on the sticky navigation please click here.
 
  - **Header Logo**
 
-![Header Logo image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/header-logo.PNG?raw=true)
+<img src="https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/header-logo.PNG?raw=true" 
+     alt="Header Logo image" 
+     style="display:block; 
+            float:none; 
+            margin-left:auto; 
+            margin-right:auto;
+            "> 
 
  - The logo is created using the Itim font from Google fonts with the letter spacing set at 3px and the hand holding heart icon from Font Awesome. It contains a link back to the home page as it is an expected behaviour that clicking the logo will take a user home.
 
