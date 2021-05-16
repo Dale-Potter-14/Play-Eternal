@@ -551,7 +551,6 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 	padding: 2px;
 	border: #333333 solid 1px;
 	margin: 1px;
-	float: left;
 }
 
 .feed-sub {
@@ -565,7 +564,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 .feedback-section {
 	display: grid;
 	grid-template-columns: auto auto;
-	border-bottom: 30px #fff solid;
+	margin-bottom: 30px;
 }
 
 .feedback-grid {
@@ -608,6 +607,11 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 	padding: 20px 10px 10px 20px;
 }
 
+#young-boy-sandpit {
+	visibility: hidden;
+    height: 0px;
+     width: 0px;}
+
 #contact-us-area {
 	text-align: left;
 	background: url('../images/contact-us.jpg');
@@ -618,6 +622,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 	background-position: center;
 	position: relative;
 	border-top: 30px white solid;
+	border-bottom: 30px white solid;
 }
 
 
@@ -1516,6 +1521,11 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
 @media screen and (max-width: 702px) {
 
+	/* Default styling */
+	html {
+		font-size: 50%;
+	}
+
 	/* Header */
 
 	#header {
@@ -1555,36 +1565,227 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
 	/* Dropdown menu */
 
-.dropdown-content {
-	min-width: 150px;
-	margin-left: -70px;
-
-	/* Footer */
-
-	footer li {
-		font-size: 120%;
+	.dropdown-content {
+		min-width: 150px;
+		top: 70%;
+		margin-left: -70px;
 	}
 
 	/* Homepage */
 
 	#hero-area {
-		height: 400px;
-		max-width: 800px;
+		background: url('../images/home-page-smaller.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		height: 300px;
+		max-width: 400px;
+		border: solid #333333 2px;
+		padding: 3px;
 	}
 
 	#hero-text {
-		height: 250px;
-		width: 230px;
-		top: 230px;
-		left: 40px;
-		font-size: 1.2rem;
-		padding: 10px;
+		height: 320px;
+		width: 400px;
+		padding: 5px;
+		top: 620px;
+		left: 50%;
+		right: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+
 	}
 
 	#learn-more {
-		font-size: 1.5rem;
-		margin-top: 15px;
-		margin-left: 10px;
+		margin-top: 30px;
+		margin-left: 38px;
 	}
 
+
+/* About page */
+
+#about-menu h2 {
+
+	padding: 10px 10px 0px 10px;
+}
+
+/* Classes used across page */
+
+.sections-headers {
+	padding: 20px;
+}
+
+	.solid-background {
+		width: 400px;
+		padding: 40px 5px 40px 5px;
+		
+	}
+
+	.solid-orange {
+		width: 400px;
+		font-size: 1.2rem;
+		line-height: 110%;
+		color: black;
+	}
+
+
+	.square-image {
+		width: 80px;
+		height: 80px;
+		margin: 1px;
+		padding: 1px;
+	}
+
+	/* What is sensory play? */
+
+	.right-align {
+		width: 230px;
+		padding: 0px;
+		margin: 1px;
+		font-size: 1.25rem;
+		color: black;
+		line-height: 110%;
+	}
+
+	.left-align {
+		width: 230px;
+		padding: 0px;
+		margin: 1px;
+		font-size: 1.25rem;
+        color: black;
+	     line-height: 110%;}
+
+	.senses-info-left {
+		width: 400px;
+	}
+
+	.senses-info-right {
+		width: 400px;
+	}
+
+	/* Play in Motion */
+	#iframe {
+		width: 300px;
+		height: 250px;
+	}
+
+	/* Top 10 Activities */
+	#top10-pane {
+		width: 400px;
+	}
+
+	.activities-style {
+		width: 300px;
+	}
+
+	.activities-style h6 {
+		color: black;
+		font-size: 1.1rem;
+		letter-spacing: normal;
+		
+	}
+
+	.activities-style p {
+		color: black;
+		font-size: 1.25rem;
+		
+	}
+
+	.play-image-internal {
+		margin: 100px 30px;
+	}
+
+
+	/* Help with Anxiety */
+	#anxiety-img {
+		width: 300px;
+		height: 220px;
+	}
+
+	#anxiety-pane {
+		width: 400px;
+	}
+
+
+	.anxiety-activity {
+		width: 80px;
+		height: 80px;
+	}
+
+	/* Tooltip */
+
+	.tooltip .tooltiptext {
+		width: 150px;
+		margin-left: -80px;
+	}
+
+	/* Hear from Each Other */
+
+	.profile-pictures {
+		width: 50px;
+		height: 50px;
+	}
+
+	.feed-sub {
+		width: 400px;
+	}
+
+	.feedback-section {
+		width: 400px;
+		grid-template-columns: auto;
+	}
+
+	.feedback-grid {
+		width: 380px;
+		height: 120px;
+		font-size: 1em;
+		text-align: center;
+		padding: 10px;
+		margin: 0 auto;
+	}
+
+
+	/* Get In Touch */
+
+	#contact-us-heading h3 {
+		padding: 20px 10px 30px 20px;
+	}
+
+	#contact-us-area {
+		height: 900px;
+		width: 400px;
+		background: white;
+		padding-top: 20px;
+		margin: 0 auto;
+		padding-bottom: 30px;
+	}
+
+	#young-boy-sandpit {
+		visibility: visible;
+		height: 300px;
+		width: 300px;
+		border: solid #333333 2px;
+		margin: 0 auto;
+	}
+
+	/* Form */
+
+	#form-background {
+		width: 400px;
+		border: solid #333333 2px;
+		padding: 20px 40px 20px 20px;
+		top: 0px;
+		left: -30px;
+		background-color: rgba(255, 253, 253, 1);
+	}
+
+	#radio-feedback-area {
+		display: flex;
+		flex-direction: column;
+		padding: 20px;
+	}
+
+	.radio-feedback {
+		margin: 3px;
+	}
 }
