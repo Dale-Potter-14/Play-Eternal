@@ -475,7 +475,6 @@ footer li {
 	background-color: #85CDCA;
 	width: 900px;
 	padding: 10px;
-	border-bottom: 30px #fff solid;
 	margin: 0 auto;
 }
 
@@ -1112,9 +1111,10 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			width: 510px;
 			height: 280px;
 			line-height: 100%;
-			padding: 0px 5px 5px 10px;
-			margin: 0px 3px 3px 20px;
+			padding: 0px 0px 5px 5px;
+			margin: 0px 3px 3px 0px;
 		}
+
 
 		/* Get In Touch */
 		#contact-us-area {
@@ -1266,5 +1266,250 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 		.feedback-grid {
 			height: 180px;
 		}
+	}
+}
+
+@media screen and (max-width: 1000px) {
+
+	/* About page */
+	/* Classes used across page */
+
+	.solid-background {
+		width: 800px;
+	}
+
+	.solid-orange {
+		line-height: 120%;
+	}
+
+	.square-image {
+		width: 200px;
+		height: 200px;
+	}
+
+	/* What is sensory play? */
+	.right-align {
+		width: 500px;
+		line-height: 120%;
+	}
+
+	.left-align {
+		width: 500px;
+		line-height: 120%;
+	}
+
+	.senses-info-left {
+		width: 800px;
+	}
+
+	.senses-info-right {
+		width: 800px;
+	}
+
+	/* Play in Motion */
+	#iframe {
+		width: 750px;
+		height: 506px;
+	}
+
+	/* Top 10 Activities */
+	#top10-pane {
+		width: 800px;
+	}
+
+	.activities-style {
+		width: 500px;
+	}
+
+	/* Help with Anxiety */
+	#anxiety-img {
+		width: 500px;
+		height: 400px;
+	}
+
+	#anxiety-pane {
+		width: 800px;
+	}
+
+
+	/* Hear from Each Other */
+
+	.feed-sub {
+		width: 850px;
+	}
+
+	.feedback-section {
+		width: 850px;
+	}
+
+	.feedback-grid {
+		width: 400px;
+		height: 240px;
+		padding: 8px 5px 5px 5px;
+		margin: 8px 3px 3px 5px;
+	}
+
+	.profile-pictures {
+		width: 80px;
+		height: 80px;
+	}
+
+
+	/* Get In Touch */
+	#contact-us-area {
+		height: 1200px;
+	}
+
+	/* Form */
+	#form-background {
+		width: 680px;
+		bottom: 5%;
+		right: 0.2%;
+		padding: 20px 40px 20px 20px;
+	}
+}
+
+@media screen and (max-width: 873px) {
+
+	/* Default styling */
+	html {
+		font-size: 55%;
+		}
+
+		/* Home page */
+
+#hero-area {
+	background: url('../images/home-page-small.jpg');
+	height: 700px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#hero-text {
+	height: 420px;
+	width: 300px;
+	top: 250px;
+}
+
+#hero-text p {
+	padding-top: 5px;
+}
+
+#hero-text h3 {
+	padding-top: 5px;
+}
+
+.text-area {
+	margin-left: 10px;
+	line-height: 130%;
+}
+
+#learn-more {
+	margin: 30px 20px 0 20px;
+}
+	
+	/* About page */
+	/* Classes used across page */
+
+	.solid-background {
+		width: 650px;
+	}
+
+	.solid-orange {
+		line-height: 100%;
+	}
+
+	.square-image {
+		width: 150px;
+		height: 150px;
+	}
+
+	/* What is sensory play? */
+	.right-align {
+		width: 400px;
+		line-height: 100%;
+	}
+
+	.left-align {
+		width: 400px;
+		line-height: 100%;
+	}
+
+	.senses-info-left {
+		width: 650px;
+	}
+
+	.senses-info-right {
+		width: 650px;
+	}
+
+	/* Play in Motion */
+	#iframe {
+		width: 500px;
+		height: 400px;
+	}
+
+	/* Top 10 Activities */
+	#top10-pane {
+		width: 650px;
+	}
+
+	.activities-style {
+		width: 400px;
+	}
+
+	.play-image-internal {
+		margin: 100px 30px;
+	}
+	
+
+	/* Help with Anxiety */
+	#anxiety-img {
+		width: 450px;
+		height: 300px;
+	}
+
+	#anxiety-pane {
+		width: 650px;
+	}
+
+	
+	.anxiety-activity {
+		width: 150px;
+		height: 150px;
+	}
+
+
+	/* Hear from Each Other */
+
+	.feed-sub {
+		width: 650px;
+	}
+
+	.feedback-section {
+		width: 650px;
+	}
+
+	.feedback-grid {
+		width: 300px;
+		height: 240px;
+		padding: 8px 5px 5px 5px;
+		margin: 8px 3px 3px 5px;
+	}
+
+
+	/* Get In Touch */
+	#contact-us-area {
+		height: 1000px;
+		background-position: 50% 30%;
+	}
+
+	/* Form */
+	#form-background {
+		width: 600px;
+		bottom: 5%;
+		right: 0.2%;
+		padding: 20px 40px 20px 20px;
 	}
 }
