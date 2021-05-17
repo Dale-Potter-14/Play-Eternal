@@ -697,7 +697,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 }
 
 .submit-info {
-	margin: 5px 10px;
+	margin: 0 auto;
 	padding: 10px 30px;
 	text-align: center;
 	font-size: 2rem;
@@ -727,7 +727,6 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
 	/* Header */
 	#header {
-		background-color: #44b3a5;
 		height: 100px;
 	}
 
@@ -942,11 +941,6 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			font-size: 80%;
 		}
 
-		/* Header */
-		#header {
-			height: 100px;
-		}
-
 		/* Navigation menu */
 		/* Dropdown menu */
 		.dropdown-content {
@@ -1139,7 +1133,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			width: 850px;
 			bottom: 0%;
 			right: 1.5%;
-			padding: 20px 40px 20px 20px;
+			padding: 20px 40px 10px 20px;
 		}
 
 		.form-input {
@@ -1245,7 +1239,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
 		.feedback-grid {
 			width: 450px;
-			height: 280px;
+			height: 300px;
 			line-height: 100%;
 			padding: 8px 5px 5px 10px;
 			margin: 8px 3px 3px 20px;
@@ -1259,9 +1253,13 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 		/* Form */
 		#form-background {
 			width: 700px;
-			bottom: 5%;
+			bottom: 2%;
 			right: 1.5%;
 			padding: 20px 40px 20px 20px;
+		}
+
+		.submit-info {
+			margin: 0 auto;
 		}
 	}
 
@@ -1539,7 +1537,8 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			padding: 8px 5px 5px 5px;
 			margin: 8px 3px 3px 5px;
 		}
-	}
+
+
 
 	@media screen and (max-width: 720px) {
 
@@ -1791,7 +1790,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 		h3,
 		h6 {
 			letter-spacing: 1px;
-			font-size: 1em;
+			font-size: 1.2em;
 		}
 
 		#logo {
@@ -1816,7 +1815,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
 		#hero-text {
 			max-width: 250px;
-			font-size: 1.2em;
+			font-size: 1.8em;
 			padding: 0px;
 			margin: 0px;
 		}
@@ -1965,11 +1964,16 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
 		/* Form */
 
+
 		#form-background {
+			display: flexbox;
 			width: 250px;
-			padding: 10px 30px 10px 10px;
-			top: 0px;
-			left: -30px;
+			padding: 25px 40px 25px 25px;
+			top: 500px;
+			left: 50%;
+			right: 50%;
+			transform: translate(-50%, -50%);
+			
 		}
 
 		#radio-feedback-area {
@@ -1978,6 +1982,11 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
 		.radio-feedback {
 			margin: 3px;
+		}
+
+		.submit-info {
+			margin: 0 auto;
+			}
 		}
 
 	}
