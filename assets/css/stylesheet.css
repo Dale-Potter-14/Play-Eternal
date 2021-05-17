@@ -1110,7 +1110,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 		.feedback-section {
 			height: fit-content;
 			width: 1210px;
-			border-bottom: 30px #fff solid;
+			border-bottom: none;
 		}
 
 		.feedback-grid {
