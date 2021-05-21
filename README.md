@@ -22,8 +22,23 @@ A website that provides information on sensory play and advice on sensory play a
 		* [Information Architecture](#information-architecture)
 	* [Skeleton and Surface](#skeleton-and-surface)
 		* [Surface](#surface)
-	* [Technologies](#technologies)
-	* [Features](#features)
+* [Technologies](#technologies)
+* [Features](#features)
+* [Testing](#testing)
+	* [Features Testing](#features-testing)
+	* [Bugs and Issues](#bugs-and-issues)
+	* [User Stories Testing](#user-stories-testing)
+	* [Responsiveness and Compatibility](#responsiveness-and-compatibility)
+	* [Code Validation](#code-validation)
+	* [Testing Accessibility](#testing-accessibility)
+* [Deployment](#deployment)
+	* [Development Interface](#development-interface)
+	* [Page Deployment](#page-deployment)
+* [References](#references)
+	* [Code](#code)
+	* [Content](#content)
+	* [Media](#media)
+* [Acknowledgements](#acknowledgements)
 
 <!-- End Document Outline -->
 # UX Design
@@ -471,7 +486,7 @@ The All About Sensory Play page is the main content page of the site. It's purpo
 
 Please access the Play Eternal testing pack to view full testing of the site features.
 
-Play Eternal testing pack
+<a href="https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/Testing/Play%20Eternal%20Testing%20Pack.xlsx" target="_blank">Play Eternal testing pack</a>
 
 ### Bugs and Issues
 
@@ -481,7 +496,8 @@ The following issues were experienced during the course of development:
     * When the fixed Header with the navigation javascript was added, a z-index relationship had to be added to the page elements that had an absolute position, so that when scrolling they did not scroll over the Header but under. If the z-index was lower than the Header z-index, the elements scrolled under but the link from the learn-more button could not be clicked. If the z-index was equal or higher to the Header z-index, the link would work but the elements would be on top of the Header. I tried moving the button with the link in and out of divs and the page content div to get it right. I tried to change the button to a link, then a button with a link, then a div with a link. I tried setting various z-index values for the different elements.
     * Through trial and error I came to a solution. The Learn-More Button was added, inside the content div, inside the home-page div and inside the hero-text div with the following html code:
     
-    <button id="learn-more" onclick="location.href='about.html'">Learn More</button>
+
+`<button id="learn-more" onclick="location.href='about.html'">Learn More</button>`
         
    * The hero-text div position was absolute and the z-index set to 1.
    * The hero-area which contains the background image which the hero-text div sits on top of, the position was set to relative and the z-index to -1.
@@ -495,6 +511,7 @@ The following issues were experienced during the course of development:
 
 ### User Stories Testing
 
+![User Stories Testing Results](https://github.com/claire-potter/play-eternal/blob/master/project-documents/testing/user-stories-testing.jpg?raw=true)
 
 ### Responsiveness and Compatibility
 
@@ -531,27 +548,27 @@ The following issues were experienced during the course of development:
 
 * Google Chrome device tool bar:
 
-    * Galaxy Note 3​
-    * Galaxy Note II​
-    * Galaxy S III​
-    * KindleFire HDX​
-    * LG Optimus L70​
-    * Laptop with HiDPI screen​
-    * Laptop with MDPI screen​
-    * Laptop with touch​
-    * Microsoft Lumia 550​
-    * Microsoft Lumia 950​
-    * Moto G4​
-    * Galaxy S5​
-    * Pixel 2​
-    * Pixel 2 XL​
-    * iPhone 5/SE​
-    * iPhone 6/7/8​
-    * iPhone 6/7/8 Plus​
-    * IPhone X​
-    * iPad​
-    * iPad Pro​
-    * Surface Duo​
+    * Galaxy Note 3
+    * Galaxy Note II
+    * Galaxy S III
+    * KindleFire HDX
+    * LG Optimus L70
+    * Laptop with HiDPI screen
+    * Laptop with MDPI screen
+    * Laptop with touch
+    * Microsoft Lumia 550
+    * Microsoft Lumia 950
+    * Moto G4
+    * Galaxy S5
+    * Pixel 2
+    * Pixel 2 XL
+    * iPhone 5/SE
+    * iPhone 6/7/8
+    * iPhone 6/7/8 Plus
+    * iPhone X
+    * iPad
+    * iPad Pro
+    * Surface Duo
     * Galaxy Fold
     * Responsive Mode
 
@@ -569,6 +586,18 @@ The following issues were experienced during the course of development:
 2. W3C CSS Jigsaw Validator
 
 * The code for the stylesheet.css was entered into the validator and passed.
+
+
+Please <a href="https://github.com/Claire-Potter/Play-Eternal/tree/master/project-documents/Testing/Code%20Validations" target="_blank">click here</a> to view the screenshots.
+
+### Testing Accessibility
+
+The Wave Evaluation Tool was used to test the Accessibility of the site. The following changes were made to pass the evaluation with no errors:
+
+![Accessibility Changes and Testing](https://raw.githubusercontent.com/claire-potter/play-eternal/master/project-documents/testing/accessibility/accessibility-changes-tested.jpg)
+
+Please <a href="https://github.com/Claire-Potter/Play-Eternal/tree/master/project-documents/Testing/Accessibility" target="_blank">click here </a>to view the Wave Evaluation screenshots.
+
 # Deployment
 
 ## Development Interface
