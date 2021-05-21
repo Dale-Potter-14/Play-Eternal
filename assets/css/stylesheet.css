@@ -1386,8 +1386,10 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 				content: "";
 			}
 			.sticky+.content {
-				padding-top: 150px;
+				padding-top: 220px;
 			}
+
+	
 			/* Dropdown menu */
 			.dropdown-content {
 			visibility: hidden;
@@ -1406,7 +1408,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			}
 
 			#hero-text {
-				top: 820px;
+				top: 800px;
 			}
 			/* About page */
 
@@ -1621,7 +1623,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			/* Help with Anxiety */
 			#anxiety-img {
 				width: 250px;
-				height: 270px;
+				height: 200px;
 			}
 			#anxiety-pane {
 				width: 250px;
@@ -1767,7 +1769,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 		/* Help with Anxiety */
 		#anxiety-img {
 			width: 150px;
-			height: 170px;
+			height: 100px;
 		}
 		#anxiety-pane {
 			width: 150px;
