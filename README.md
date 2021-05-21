@@ -467,30 +467,108 @@ The All About Sensory Play page is the main content page of the site. It's purpo
 
 # Testing
 
-Introduction
+### Features Testing
 
-Bugs
+Please access the Play Eternal testing pack to view full testing of the site features.
 
-User Stories
+Play Eternal testing pack
 
-Features Testing
+### Bugs and Issues
 
-Responsiveness and Compatibility
+The following issues were experienced during the course of development:
 
-Safari, Chrome, Firefox, Edge, Opera
+1. The Learn-More Button on the Home Page
+    * When the fixed Header with the navigation javascript was added, a z-index relationship had to be added to the page elements that had an absolute position, so that when scrolling they did not scroll over the Header but under. If the z-index was lower than the Header z-index, the elements scrolled under but the link from the learn-more button could not be clicked. If the z-index was equal or higher to the Header z-index, the link would work but the elements would be on top of the Header. I tried moving the button with the link in and out of divs and the page content div to get it right. I tried to change the button to a link, then a button with a link, then a div with a link. I tried setting various z-index values for the different elements.
+    * Through trial and error I came to a solution. The Learn-More Button was added, inside the content div, inside the home-page div and inside the hero-text div with the following html code:
+    
+    <button id="learn-more" onclick="location.href='about.html'">Learn More</button>
+        
+   * The hero-text div position was absolute and the z-index set to 1.
+   * The hero-area which contains the background image which the hero-text div sits on top of, the position was set to relative and the z-index to -1.
+   * The header did not have a position set but has a z-index set to 2.
+   
+2. The Javascript Sticky Navigation and Header
+     * Adding the javascript for the header and navigation bar to stick caused some issues with the ability to access the learn-more button link above as well as the form input and submit. As per above by setting the header z-index to 2 and not adding a named position the issue was resolved. I also experienced issues with getting the content padding correct for before scroll and after scrolling across various screen sizes, this too was resolved through trial and error.
+     
+ 3. I found media queries tricky. I was focusing on trying to get the screen to render appropriately with the same page layout for all screen sizes. I eventually removed all of the media queries to start with a clean slate as it had got very messy. Using the Responsively App to test how the screen renders for different devices and screen widths, really helped me to visualise and test the media queries. I changed multiple elements display to flex I was then easily able to change flex directions for different screen sizes which helped with the previous issues I experienced. Setting the font to rem also helped with consistency of the display. 
+    
 
-Devices and Screen Sizes
+### User Stories Testing
 
-W3C HTML Code Validator
 
-W3C CSS Jigsaw Validator
+### Responsiveness and Compatibility
 
-Testing Accessibility
+1. The site has been testing using the following browsers - Safari, Chrome, Firefox, Edge and Opera. The site is compatible and accessible across all browsers.
 
-Testing Performance with Google Lighthouse
+2. Devices and Screen Sizes
 
-Peer Code Review
+* The site was tested using the Responsively App as well as the Google Chrome device tool bar. The site has been setup to render effectively across multiple screen sizes and devices. I have tested using the following device displays:
 
+* Responsively App:
+
+   * 5K Display 5120 * 2880
+   * 4K Display 3840 * 2160
+    * MacBook Pro 16 inch 3072 * 1920
+    * MacBook Pro 15 inch 2880 * 1800
+    * MacBook Pro 13 inch 2560 * 1600
+    * Laptop with HiDPi Screen 1440 * 900
+    * Laptop 1400 * 1000
+    * MacBook Air 1440 * 900
+    * Laptop with MDPi Screen 1280 * 800
+    * Generic Laptop 1280 * 950
+    * iPad Pro 1024 * 1366
+    * Kindle Fire HDX 800 * 1280
+    * iPad 768 * 1024
+    * Microsoft Lumia 550 640 * 360
+    * Blackberry Playbook 600 * 1024
+    * Nokia N9 480 * 854
+    * iPhone 6/7/8 Plus 414 * 736
+    * iPhone 6/7/8 375 * 667
+    * Galaxy S 5 360 * 640
+    * iPhone 4 320 * 480
+    * JioPhone 2 240 * 320
+    * Responsive Mode - change the screen width to test various sizes
+
+* Google Chrome device tool bar:
+
+    * Galaxy Note 3​
+    * Galaxy Note II​
+    * Galaxy S III​
+    * KindleFire HDX​
+    * LG Optimus L70​
+    * Laptop with HiDPI screen​
+    * Laptop with MDPI screen​
+    * Laptop with touch​
+    * Microsoft Lumia 550​
+    * Microsoft Lumia 950​
+    * Moto G4​
+    * Galaxy S5​
+    * Pixel 2​
+    * Pixel 2 XL​
+    * iPhone 5/SE​
+    * iPhone 6/7/8​
+    * iPhone 6/7/8 Plus​
+    * IPhone X​
+    * iPad​
+    * iPad Pro​
+    * Surface Duo​
+    * Galaxy Fold
+    * Responsive Mode
+
+
+### Code Validation
+
+1. W3C HTML Code Validator
+
+* The code for the following html pages was entered into the validator and all pages passed:
+    * index.html
+    * about.html
+    * feedback.html
+    * contact.html
+
+2. W3C CSS Jigsaw Validator
+
+* The code for the stylesheet.css was entered into the validator and passed.
 # Deployment
 
 ## Development Interface
