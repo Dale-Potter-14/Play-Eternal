@@ -31,6 +31,7 @@ A website that provides information on sensory play and advice on sensory play a
 	* [Responsiveness and Compatibility](#responsiveness-and-compatibility)
 	* [Code Validation](#code-validation)
 	* [Testing Accessibility](#testing-accessibility)
+	* [Performance Testing](#performance-testing)
 * [Deployment](#deployment)
 	* [Development Interface](#development-interface)
 	* [Page Deployment](#page-deployment)
@@ -274,10 +275,10 @@ I felt it was necessary to keep the pages clean and simple to prevent the user f
 7. The tooltip was included on the help with anxiety page which was not in the mock up.
 8. The Hear From Each Other background colours are once again not transparent.
 9. The number of children question was removed from the form on the Get In Touch page, as a user would provide the children's ages in the question below and number of children can be deduced from there.
+10. The hover font colour for the navigation menu was changed from white to black for accessibility reasons.
+11. The green background colour was changed to a lighter version for accessibility reasons.
+12. The senses headers were changed from coloured-font to grey font for accessibility reasons.
 
-### Design Breakdown
-
-Talk about sizes, colours choices etc -everything made in CSS.
 
 ## Technologies
 
@@ -322,7 +323,7 @@ For further information on the sticky navigation please click here.
             margin-right:auto;
             "> 
 
- - The logo is created using the Itim font from Google fonts with the letter spacing set at 3px and the hand holding heart icon from Font Awesome. It contains a link back to the home page as it is an expected behaviour that clicking the logo will take a user home.
+ - The logo is created using the Itim font from Google fonts with the letter spacing set at 3px and the hand holding heart icon from Font Awesome. 
 
 -   **Navigation Bar**
 
@@ -330,12 +331,11 @@ For further information on the sticky navigation please click here.
 
    -   The navigation bar is identical across all four pages to allow for easy navigation. 
     - The bar  includes the following:
-	    - The active page is highlighted with a different font colour and background colour.
+	    - The active page is highlighted with a different font colour and background colour. Font colour has been changed to black for accessibility reasons.
 	    
  ![Navigation Active image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/navigation-active.PNG?raw=true)
  
   - The All About Sensory Play includes a drop-down menu to the separate page sections as this is the longest page with the most content.
- - For further information on the drop-down please click here.
 	    
  ![Navigation dropdown image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/navigation-dropdown.jpg?raw=true)
  
@@ -351,7 +351,7 @@ The footer section is fixed to the bottom of the page and it includes a logo and
 
  ![Footer Logo image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/footer-logo.PNG?raw=true)
 
- - The logo is a smaller version of the Header logo but displayed vertically. Underneath the page copyright is included. Like the Header, it includes a link back to the home page as this is common for websites to do.
+ - The logo is a smaller version of the Header logo but displayed vertically. Underneath the page copyright is included. It includes a link back to the home page as this is common for websites to do.
 	 
 -   **Social Media Icons**
 
@@ -511,7 +511,7 @@ The following issues were experienced during the course of development:
 
 ### User Stories Testing
 
-![User Stories Testing Results](https://github.com/claire-potter/play-eternal/blob/master/project-documents/testing/user-stories-testing.jpg?raw=true)
+![User Stories Testing](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/Testing/user-stories-testing.jpg?raw=true)
 
 ### Responsiveness and Compatibility
 
@@ -594,9 +594,14 @@ Please <a href="https://github.com/Claire-Potter/Play-Eternal/tree/master/projec
 
 The Wave Evaluation Tool was used to test the Accessibility of the site. The following changes were made to pass the evaluation with no errors:
 
-![Accessibility Changes and Testing](https://raw.githubusercontent.com/claire-potter/play-eternal/master/project-documents/testing/accessibility/accessibility-changes-tested.jpg)
+![Accessibility changes and testing](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/Testing/Accessibility/accessibility-changes-tested.jpg?raw=true)
+
 
 Please <a href="https://github.com/Claire-Potter/Play-Eternal/tree/master/project-documents/Testing/Accessibility" target="_blank">click here </a>to view the Wave Evaluation screenshots.
+
+### Performance Testing
+
+[Click here](https://github.com/Claire-Potter/Play-Eternal/tree/master/project-documents/Testing/Lighthouse%20Reports) to access Google Lighthouse performance reports.
 
 # Deployment
 
