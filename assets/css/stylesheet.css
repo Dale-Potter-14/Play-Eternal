@@ -1379,25 +1379,20 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			#menu li {
 				display: list-item;
 				width: auto;
-				padding: 3px;
+				padding: 8px;
+				font-size: 1.5em;
 			}
 			#menu li:not(:first-child):before {
 				content: "";
 			}
 			.sticky+.content {
-				padding-top: 140px;
+				padding-top: 150px;
 			}
 			/* Dropdown menu */
 			.dropdown-content {
-				min-width: 150px;
-				top: 70%;
-				margin-left: -75px;
-				font-size: .8em;
+			visibility: hidden;
 			}
-			.dropdown-content a {
-				padding: 6px 8px;
-				text-align: center;
-			}
+			
 			/* Homepage */
 			#hero-area {
 				background: url('../images/home-page-smaller.jpg');
@@ -1409,10 +1404,16 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 				border: solid #333333 2px;
 				padding: 50px 3px 0px 3px;
 			}
+
+			#hero-text {
+				top: 820px;
+			}
 			/* About page */
+
 			#about-menu h2 {
 				padding: 10px 10px 0px 10px;
 			}
+
 			/* Classes used across page */
 			.sections-headers {
 				padding: 20px;
@@ -1553,7 +1554,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 				font-size: 1.2em;
 			}
 			#logo {
-				font-size: 1.2em;
+				font-size: 1.8em;
 			}
 			/* Footer */
 			/* Social media icons */
