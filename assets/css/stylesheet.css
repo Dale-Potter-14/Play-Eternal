@@ -1693,6 +1693,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			#contact-us-area {
 				height: 900px;
 				width: 250px;
+				background: none no-repeat;
 			}
 			#young-boy-sandpit {
 				visibility: visible;
