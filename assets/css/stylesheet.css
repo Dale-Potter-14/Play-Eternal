@@ -26,7 +26,7 @@ body {
 h1,
 h2,
 h3,
-h6 {
+h4 {
 	font-family: Itim, sans-serif;
 	font-weight: 700;
 	text-decoration: none;
@@ -94,7 +94,7 @@ https://stackoverflow.com/questions/31140935/how-do-i-add-vertical-line-on-my-me
 
 #menu a.active {
 	background-color: #DD9A89;
-	color: white;
+	color: black;
 }
 
 
@@ -193,11 +193,11 @@ footer {
 	width: 150px;
 	border: solid #DFDCD9 5px;
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 
 footer p {
-	font-size: 0.8rem;
+	font-size: 1.2rem;
 }
 
 
@@ -330,7 +330,7 @@ footer li {
 }
 
 .solid-green {
-	background-color: #7F9887;
+	background-color: #a2ccaf;
 }
 
 .solid-peach {
@@ -378,6 +378,7 @@ footer li {
 	width: 900px;
 	padding: 35px 10px;
 	margin: 0 auto;
+	color: #333333;
 }
 
 .senses-info-right {
@@ -386,28 +387,8 @@ footer li {
 	width: 900px;
 	padding: 35px 10px;
 	margin: 0 auto;
+	color: #333333;
 }
-
-#sound {
-	color: #C38D9D;
-}
-
-#sight {
-	color: #85CDCA;
-}
-
-#smell {
-	color: #DFDCD9;
-}
-
-#touch {
-	color: #7F9887;
-}
-
-#taste {
-	color: #DD9A89;
-}
-
 
 /* Play in Motion */
 
@@ -455,7 +436,7 @@ footer li {
 	font-size: 1.8rem;
 }
 
-.activities-style h6 {
+.activities-style h4 {
 	font-family: Montserrat, sans-serif;
 	font-weight: 900;
 	font-style: italic;
@@ -1503,7 +1484,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			.activities-style {
 				width: 400px;
 			}
-			.activities-style h6 {
+			.activities-style h4 {
 				color: black;
 				font-size: 1.1rem;
 				letter-spacing: normal;
@@ -1567,7 +1548,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			h1,
 			h2,
 			h3,
-			h6 {
+			h4 {
 				letter-spacing: 1px;
 				font-size: 1.2em;
 			}
