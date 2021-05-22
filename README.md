@@ -528,7 +528,7 @@ The following issues were experienced during the course of development:
 
 ### User Stories Testing
 
-![User Stories Testing](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/testing/user-stories-testing.jpg?raw=true)
+![User Stories Testing](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/testing/user-stories-testing-img.jpg)
 
 ### Responsiveness and Compatibility
 
