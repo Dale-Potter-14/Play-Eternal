@@ -315,7 +315,6 @@ Other technologies:
 	* Used to edit Markdown
 
 
-
 # Features
 
 The Play Eternal site consists of the following Features:
@@ -755,6 +754,8 @@ The content on the All About Sensory Play Page is from the following sites:
 	* [water-play](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/water-play.jpg)
 
 6. The iframe video is from YouTube - https://www.youtube.com/embed/GWBLyX7Is6Q
+7. The mockup image in the ReadMe was created using the following site:
+	* http://techsini.com/multi-mockup/index.php
 
 
 
