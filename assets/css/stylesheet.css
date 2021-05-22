@@ -568,6 +568,19 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 	align-items: flex-start;
 }
 
+.recommendations-grid {
+	text-align: left;
+	width: 425px;
+	height: 180px;
+	line-height: 110%;
+	padding: 0px 5px 5px 5px;
+	margin: 0px 3px 3px 3px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+}
+
 .feedback-image {
 	margin: 5px;
 }
@@ -701,14 +714,17 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 /* @Media queries */
 
 @media screen and (max-width: 6000px) {
+
 	/* Default*/
 	html {
 		font-size: 150%;
 	}
+
 	/* Header */
 	#header {
 		height: 180px;
 	}
+
 	/* Navigation menu */
 	/* Dropdown menu */
 	.dropdown-content {
@@ -716,23 +732,28 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 		left: 70%;
 		margin-left: -190px;
 	}
+
 	.content {
 		padding-top: 15px;
 		padding-bottom: 15px;
 	}
+
 	.sticky+.content {
 		padding-top: 100px;
 		padding-bottom: 100px;
 	}
+
 	/* Footer */
 	footer {
 		height: 280px;
 	}
+
 	#footer-logo {
 		width: 200px;
 		border: solid #DFDCD9 5px;
 		padding-top: 10px;
 	}
+
 	/* Home Page */
 	#hero-area {
 		background: url('../images/home-page-large.jpg');
@@ -741,6 +762,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+
 	#hero-text {
 		top: 500px;
 		left: 200px;
@@ -749,35 +771,43 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 		padding: 150px 40px 100px 40px;
 		margin: auto 0;
 	}
+
 	#learn-more {
 		margin: 50px 20px 0px 30px;
 	}
+
 	/* About page */
 	/* Classes used across page */
 	.solid-background {
 		width: 2000px;
 	}
+
 	.square-image {
 		width: 400px;
 		height: 400px;
 	}
+
 	/* What is sensory play? */
 	.right-align {
 		width: 1500px;
 		font-size: 1.8em;
 		line-height: 130%;
 	}
+
 	.left-align {
 		width: 1500px;
 		font-size: 1.8em;
 		line-height: 130%;
 	}
+
 	.senses-info-left {
 		width: 2000px;
 	}
+
 	.senses-info-right {
 		width: 2000px;
 	}
+
 	/* Play in Motion */
 	#iframe {
 		width: 1800px;
@@ -786,74 +816,96 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 		border: solid 3px #333333;
 		margin: 5px;
 	}
+
 	/* Top 10 Activities */
 	#top10-pane {
 		width: 2000px;
 	}
+
 	.play-image-internal {
 		margin: 30px 25px;
 	}
+
 	.activities-style {
 		width: 1500px;
 	}
+
 	/* Help with Anxiety */
 	#anxiety-img {
 		width: 1500px;
 		height: auto;
 	}
+
 	#anxiety-pane {
 		width: 2000px;
 		padding-top: 75px;
 		padding-bottom: 75px;
 		margin-bottom: 100px;
 	}
+
 	.anxiety-activity {
 		width: 300px;
 		height: 300px;
 		padding: 10px;
 	}
+
 	/* Tooltip for Anxiety activities */
 	.tooltip .tooltiptext {
 		width: 300px;
 		margin-left: -150px;
 	}
+
 	.tooltip .tooltiptext::after {
 		top: 100%;
 		left: 50%;
 		margin-left: -150px;
 	}
+
 	/* Hear from Each Other */
 	#feedback-container {
 		margin: 0 auto;
 		padding-top: 100px;
 		padding-bottom: 100px;
 	}
+
 	#recommendations-container {
 		margin: 0 auto;
 		padding-top: 100px;
 		padding-bottom: 100px;
 	}
+
 	.feed-sub {
 		padding: 40px 10px 0px 10px;
 		width: 2000px;
 	}
+
 	.feedback-section {
 		border-bottom: none;
 	}
+
 	.profile-pictures {
 		width: 100px;
 		height: 100px;
 	}
+
 	.feedback-grid {
 		width: 800px;
 		height: fit-content;
 		padding: 50px;
 	}
+
+	.recommendations-grid {
+		width: 800px;
+		height: fit-content;
+		padding: 50px;
+	}
+
 	/* Get In Touch */
 	#contact-us-area {
 		height: 2000px;
 		border-bottom: none;
 	}
+
 	/* Form */
 	#form-background {
 		height: fit-content;
@@ -861,32 +913,40 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 		bottom: 12%;
 		right: 5%;
 	}
+
 	.form-input {
 		height: 20px;
 		margin: 20px 0 20px 0;
 		padding: 5px 10px;
 	}
+
 	.text-area-pane {
 		height: 50px;
 		margin: 20px 0 20px 0;
 		padding: 5px 10px;
 	}
+
 	.form-labels {
 		margin-right: 10px;
 		padding: 3px;
 	}
+
 	.radio-feedback {
 		margin: 20px 2px 40px 10px;
 	}
+
 	.submit-info {
 		margin: 5px 10px;
 		padding: 10px 30px;
 	}
+
 	@media screen and (max-width: 3000px) {
+
 		/* Default styling */
 		html {
 			font-size: 80%;
 		}
+
 		/* Navigation menu */
 		/* Dropdown menu */
 		.dropdown-content {
@@ -895,18 +955,22 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			left: 50%;
 			margin-left: -100px;
 		}
+
 		/* Make Header sticky */
 		.content {
 			padding-top: 50px;
 		}
+
 		.sticky+.content {
 			padding-top: 120px;
 			padding-bottom: 120px;
 		}
+
 		/* Footer */
 		footer {
 			height: 150px;
 		}
+
 		/* Home page */
 		#hero-area {
 			background: url('../images/home-page.jpg');
@@ -916,6 +980,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			background-size: cover;
 			background-position: 10% 30%;
 		}
+
 		#hero-text {
 			height: 440px;
 			width: 600px;
@@ -924,37 +989,46 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			top: 350px;
 			left: 80px;
 		}
+
 		#learn-more {
 			margin: 30px 20px 0 20px;
 		}
+
 		/* About page */
 		/* Classes used across page */
 		.sections-headers {
 			padding: 50px;
 		}
+
 		.solid-background {
 			width: 1000px;
 		}
+
 		.square-image {
 			width: 300px;
 			height: 300px;
 		}
+
 		/* What is sensory play? */
 		.right-align {
 			width: 600px;
 			padding-right: 10px;
 			padding-top: 10px;
 		}
+
 		.left-align {
 			width: 600px;
 			padding: 10px 10px 0px 10px;
 		}
+
 		.senses-info-left {
 			width: 1000px;
 		}
+
 		.senses-info-right {
 			width: 1000px;
 		}
+
 		/* Play in Motion */
 		#iframe {
 			width: 850px;
@@ -962,28 +1036,35 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			padding: 3px;
 			margin: 5px;
 		}
+
 		/* Top 10 Activities */
 		#top10-pane {
 			width: 1000px;
 		}
+
 		.play-image-internal {
 			margin: 0px 25px 150px 25px;
 		}
+
 		.activities-style {
 			width: 600px;
 		}
+
 		/* Help with Anxiety */
 		#anxiety-img {
 			width: 900px;
 			height: 800px;
 		}
+
 		#anxiety-pane {
 			width: 1000px;
 		}
+
 		.anxiety-activity {
 			width: 220px;
 			height: 220px;
 		}
+
 		/* Tooltip for Anxiety activities */
 		/* Code from W3 schools tutorial on Tooltips
 https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
@@ -994,37 +1075,44 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			left: 50%;
 			margin-left: -110px;
 		}
+
 		.tooltip .tooltiptext::after {
 			top: 100%;
 			left: 50%;
 			margin-left: -5px;
 		}
+
 		/* Hear from Each Other */
 		#feedback-container {
 			margin: 0 auto;
 			padding-top: 0px;
 			padding-bottom: 100px;
 		}
+
 		#recommendations-container {
 			margin: 0 auto;
 			padding-top: 0px;
 			padding-bottom: 200px;
 		}
+
 		.profile-pictures {
 			width: 90px;
 			height: 90px;
 		}
+
 		.feed-sub {
 			padding: 35px 10px 0px 10px;
 			width: 1210px;
 			height: fit-content;
 			text-indent: 2%;
 		}
+
 		.feedback-section {
 			height: fit-content;
 			width: 1210px;
 			border-bottom: none;
 		}
+
 		.feedback-grid {
 			width: 510px;
 			height: 280px;
@@ -1032,67 +1120,88 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			padding: 0px 0px 5px 5px;
 			margin: 0px 3px 3px 0px;
 		}
+
+		.recommendations-grid {
+			width: 510px;
+			height: 280px;
+			line-height: 100%;
+			padding: 0px 0px 5px 5px;
+			margin: 0px 3px 3px 0px;
+		}
+
 		/* Get In Touch */
 		#contact-us-area {
 			height: 1000px;
 		}
+
 		/* Form */
 		#form-background {
-			height: fit-content;
 			width: 850px;
 			bottom: 0%;
 			right: 1.5%;
 			padding: 20px 40px 10px 20px;
 		}
+
 		.form-input {
 			height: 20px;
 			margin: 20px 0 20px 0;
 			padding: 5px 10px;
 		}
+
 		.text-area-pane {
 			height: 50px;
 			margin: 20px 0 20px 0;
 			padding: 5px 10px;
 		}
+
 		.form-labels {
 			margin-right: 10px;
 			padding: 3px;
 		}
+
 		.radio-feedback {
 			margin: 20px 2px 40px 10px;
 		}
+
 		.submit-info {
 			margin: 5px 10px;
 			padding: 10px 30px;
 		}
+
 		@media screen and (max-width: 2400px) {
-		
+
 			/* Header */
 			#header {
 				height: 75px;
 			}
+
 			/* Navigation menu */
 			/* Dropdown menu */
 			.dropdown-content {
 				top: 20px;
 			}
+
 			/* Make Header sticky */
 			.content {
 				padding-top: 50px;
 			}
+
 			.sticky+.content {
 				padding-top: 120px;
 				padding-bottom: 120px;
 			}
+
 			/* Footer */
 			footer {
 				height: 110px;
 			}
+
 			/* Home page */
 			#hero-area {
 				height: 1200px;
 				border-bottom: solid white 10px;
 			}
+
 			#hero-text {
 				height: fit-content;
 				width: 400px;
@@ -1101,9 +1210,11 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 				top: 350px;
 				left: 40px;
 			}
+
 			#learn-more {
 				margin: 30px 20px 0 20px;
 			}
+
 			/* About page */
 
 			.solid-orange {
@@ -1125,20 +1236,24 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			.play-image-internal {
 				margin: 0px 25px 60px 25px;
 			}
+
 			/* Help with Anxiety */
 			#anxiety-img {
 				width: 700px;
 				height: 600px;
 			}
 		}
+
 		/* Hear from Each Other */
 		.feed-sub {
 			padding: 10px 10px 0px 10px;
 			width: 1000px;
 		}
+
 		.feedback-section {
 			width: 1000px;
 		}
+
 		.feedback-grid {
 			width: 450px;
 			height: 300px;
@@ -1146,10 +1261,20 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			padding: 8px 5px 5px 10px;
 			margin: 8px 3px 3px 20px;
 		}
+
+		.recommendations-grid {
+			width: 450px;
+			height: 300px;
+			line-height: 100%;
+			padding: 8px 5px 5px 10px;
+			margin: 8px 3px 3px 20px;
+		}
+
 		/* Get In Touch */
 		#contact-us-area {
 			height: 1000px;
 		}
+
 		/* Form */
 		#form-background {
 			width: 700px;
@@ -1157,232 +1282,266 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			right: 1.5%;
 			padding: 20px 40px 20px 20px;
 		}
+
 		.submit-info {
 			margin: 0 auto;
 		}
 	}
-	@media screen and (max-width: 1999px) {
+
+	@media screen and (max-width: 2000px) {
+
+		/* Footer */
+		footer {
+			height: 150px;
+		}
+
 		/* About page */
 		/* Top 10 Activities */
 		.play-image-internal {
 			margin: 50px 25px 50px 25px;
 		}
+
 		/* Hear from Each Other */
 		.feedback-grid {
-			height: 180px;
+			height: 300px;
 		}
-		/* Get In Touch */
-		#contact-us-area{
-			padding-top: 0px;
-			padding-bottom: 100px;
-			border-bottom: 30px white solid;
-		}
-	}
-}
 
-@media screen and (max-width: 1044px) {
-	/* Home Page */
-	#home-page {
-		display: flex;
-		flex-direction: column;
-		height: 1000px;
+		.recommendations-grid {
+			height: 300px;
+		}
+
+		/* Get In Touch */
+		#contact-us-area {
+			padding-top: 0px;
+			height: 800px;
+			padding-bottom: 100px;
+		}
+
+		#form-background {
+			width: 800px;
+			padding: 10px 20px 10px 10px;
+		}
+
+		.form-input {
+			height: 15px;
+			margin: 10px 0 10px 0;
+			padding: 3px 5px;
+		}
+
+		.text-area-pane {
+			height: 25px;
+			margin: 10px 0 10px 0;
+			padding: 3px 5px;
+		}
+
+		.form-labels {
+			margin-right: 5px;
+			padding: 1px;
+		}
+
+		.radio-feedback {
+			margin: 10px 1px 20px 5px;
+		}
+
+		.submit-info {
+			margin: 3px 5px;
+			padding: 5px 15px;
+		}
 	}
-	#hero-area {
-		height: 400px;
-		border-bottom: solid white 10px;
-	}
-	#hero-text {
-		height: 320px;
-		width: 400px;
-		padding: 5px;
-		top: 720px;
-		left: 50%;
-		right: 50%;
-		transform: translate(-50%, -50%);
-		text-align: center;
-	}
-	.text-area {
-		margin-left: 0px;
-	}
-	#learn-more {
-		margin: 30px 20px 0 20px;
-	}
-	/* About page */
-	/* Classes used across page */
-	.solid-background {
-		width: 800px;
-	}
-	.solid-orange {
-		line-height: 120%;
-	}
-	.square-image {
-		width: 200px;
-		height: 200px;
-	}
-	/* What is sensory play? */
-	.right-align {
-		width: 500px;
-		line-height: 120%;
-	}
-	.left-align {
-		width: 500px;
-		line-height: 120%;
-	}
-	.senses-info-left {
-		width: 800px;
-	}
-	.senses-info-right {
-		width: 800px;
-	}
-	/* Play in Motion */
-	#iframe {
-		width: 750px;
-		height: 506px;
-	}
-	/* Top 10 Activities */
-	#top10-pane {
-		width: 800px;
-	}
-	.activities-style {
-		width: 500px;
-	}
-	/* Help with Anxiety */
-	#anxiety-img {
-		width: 500px;
-		height: 400px;
-	}
-	#anxiety-pane {
-		width: 800px;
-	}
-	/* Hear from Each Other */
-	.feed-sub {
-		width: 850px;
-	}
-	.feedback-section {
-		width: 850px;
-	}
-	.feedback-grid {
-		width: 400px;
-		height: 240px;
-		padding: 8px 5px 5px 5px;
-		margin: 8px 3px 3px 5px;
-	}
-	.profile-pictures {
-		width: 80px;
-		height: 80px;
-	}
-	/* Get In Touch */
-	#contact-us-heading h3 {
-		padding: 20px 10px 30px 20px;
-	}
-	#contact-us-area {
-		height: 900px;
-		width: 400px;
-		padding-top: 20px;
-		margin: 0 auto;
-		padding-bottom: 30px;
-	}
-	#young-boy-sandpit {
-		visibility: visible;
-		height: 300px;
-		width: 300px;
-		border: solid #333333 2px;
-		margin: 0 auto;
-	}
-	/* Form */
-	#form-background {
-		width: 400px;
-		border: solid #333333 2px;
-		padding: 20px 40px 20px 20px;
-		top: 0px;
-		left: -30px;
-		background-color: rgba(255, 253, 253, 1);
-	}
-	#radio-feedback-area {
-		display: flex;
-		flex-direction: column;
-		padding: 20px;
-	}
-	.radio-feedback {
-		margin: 3px;
-	}
-	@media screen and (max-width: 873px) {
+
+	@media screen and (max-width: 1044px) {
+
 		/* Default styling */
 		html {
 			font-size: 55%;
 		}
+
+		/* Footer */
+		footer {
+			height: 120px;
+		}
+
+		/* Home Page */
+		#home-page {
+			display: flex;
+			flex-direction: column;
+			height: 1000px;
+		}
+
+		#hero-area {
+			height: 400px;
+			border-bottom: solid white 10px;
+		}
+
+		#hero-text {
+			height: 320px;
+			width: 400px;
+			padding: 5px;
+			top: 720px;
+			left: 50%;
+			right: 50%;
+			transform: translate(-50%, -50%);
+			text-align: center;
+		}
+
+		.text-area {
+			margin-left: 0px;
+		}
+
+		#learn-more {
+			margin: 30px 20px 0 20px;
+		}
+
 		/* About page */
 		/* Classes used across page */
 		.solid-background {
 			width: 650px;
 		}
+
 		.solid-orange {
-			line-height: 100%;
+			line-height: 120%;
 		}
+
 		.square-image {
 			width: 150px;
 			height: 150px;
 		}
+
 		/* What is sensory play? */
 		.right-align {
 			width: 400px;
-			line-height: 100%;
+			line-height: 120%;
 		}
+
 		.left-align {
 			width: 400px;
-			line-height: 100%;
+			line-height: 120%;
 		}
+
 		.senses-info-left {
 			width: 650px;
 		}
+
 		.senses-info-right {
 			width: 650px;
 		}
+
 		/* Play in Motion */
 		#iframe {
 			width: 500px;
 			height: 400px;
 		}
+
 		/* Top 10 Activities */
 		#top10-pane {
 			width: 650px;
 		}
+
 		.activities-style {
 			width: 400px;
+			line-height: 120%;
+			letter-spacing: 0;
 		}
+
 		.play-image-internal {
 			margin: 100px 30px;
 		}
+
 		/* Help with Anxiety */
 		#anxiety-img {
 			width: 450px;
 			height: 300px;
 		}
+
 		#anxiety-pane {
 			width: 650px;
 		}
+
 		.anxiety-activity {
 			width: 150px;
 			height: 150px;
 		}
+
 		/* Hear from Each Other */
 		.feed-sub {
 			width: 650px;
 		}
+
 		.feedback-section {
 			width: 650px;
 		}
+
 		.feedback-grid {
 			width: 300px;
-			height: 240px;
+			height: 300px;
 			padding: 8px 5px 5px 5px;
 			margin: 8px 3px 3px 5px;
 		}
+
+		.recommendations-grid {
+			width: 300px;
+			height: 300px;
+			padding: 8px 5px 5px 5px;
+			margin: 8px 3px 3px 5px;
+		}
+
+		.feedback-heading {
+			font-size: 1.8rem;
+		}
+
+		.feedback-font {
+			font-size: 1.5rem;
+		}
+
+		/* Get In Touch */
+		#contact-us-heading h3 {
+			padding: 20px 10px 30px 20px;
+		}
+
+		#contact-us-area {
+			height: 900px;
+			width: 400px;
+			padding-top: 20px;
+			margin: 0 auto;
+			padding-bottom: 30px;
+			background: none no-repeat;
+		}
+
+		#young-boy-sandpit {
+			visibility: visible;
+			height: 300px;
+			width: 300px;
+			border: solid #333333 2px;
+			margin: 0 auto;
+		}
+
+		/* Form */
+		#form-background {
+			width: 400px;
+			border: solid #333333 2px;
+			padding: 20px 40px 20px 20px;
+			top: 0px;
+			left: -30px;
+			background-color: rgba(255, 253, 253, 1);
+		}
+
+		#radio-feedback-area {
+			display: flex;
+			flex-direction: column;
+			padding: 20px;
+		}
+
+		.radio-feedback {
+			margin: 3px;
+		}
+
 		@media screen and (max-width: 720px) {
+
 			/* Default styling */
 			html {
 				font-size: 55%;
 			}
+
 			/* Header */
 			#header {
 				width: 100%;
@@ -1390,33 +1549,37 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 				display: flex;
 				flex-direction: column;
 			}
+
 			#logo {
 				letter-spacing: 0;
 				padding: 8px;
 			}
+
 			/* Nav */
 			#menu ul {
 				width: auto;
 			}
+
 			#menu li {
 				display: list-item;
 				width: auto;
 				padding: 8px;
 				font-size: 1.5em;
 			}
+
 			#menu li:not(:first-child):before {
 				content: "";
 			}
+
 			.sticky+.content {
-				padding-top: 220px;
+				padding-top: 240px;
 			}
 
-	
 			/* Dropdown menu */
 			.dropdown-content {
-			visibility: hidden;
+				visibility: hidden;
 			}
-			
+
 			/* Homepage */
 			#hero-area {
 				background: url('../images/home-page-smaller.jpg');
@@ -1432,6 +1595,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			#hero-text {
 				top: 800px;
 			}
+
 			/* About page */
 
 			#about-menu h2 {
@@ -1444,6 +1608,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 				width: 400px;
 				margin: 0 auto;
 			}
+
 			.solid-background {
 				width: 400px;
 				padding: 20px 5px 20px 5px;
@@ -1451,125 +1616,158 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 				display: flex;
 				flex-direction: column;
 			}
+
 			.solid-orange {
 				width: 400px;
-				font-size: 1.2rem;
-				line-height: 110%;
+				font-size: 1.8rem;
 				color: black;
 			}
+
 			.square-image {
 				width: 80px;
 				height: 80px;
 				margin: 1px;
 				padding: 1px;
 			}
+
 			/* What is sensory play? */
 			.right-align {
 				width: 400px;
 				padding: 15px 0px 0px 0px;
 				margin: 1px;
-				font-size: 1.3rem;
+				font-size: 1.8rem;
 				color: black;
-				line-height: 110%;
 				float: none;
 				text-align: center;
 			}
+
 			.left-align {
 				width: 400px;
 				padding: 15px 0px 0px 0px;
 				margin: 1px;
-				font-size: 1.3rem;
+				font-size: 1.8rem;
 				color: black;
-				line-height: 110%;
 				float: none;
 				text-align: center;
 			}
+
 			.senses-info-left {
 				width: 400px;
 				text-align: center;
 			}
+
 			.senses-info-right {
 				width: 400px;
 				text-align: center;
 			}
+
 			.play-by-pic {
 				margin: 0 auto;
 			}
+
 			/* Play in Motion */
 			#iframe {
 				width: 300px;
 				height: 250px;
 				margin: 0 auto;
 			}
+
 			/* Top 10 Activities */
 			#top10-pane {
 				width: 400px;
 				flex-direction: column;
 			}
+
 			.activities-style {
 				width: 400px;
 			}
+
 			.activities-style h4 {
-				color: black;
-				font-size: 1.1rem;
+				color: #000000;
+				font-size: 1.8rem;
 				letter-spacing: normal;
 			}
+
 			.activities-style p {
 				color: black;
-				font-size: 1.25rem;
+				font-size: 1.8rem;
 			}
+
 			#play-images {
 				display: flex;
 				flex-direction: row;
 			}
+
 			.play-image-internal {
 				margin: 10px 10px;
 			}
+
 			/* Help with Anxiety */
 			#anxiety-img {
 				width: 300px;
 				height: 220px;
 			}
+
 			#anxiety-pane {
 				width: 400px;
 				height: fit-content;
 				padding: 10px 5px;
 			}
+
 			.anxiety-activity {
 				width: 80px;
 				height: 80px;
 			}
+
 			/* Tooltip */
 			.tooltip {
-				font-size: .8em;
+				font-size: 1.5rem;
 			}
+
 			.tooltip .tooltiptext {
 				width: 150px;
 				margin-left: -80px;
-				font-size: .9em;
+				font-size: 1.5rem;
 			}
+
 			/* Hear from Each Other */
 			.profile-pictures {
 				width: 50px;
 				height: 50px;
 			}
+
 			.feed-sub {
 				width: 400px;
 			}
+
 			.feedback-section {
 				width: 400px;
 				grid-template-columns: auto;
 			}
+
 			.feedback-grid {
 				width: 380px;
-				height: 120px;
-				font-size: 1em;
+				height: 210px;
+				font-size: 1.2em;
 				text-align: center;
-				padding: 10px;
 				margin: 0 auto;
+				padding: 5px 5px 10px 5px;
+				align-items: center;
+			}
+
+			.recommendations-grid {
+				width: 380px;
+				height: 210px;
+				font-size: 1.2em;
+				text-align: center;
+				margin: 0 auto;
+				padding: 5px 5px 10px 5px;
+				align-items: center;
 			}
 		}
+
 		@media screen and (max-width: 506px) {
+
 			h1,
 			h2,
 			h3,
@@ -1577,9 +1775,11 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 				letter-spacing: 1px;
 				font-size: 1.2em;
 			}
+
 			#logo {
 				font-size: 1.8em;
 			}
+
 			/* Footer */
 			/* Social media icons */
 			footer ul {
@@ -1587,66 +1787,82 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 				display: flex;
 				flex-direction: column;
 			}
+
 			/* Homepage */
 			#hero-area {
 				max-width: 250px;
 			}
+
 			#hero-text {
 				max-width: 250px;
 				font-size: 1.8em;
 				padding: 0px;
 				margin: 0px;
 			}
+
 			/* About page */
 			/* Classes used across page */
 			.sections-headers {
 				width: 250px;
 			}
+
 			.solid-background {
 				width: 250px;
 			}
+
 			.solid-orange {
 				width: 250px;
 			}
+
 			/* What is sensory play? */
 			.right-align {
 				width: 250px;
 			}
+
 			.left-align {
 				width: 250px;
 			}
+
 			.senses-info-left {
 				width: 250px;
 			}
+
 			.senses-info-right {
 				width: 250px;
 			}
+
 			/* Play in Motion */
 			#iframe {
 				width: 200px;
 				height: 150px;
 			}
+
 			/* Top 10 Activities */
 			#top10-pane {
 				width: 250px;
 			}
+
 			.activities-style {
 				width: 250px;
 			}
+
 			#play-images {
 				width: 250px;
 				padding: 0px;
 				margin: 0px;
 			}
+
 			.play-image-internal {
 				padding: 1px;
 				margin: 2px;
 			}
+
 			/* Help with Anxiety */
 			#anxiety-img {
 				width: 250px;
 				height: 200px;
 			}
+
 			#anxiety-pane {
 				width: 250px;
 				display: flex;
@@ -1655,57 +1871,77 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 				justify-content: center;
 				align-content: center;
 			}
+
 			.grid-figure {
 				padding: 0px;
 				width: 240px;
 				padding-top: 5px;
 				padding-bottom: 5px;
 			}
+
 			.anxiety-activity {
 				padding: 3px;
 				margin: 0 auto;
 			}
+
 			/* Hear from Each Other */
 			#feedback-heading {
 				width: 250px;
 				margin: 0 auto;
 			}
+
 			.profile-pictures {
 				width: 50px;
 				height: 50px;
 			}
+
 			.feed-sub {
 				width: 250px;
+				text-align: center;
+				border-bottom: #333333 solid 3px;
 			}
+
 			.feedback-section {
 				width: 250px;
+				padding-top: 5px;
 			}
+
 			.feedback-grid {
-				width: 210px;
-				height: 280px;
-				vertical-align: middle;
+				width: 230px;
+				height: 350px;
+				padding: 0px 5px;
 			}
+
+			.recommendations-grid {
+				width: 230px;
+				height: 400px;
+			}
+
 			/* Get In Touch */
 			#contact-us-heading {
 				width: 250px;
 				margin: 0 auto;
 				padding: 10px;
 			}
+
 			#contact-us-heading h3 {
 				padding: 10px;
 				width: 220px;
 				margin: 0 auto;
 			}
+
 			#contact-us-area {
 				height: 900px;
 				width: 250px;
-				background: none no-repeat;
+
 			}
+
 			#young-boy-sandpit {
 				visibility: visible;
 				height: 250px;
 				width: 250px;
 			}
+
 			/* Form */
 			#form-background {
 				display: flex;
@@ -1716,143 +1952,181 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 				right: 50%;
 				transform: translate(-50%, -50%);
 			}
+
 			#radio-feedback-area {
 				padding: 10px;
 			}
+
 			.radio-feedback {
 				margin: 3px;
 			}
+
 			.submit-info {
 				margin: 0 auto;
 			}
 		}
 	}
+
 	@media screen and (max-width: 300px) {
+
 		/* Default styling */
 		html {
 			font-size: 40%;
 		}
+
 		/* Homepage */
 		#hero-area {
 			max-width: 150px;
 			height: 180px;
 			padding-bottom: 0px;
 		}
+
 		#hero-text {
 			max-width: 150px;
-			font-size: 1.3em;
-			padding-top: 0px;
+			font-size: 1.9em;
+			padding: 0px;
 		}
+
 		/* About page */
 		/* Classes used across page */
 		.sections-headers {
 			width: 150px;
 		}
+
 		.solid-background {
 			width: 150px;
 		}
+
 		.solid-orange {
 			width: 150px;
 		}
+
 		/* What is sensory play? */
 		.right-align {
 			width: 150px;
 		}
+
 		.left-align {
 			width: 150px;
 		}
+
 		.senses-info-left {
 			width: 150px;
 		}
+
 		.senses-info-right {
 			width: 150px;
 		}
+
 		/* Play in Motion */
 		#iframe {
 			width: 120px;
 			height: 150px;
 		}
+
 		/* Top 10 Activities */
 		#top10-pane {
 			width: 150px;
 		}
+
 		.activities-style {
 			width: 150px;
 		}
+
 		#play-images {
 			width: 150px;
 			display: flex;
 			flex-direction: column;
 		}
+
 		.play-image-internal {
 			padding: 1px;
 			margin: 1px;
 		}
+
 		/* Help with Anxiety */
 		#anxiety-img {
 			width: 150px;
 			height: 100px;
 		}
+
 		#anxiety-pane {
 			width: 150px;
 		}
+
 		.grid-figure {
 			width: 140px;
 		}
+
 		/* Hear from Each Other */
 		#feedback-heading {
 			width: 150px;
 		}
+
 		.profile-pictures {
 			width: 30px;
 			height: 30px;
 		}
+
 		.feed-sub {
 			width: 150px;
 		}
+
 		.feedback-section {
 			width: 150px;
 		}
+
 		.feedback-grid {
-			width: 110px;
-			height: 410px;
-			vertical-align: middle;
+			width: 130px;
+			height: 450px;
 		}
+
+		.recommendations-grid {
+			width: 130px;
+			height: 500px;
+		}
+
 		/* Get In Touch */
 		#contact-us-heading {
 			width: 150px;
 			margin: 0 auto;
 			padding: 10px;
 		}
+
 		#contact-us-heading h3 {
 			padding: 10px;
 			width: 120px;
 			margin: 0 auto;
 		}
+
 		#contact-us-area {
 			height: 1000px;
 			width: 150px;
 		}
+
 		#young-boy-sandpit {
 			visibility: visible;
 			height: 150px;
 			width: 150px;
 		}
+
 		/* Form */
 		#form-background {
 			display: flex;
 			width: 150px;
 			padding: 25px 40px 25px 25px;
 			top: 500px;
-			font-size: .9em;
+			font-size: .9rem;
 			left: 50%;
 			right: 50%;
 			transform: translate(-50%, -50%);
 		}
+
 		#radio-feedback-area {
 			padding: 10px;
 			font-size: .8em;
 		}
+
 		.radio-feedback {
 			margin: 3px;
 		}
