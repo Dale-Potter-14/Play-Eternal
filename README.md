@@ -2,6 +2,11 @@
 
 A website that provides information on sensory play and advice on sensory play activities as well as specific advice on how sensory play helps children cope with anxiety. Professionals can refer parents to use the site to assist with at home sensory play.
 
+![play-eternal-mockup](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/play-eternal-mock-up.JPG)
+
+Click Here to access the site.
+
+
 ## Table of Contents
 
 <!-- Start Document Outline -->
