@@ -511,11 +511,13 @@ The following issues were experienced during the course of development:
 
 ### User Stories Testing
 
-![User Stories Testing](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/Testing/user-stories-testing.jpg?raw=true)
+![User Stories Testing](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/testing/user-stories-testing.jpg?raw=true)
 
 ### Responsiveness and Compatibility
 
 1. The site has been testing using the following browsers - Safari, Chrome, Firefox, Edge and Opera. The site is compatible and accessible across all browsers.
+
+Please <a href="https://github.com/Claire-Potter/Play-Eternal/tree/master/project-documents/testing/browser-testing" target="_blank">click here</a> to view browser testing screenshots.
 
 2. Devices and Screen Sizes
 
@@ -523,8 +525,8 @@ The following issues were experienced during the course of development:
 
 * Responsively App:
 
-   * 5K Display 5120 * 2880
-   * 4K Display 3840 * 2160
+    * 5K Display 5120 * 2880
+    * 4K Display 3840 * 2160
     * MacBook Pro 16 inch 3072 * 1920
     * MacBook Pro 15 inch 2880 * 1800
     * MacBook Pro 13 inch 2560 * 1600
@@ -588,20 +590,20 @@ The following issues were experienced during the course of development:
 * The code for the stylesheet.css was entered into the validator and passed.
 
 
-Please <a href="https://github.com/Claire-Potter/Play-Eternal/tree/master/project-documents/Testing/Code%20Validations" target="_blank">click here</a> to view the screenshots.
+Please <a href="https://github.com/Claire-Potter/Play-Eternal/tree/master/project-documents/testing/code-validations" target="_blank">click here</a> to view the screenshots.
 
 ### Testing Accessibility
 
 The Wave Evaluation Tool was used to test the Accessibility of the site. The following changes were made to pass the evaluation with no errors:
 
-![Accessibility changes and testing](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/Testing/Accessibility/accessibility-changes-tested.jpg?raw=true)
+![Accessibility changes and testing](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/testing/accessibility/accessibility-changes-tested.jpg?raw=true)
 
 
-Please <a href="https://github.com/Claire-Potter/Play-Eternal/tree/master/project-documents/Testing/Accessibility" target="_blank">click here </a>to view the Wave Evaluation screenshots.
+Please <a href="https://github.com/Claire-Potter/Play-Eternal/tree/master/project-documents/testing/accessibility" target="_blank">click here </a>to view the Wave Evaluation screenshots.
 
 ### Performance Testing
 
-[Click here](https://github.com/Claire-Potter/Play-Eternal/tree/master/project-documents/Testing/Lighthouse%20Reports) to access Google Lighthouse performance reports.
+[Click here](https://github.com/Claire-Potter/Play-Eternal/tree/master/project-documents/testing/lighthouse-reports) to access Google Lighthouse performance reports.
 
 # Deployment
 
@@ -615,16 +617,31 @@ The deployed version of the website is the master.
 
 The website was deployed on GitHub using the following steps:
 
-1. Log onto GitHub
-2. Go to the “repositories” section
-3. Click on the repository:
-4. Once in the repository, click on "settings" located in the right handside of the menu on top of the repository
-5. Click on “Pages” located in the left handside menu
-6. Under “Source”, select “Master” in the first tab
-7. In the next tab, select “/root” if not already selected by default
-8. Click “Save” and the url should be displayed above the "source" section
+1. Log into GitHub
+2. Go to the repositories tab at the top of the screen
+3. Click on the repository named Play-Eternal
+
+![repositories](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/deployment/repositories.jpg?raw=true)
+
+4. Once in the repository, click on the settings tab on right handside of the top menu
+
+![repositories](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/deployment/settings.jpg?raw=true)
+
+5. Click on the pages tab located in the left handside menu
+
+![repositories](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/deployment/pages.jpg?raw=true)
+
+6. Under source, select master as the input
+
+![repositories](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/deployment/master.jpg?raw=true)
+
+7. In the next input, select /root if not already selected by default
+
+![repositories](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/deployment/root.jpg?raw=true)
+
+8. Click save and the url should be displayed above the source section
 9. Now that the link is displayed, the website is deployed and can be accessed in the browser by clicking on the url
-deployment
+
 
 
 # References
