@@ -503,7 +503,7 @@ The All About Sensory Play page is the main content page of the site. It's purpo
 
 Please access the Play Eternal testing pack to view full testing of the site features.
 
-<a href="https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/testing/play-eternal-testing-pack.xlsx">Play Eternal testing pack</a>
+<a href="https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/testing/play-eternal-testing-pack-excel.xlsx">Play Eternal testing pack</a>
 
 ### Bugs and Issues
 
