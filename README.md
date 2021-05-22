@@ -672,7 +672,7 @@ The following were used for any general queries or guidance required:
 1. Code Institute LMS
 2. W3Schools - https://www.w3schools.com/
 3. Mediag - https://mediag.com/blog/popular-screen-resolutions-designing-for-all/
-4. 
+4. Developer.Mozilla - https://developer.mozilla.org/en-US/docs/Web/CSS
 
 ### Code Adaptations
 
@@ -720,33 +720,34 @@ The content on the All About Sensory Play Page is from the following sites:
 	* Font Awesome - https://fontawesome.com/
 
 4. The following Images are from Shutterstock - https://www.shutterstock.com
-	* home-page
-	* contact-us
-	* play-by-sight
-	* play-by-sound
-	* play-by-smell
-	* play-by-touch
-	* play-with-mum
+	* [contact-us](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/contact-us.jpg)
+	* [home-page](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/home-page.jpg)
+	* [play-by-sight](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/play-by-sight.jpg)
+	* [play-by-smell](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/play-by-smell.jpg)
+	* [play-by-sound](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/play-by-sound.jpg)
+	* [play-by-touch](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/play-by-touch.jpg)
+	* [play-with-mum](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/play-with-mum.jpg)
 
 5. The following Images are from Unsplash - https://unsplash.com/
-	* home-page-smaller
-	* child-anxiety
-	* colouring
-	* glitter-jar
-	* mud-play
-	* play-dough
-	* play-water
-	* scavenger-hunt
-	* slime
-	* water-play
-	* dad-1
-	* dad-2
-	* mum-1
-	* mum-2
-	* mum-3
-	* mum-4
-	* teacher-1
-	* teacher-2
+	* [child-anxiety](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/child-anxiety.jpg)
+	* [colouring](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/colouring.jpg)
+	* [dad-1](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/dad-1.jpg)
+	* [dad-2](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/dad-2.jpg)
+	* [garden](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/garden.jpg)
+	* [glitter-jar](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/glitter-jar.jpg)
+	* [home-page-smaller](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/home-page-smaller.jpg)
+	* [mud-play](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/mud-play.jpg)
+	* [mum-1](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/mum-1.jpg)
+	* [mum-2](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/mum-2.jpg)
+	* [mum-3](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/mum-3.jpg)
+	* [mum-4](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/mum-4.jpg)
+	* [play-dough](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/play-dough.jpg)
+	* [play-water](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/play-water.jpg)
+	* [scavenger-hunt](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/scavenger-hunt.jpg)
+	* [slime](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/slime.jpg)
+	* [teacher-1](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/teacher-1.jpg)
+	* [teacher-2](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/teacher-2.jpg)
+	* [water-play](https://github.com/Claire-Potter/Play-Eternal/blob/master/assets/images/water-play.jpg)
 
 6. The iframe video is from YouTube - https://www.youtube.com/embed/GWBLyX7Is6Q
 
