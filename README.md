@@ -20,8 +20,8 @@ A website that provides information on sensory play and advice on sensory play a
 	* [Scope](#scope)
 	* [Structure](#structure)
 		* [Information Architecture](#information-architecture)
-	* [Skeleton and Surface](#skeleton-and-surface)
-		* [Surface](#surface)
+	* [Skeleton](surface)
+	* [Surface](#surface)
 * [Technologies](#technologies)
 * [Features](#features)
 * [Testing](#testing)
@@ -38,7 +38,7 @@ A website that provides information on sensory play and advice on sensory play a
 * [References](#references)
 	* [Code](#code)
 	* [Content](#content)
-	* [Media](#media)
+	* [Design Elements and Media](#design-elements-and-media)
 * [Acknowledgements](#acknowledgements)
 
 <!-- End Document Outline -->
@@ -288,7 +288,27 @@ The following languages were used to create the website:
 2. CSS
 3. JavaScript
 
-Libraries, frameworks and other technologies:
+Other technologies:
+
+1. Balsamiq Wireframes
+ 	* To create the personas, journey maps, storyboard wireframes and mock ups.
+2. Gitpod
+	* Platform used to develop and test site.
+3. Github
+	* Platform used to host repository and deployed site.
+4. Google Fonts
+	* Used for typography
+5. Font Awesome
+	* Used for Icons
+6. Squoosh Editor
+	* Used to resize images
+7. Free Formater
+	* Used to format html and css code.
+8. StackEdit
+	* Used to edit Markdown
+9. Markdown Monster
+	* Used to edit Markdown
+
 
 
 # Features
@@ -309,9 +329,6 @@ The Play Eternal site consists of the following Features:
 
 ![Header image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/header.PNG?raw=true)
 The Header is consistent across all four site pages. It contains the site logo and the navigation bar. Its display setting is flex and the flex-direction is set as row. For ease of use the Header has been fixed and made sticky across all pages so that as the user scrolls, the navigation is still available. To ensure that the site is responsive the flex-direction is changed to column for smaller screen widths.
-For further information on the sticky navigation please click here.
-
-![Sticky Header image](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/sticky-nav.PNG?raw=true)
 
  - **Header Logo**
 
@@ -445,7 +462,7 @@ The All About Sensory Play page is the main content page of the site. It's purpo
  ![Feedback Section](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/feedback.PNG?raw=true)
 
  - The feedback section contains four individual feedback write ups. Each person has a profile picture and a heading with their name, children's ages or their role (for the teachers or occupational therapist). It is important for the user to build confidence in sensory play through reading the encouraging and positive feedback.
- - 
+ 
  -   **Recommendations**
 
 ![Recommendations Section](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/recommendations.PNG?raw=true)
@@ -486,7 +503,7 @@ The All About Sensory Play page is the main content page of the site. It's purpo
 
 Please access the Play Eternal testing pack to view full testing of the site features.
 
-<a href="https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/Testing/Play%20Eternal%20Testing%20Pack.xlsx" target="_blank">Play Eternal testing pack</a>
+<a href="https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/testing/play-eternal-testing-pack.xlsx">Play Eternal testing pack</a>
 
 ### Bugs and Issues
 
@@ -621,23 +638,23 @@ The website was deployed on GitHub using the following steps:
 2. Go to the repositories tab at the top of the screen
 3. Click on the repository named Play-Eternal
 
-![repositories](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/deployment/repositories.jpg?raw=true)
+![repositories](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/deployment/repositories.JPG)
 
 4. Once in the repository, click on the settings tab on right handside of the top menu
 
-![repositories](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/deployment/settings.jpg?raw=true)
+![settings](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/deployment/settings.JPG)
 
 5. Click on the pages tab located in the left handside menu
 
-![repositories](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/deployment/pages.jpg?raw=true)
+![pages](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/deployment/pages.JPG)
 
 6. Under source, select master as the input
 
-![repositories](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/deployment/master.jpg?raw=true)
+![master](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/deployment/master.JPG)
 
 7. In the next input, select /root if not already selected by default
 
-![repositories](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/deployment/root.jpg?raw=true)
+![root](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/deployment/root.JPG)
 
 8. Click save and the url should be displayed above the source section
 9. Now that the link is displayed, the website is deployed and can be accessed in the browser by clicking on the url
@@ -648,10 +665,100 @@ The website was deployed on GitHub using the following steps:
 
 ## Code
 
+### General Queries
+
+The following were used for any general queries or guidance required:
+
+1. Code Institute LMS
+2. W3Schools - https://www.w3schools.com/
+3. Mediag - https://mediag.com/blog/popular-screen-resolutions-designing-for-all/
+4. 
+
+### Code Adaptations
+
+1. The scroll behavior code is from https://css-tricks.com/sticky-smooth-active-nav/ 
+2. The dropdown menu code is adapted from W3 school tutorial- adjusted for this site https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar
+3. The Tooltip code is from W3 school tutorial and adapted for site https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom
+4. The Javascript from W3 schools tutorial for sticky nav bar https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_sticky
+5. The Learn-More Button onclick code was taken from the following stack overflow chat https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link
+6. The vertical line code is from https://stackoverflow.com/questions/31140935/how-do-i-add-vertical-line-on-my-menu-item-in-html-css 
+7. Button Shadow code from W3 school tutorials - https://www.w3schools.com/css/css3_buttons.asp
+
+
 ## Content
 
-## Media
+The following sites were used as reference sites for design inspiration and website best practices:
+
+1. Awwwards - https://www.awwwards.com/
+2. Dribble - https://dribbble.com/
+3. Alistapart - https://alistapart.com/
+4. Orbitmedia - https://www.orbitmedia.com/blog/web-design-tips/
+5. AdEspresso - https://adespresso.com/blog/call-to-action-examples
+6. JustinMind - https://www.justinmind.com/blog/single-page-vs-multi-page-websites-design-battle/
+
+The content on the Home Page and the Hear From Each Other Page was written by myself. 
+
+The content on the All About Sensory Play Page is from the following sites:
+
+1. What is Sensory Play? 
+	* https://www.earlyyearsresources.co.uk/blog/2019/01/sensory-play-early-years/
+2. Sensory Play Activities
+	* https://www.earlyyearsresources.co.uk/blog/2018/02/sensory-play-activities-and-ideas/
+3. Help With Anxiety
+	* https://nurtureandthriveblog.com/mindful-and-sensory-activities-for-children
+
+
+## Design Elements and Media
+
+1. The colour scheme utilised is from the following website:
+	* Visme - option 1 Colorful and Balanced - https://visme.co/blog/website-color-schemes/
+
+2. The typography utilised is from Google Fonts:
+	* Google Fonts - https://fonts.google.com/share?selection.family=Itim%7CMontserrat
+	
+3. The Icons utilised are from Font Awesome:
+	* Font Awesome - https://fontawesome.com/
+
+4. The following Images are from Shutterstock - https://www.shutterstock.com
+	* home-page
+	* contact-us
+	* play-by-sight
+	* play-by-sound
+	* play-by-smell
+	* play-by-touch
+	* play-with-mum
+
+5. The following Images are from Unsplash - https://unsplash.com/
+	* home-page-smaller
+	* child-anxiety
+	* colouring
+	* glitter-jar
+	* mud-play
+	* play-dough
+	* play-water
+	* scavenger-hunt
+	* slime
+	* water-play
+	* dad-1
+	* dad-2
+	* mum-1
+	* mum-2
+	* mum-3
+	* mum-4
+	* teacher-1
+	* teacher-2
+
+6. The iframe video is from YouTube - https://www.youtube.com/embed/GWBLyX7Is6Q
+
 
 
 
 # Acknowledgements
+
+A huge thank you to my mentor Brian Macharia. The guidance and advice that you have provided has been invaluable. I could have never completed this project without you.
+
+Thank you to Code Institute for providing such well-thought out and put together course material and for the constant guidance and advice provided through Slack.
+
+The Slack Code Institute Community - for always being there for a chat or help when needed.
+
+Lastly to my wonderful husband and children, thank you for your understanding and support through this process.
