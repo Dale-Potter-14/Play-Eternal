@@ -1,116 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-   <!--Code Institute Template - meta included-->
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!--Meta Description-->
-   <meta name="description"
-      content="Play Eternal sensory play information and activities for parents of young children">
-   <!--Keywords-->
-   <meta name="keywords"
-      content="sensory play, childhood development, sensory play activities, sensory play for anxiety">
-   <!--Link to CSS stylesheet-->
-   <link rel="stylesheet" href="assets/css/stylesheet.css">
-   <!--Page Title-->
-   <title>Play Eternal</title>
-</head>
-
-<body>
-   <!--Header-->
-   <header id="header">
-      <h1 id="logo">Play Eternal <i class="fas fa-hand-holding-heart" aria-hidden="true"></i>
-      </h1>
-      <!--Navigation Menu-->
-      <nav id="menu">
-         <ul>
-            <!--Dropdown from W3 school tutorial for dropdown menu - adjusted for this site
+   <head>
+      <!--Code Institute Template - meta included-->
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--Meta Description-->
+      <meta name="description"
+         content="Play Eternal sensory play information and activities for parents of young children">
+      <!--Keywords-->
+      <meta name="keywords"
+         content="sensory play, childhood development, sensory play activities, sensory play for anxiety">
+      <!--Link to CSS stylesheet-->
+      <link rel="stylesheet" href="assets/css/stylesheet.css">
+      <!--Page Title-->
+      <title>Play Eternal</title>
+   </head>
+   <body>
+      <!--Header-->
+      <header id="header">
+         <h1 id="logo">Play Eternal <i class="fas fa-hand-holding-heart" aria-hidden="true"></i>
+         </h1>
+         <!--Navigation Menu-->
+         <nav id="menu">
+            <ul>
+               <!--Dropdown from W3 school tutorial for dropdown menu - adjusted for this site
                   https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar-->
-            <li><a href="index.html" class="active">Home</a></li>
-            <li class="dropdown">
-               <a href="about.html" class="dropbtn">All About
+               <li><a href="index.html" class="active">Home</a></li>
+               <li class="dropdown">
+                  <a href="about.html" class="dropbtn">All About
                   Sensory Play</a>
-               <div class="dropdown-content">
-                  <a href="about.html#sec1">What is Sensory Play?</a>
-                  <a href="about.html#sec2">Play in Motion</a>
-                  <a href="about.html#sec3">Activities</a>
-                  <a href="about.html#sec4">Help with Anxiety</a>
+                  <div class="dropdown-content">
+                     <a href="about.html#sec1">What is Sensory Play?</a>
+                     <a href="about.html#sec2">Play in Motion</a>
+                     <a href="about.html#sec3">Activities</a>
+                     <a href="about.html#sec4">Help with Anxiety</a>
+                  </div>
+               </li>
+               <li><a href="feedback.html">Hear From Each Other</a></li>
+               <li><a href="contact.html">Get In Touch</a></li>
+            </ul>
+         </nav>
+      </header>
+      <!--Home Page-->
+      <!--The div content section is added to allow for enough content padding when styling for the sticky header bar-->
+      <div class="content">
+         <section>
+            <!--Hero Image-->
+            <div id="home-page">
+               <div id="hero-area">
                </div>
-            </li>
-            <li><a href="feedback.html">Hear From Each Other</a></li>
-            <li><a href="contact.html">Get In Touch</a></li>
-         </ul>
-      </nav>
-   </header>
-   <!--Home Page-->
-   <!--The div content section is added to allow for enough content padding when styling for the sticky header bar-->
-   <div class="content">
-      <section>
-         <!--Hero Image-->
-         <div id="home-page">
-            <div id="hero-area">
+               <div id="hero-text">
+                  <h2 class="text-area">Help your child through play</h2>
+                  <p class="text-area"> So many children are overwhelmed by the amount
+                     and variation of sensory stimuli in our everyday
+                     environments.
+                  </p>
+                  <p class="text-area">
+                     By introducing some simple play time with your child
+                     you can help them meet their developmental goals
+                     as well as cope with any negative emotions they may
+                     be experiencing. Most of all they will have fun!
+                  </p>
+                  <h3 class="text-area">What can I do as a parent?</h3>
+                  <!--The onclick code was taken from the following stack overflow chat https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link#:~:text=The%20plain%20HTML%20way%20is,URL%20in%20the%20action%20attribute.&text=If%20necessary%2C%20set%20CSS%20display,type%3D%22submit%22%3E%20.-->
+                  <button id="learn-more" onclick="location.href='about.html'">Learn More</button>
+               </div>
             </div>
-            <div id="hero-text">
-               <h2 class="text-area">Help your child through play</h2>
-               <p class="text-area"> So many children are overwhelmed by the amount
-                  and variation of sensory stimuli in our everyday
-                  environments.
-               </p>
-               <p class="text-area">
-                  By introducing some simple play time with your child
-                  you can help them meet their developmental goals
-                  as well as cope with any negative emotions they may
-                  be experiencing. Most of all they will have fun!
-               </p>
-               <h3 class="text-area">What can I do as a parent?</h3>
-               <!--The onclick code was taken from the following stack overflow chat https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link#:~:text=The%20plain%20HTML%20way%20is,URL%20in%20the%20action%20attribute.&text=If%20necessary%2C%20set%20CSS%20display,type%3D%22submit%22%3E%20.-->
-               <button id="learn-more" onclick="location.href='about.html'">Learn More</button>
-            </div>
-         </div>
-      </section>
-   </div>
-   <!--Footer-->
-   <footer>
-      <div id="footer-logo">
-         <a href="index.html">
-            <i class="fas fa-hand-holding-heart" aria-hidden="true"></i>
-            <h4>Play Eternal</h4>
-         </a>
-         <br>
-         <p>Copyright@ClairePotter2021</p>
+         </section>
       </div>
-      <ul>
-         <li><a href="https://www.facebook.com/" target="_blank" aria-label="a link to facebook" rel="noreferrer"><i
-                  class="fab fa-facebook-square"></i></a></li>
-         <li><a href="https://www.instagram.com/" target="_blank" aria-label="a link to instagram" rel="noreferrer"><i
-                  class="fab fa-instagram-square"></i></a>
-         </li>
-         <li><a href="https://twitter.com/" target="_blank" aria-label="a link to twitter" rel="noreferrer"><i
-                  class="fab fa-twitter-square"></i></a></li>
-      </ul>
-   </footer>
-   <!-- Font awesome script-->
-   <script src="https://kit.fontawesome.com/bd9c348b33.js" crossorigin="anonymous"></script>
-   <!--Javascript from W3 schools tutorial for sticky nav bar
+      <!--Footer-->
+      <footer>
+         <div id="footer-logo">
+            <a href="index.html">
+               <i class="fas fa-hand-holding-heart" aria-hidden="true"></i>
+               <h4>Play Eternal</h4>
+            </a>
+            <br>
+            <p>Copyright@ClairePotter2021</p>
+         </div>
+         <ul>
+            <li><a href="https://www.facebook.com/" target="_blank" aria-label="a link to facebook" rel="noreferrer"><i
+               class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" aria-label="a link to instagram" rel="noreferrer"><i
+               class="fab fa-instagram-square"></i></a>
+            </li>
+            <li><a href="https://twitter.com/" target="_blank" aria-label="a link to twitter" rel="noreferrer"><i
+               class="fab fa-twitter-square"></i></a></li>
+         </ul>
+      </footer>
+      <!-- Font awesome script-->
+      <script src="https://kit.fontawesome.com/bd9c348b33.js" crossorigin="anonymous"></script>
+      <!--Javascript from W3 schools tutorial for sticky nav bar
          https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_sticky-->
-   <script>
-      window.onscroll = function () {
-         myFunction()
-      }
-
-      var header = document.getElementById("header");
-      var sticky = header.offsetTop;
-
-      function myFunction() {
-         if (window.pageYOffset >= sticky) {
-            header.classList.add("sticky")
-         } else {
-            header.classList.remove("sticky");
+      <script>
+         window.onscroll = function () {
+            myFunction()
          }
-      }
-   </script>
-</body>
-
+         
+         var header = document.getElementById("header");
+         var sticky = header.offsetTop;
+         
+         function myFunction() {
+            if (window.pageYOffset >= sticky) {
+               header.classList.add("sticky")
+            } else {
+               header.classList.remove("sticky");
+            }
+         }
+      </script>
+   </body>
 </html>
