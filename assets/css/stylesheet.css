@@ -731,21 +731,26 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 		margin-left: -190px;
 	}
 	.content {
-		padding-top: 15px;
-		padding-bottom: 15px;
+		padding-top: 90px;
+		padding-bottom: 80px;
 	}
 	.sticky+.content {
-		padding-top: 100px;
-		padding-bottom: 100px;
+		padding-top: 130px;
+		padding-bottom: 120px;
 	}
 	/* Footer */
 	footer {
-		height: 280px;
+		height: 200px;
 	}
 	#footer-logo {
 		width: 200px;
 		border: solid #DFDCD9 5px;
 		padding-top: 10px;
+		font-size: 1.3rem;
+	}
+
+	footer p {
+		font-size: 1.1rem;
 	}
 	/* Home Page */
 	#hero-area {
@@ -870,7 +875,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 	}
 	/* Get In Touch */
 	#contact-us-area {
-		height: 2000px;
+		height: 1700px;
 		border-bottom: none;
 	}
 	/* Form */
@@ -901,7 +906,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 		margin: 5px 10px;
 		padding: 10px 30px;
 	}
-	@media screen and (max-width: 3000px) {
+	@media screen and (max-width: 4000px) {
 		/* Default styling */
 		html {
 			font-size: 80%;
@@ -916,7 +921,8 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 		}
 		/* Make Header sticky */
 		.content {
-			padding-top: 50px;
+			padding-top: 60px;
+			padding-bottom: 60px;
 		}
 		.sticky+.content {
 			padding-top: 120px;
@@ -924,7 +930,15 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 		}
 		/* Footer */
 		footer {
-			height: 150px;
+			height: 110px;
+		}
+
+		footer h4 {
+			font-size: 1.5rem;
+		}
+
+		footer p {
+			font-size: 1rem;
 		}
 		/* Home page */
 		#hero-area {
@@ -1191,7 +1205,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 	@media screen and (max-width: 2000px) {
 		/* Footer */
 		footer {
-			height: 150px;
+			height: 120px;
 		}
 		footer p {
 			font-size: 1rem;
