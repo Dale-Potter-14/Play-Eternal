@@ -307,7 +307,7 @@ Other technologies:
 	* Used for Icons
 6. Squoosh Editor
 	* Used to resize images
-7. Free Formater
+7. Free Formatter
 	* Used to format html and css code.
 8. StackEdit
 	* Used to edit Markdown
@@ -412,7 +412,7 @@ The Home Page has been created to include a Hero Image with a text box overlay. 
 
  ![All About Sensory Play Page](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/all-about-sensory-play.PNG?raw=true)
 	
-The All About Sensory Play page is the main content page of the site. It's purpose is to educate the user on what sensory play is, provide ideas on sensory play activities and explain how sensory play can assist with childhood anxiety. The page should encourage the user to pursue sensory play activities to see the benefit of including them to support their child's development. Our specific user has been seeking help for her child's anxiety, the help with anxiety section provides this. The page has been created as a continuous page with sections instead of separate pages as users are used to a continuous scroll action and it minimises the amounts of clicks required to access the site features. A scroll-behavior setting set to smooth has been added to the html in the CSS to improve the ease of scrolling.
+The All About Sensory Play page is the main content page of the site. Its purpose is to educate the user on what sensory play is, provide ideas on sensory play activities and explain how sensory play can assist with childhood anxiety. The page should encourage the user to pursue sensory play activities to see the benefit of including them to support their child's development. Our specific user has been seeking help for her child's anxiety, the help with anxiety section provides this. The page has been created as a continuous page with sections instead of separate pages as users are used to a continuous scroll action and it minimises the amounts of clicks required to access the site features. A scroll-behaviour setting set to smooth has been added to the html in the CSS to improve the ease of scrolling.
 
  -   **What is Sensory Play ?**
 
@@ -430,7 +430,7 @@ The All About Sensory Play page is the main content page of the site. It's purpo
     
   -   This section includes a six minute video clip on sensory play and play ideas in the home.
    - It provides the user with the option to explore the information in a visual format. It is important for a user to engage with material in a format that they are comfortable with.
-    -   The video is hosted on YouTube but play directly on the site. It can be enlarged to full screen.
+    -   The video is hosted on YouTube but plays directly on the site. It can be enlarged to full screen.
 
  -   **Activities**
 
@@ -450,8 +450,7 @@ The All About Sensory Play page is the main content page of the site. It's purpo
     - It then provides some mindful and calming activities for the user to take away and do with their child.
    - This section provides value to the user at it provides a practical solution to their problem.
    - As there is a lot of written information on the page, the anxiety activities section is presented as a compact grid of  six images with an image caption providing the activity name.
-   - By simply hovering over the image caption, a tool-tip pop-up provides a description of the activity. The user will be prompted to hover as the image caption has a dotted underline, which is commonly used to show tool-tips and familiar to users.
-   - For further information on the tool-tip please click here.
+   - By simply hovering over the image caption, a tool-tip pop-up provides a description of the activity. The user will be prompted to hover as the image caption has a dotted underline, which is commonly used to show tool-tips and is familiar to users.
 
 ![Anxiety Tooltip](https://github.com/Claire-Potter/Play-Eternal/blob/master/project-documents/project-images/anxiety-tooltip.PNG?raw=true)
  
@@ -768,4 +767,4 @@ Thank you to Code Institute for providing such well-thought out and put together
 
 The Slack Code Institute Community - for always being there for a chat or help when needed.
 
-Lastly to my wonderful husband and children, thank you for your understanding and support through this process.
+Finally, to my wonderful husband and children, thank you for your understanding and support through this process.
