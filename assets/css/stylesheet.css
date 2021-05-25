@@ -128,7 +128,7 @@ li.dropdown {
 	background-color: #44b3a5;
 	min-width: 210px;
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-	top: 22px;
+	top: 26px;
 	left: 50%;
 	margin-left: -100px;
 }
@@ -542,7 +542,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 .feed-sub {
 	font-size: 2rem;
 	margin: 0 auto;
-	padding: 30px 10px 0px 10px;
+	padding-top: 30px;
 	width: 900px;
 	height: fit-content;
 }
@@ -550,14 +550,14 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 .feedback-section {
 	display: grid;
 	grid-template-columns: auto auto;
-	margin-bottom: 30px;
+	margin: 0 auto;
+	padding: 0px 10px;
 }
 
 .feedback-grid {
 	text-align: left;
 	width: 425px;
 	height: 180px;
-	line-height: 110%;
 	padding: 0px 5px 5px 5px;
 	margin: 0px 3px 3px 3px;
 	display: flex;
@@ -570,7 +570,6 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 	text-align: left;
 	width: 425px;
 	height: 180px;
-	line-height: 110%;
 	padding: 0px 5px 5px 5px;
 	margin: 0px 3px 3px 3px;
 	display: flex;
@@ -586,11 +585,13 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 .feedback-heading {
 	font-size: 1.35rem;
 	font-weight: 800;
+	line-height: 150%;
 }
 
 .feedback-font {
 	font-size: 1.25rem;
 	font-weight: 600;
+	line-height: 150%;
 }
 
 
@@ -643,11 +644,12 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 .form-input {
 	background: transparent;
 	width: 100%;
-	height: 20px;
+	height: 50px;
 	margin: 20px 0 20px 0;
 	padding: 5px 10px;
 	border: 1px solid #333333;
 	border-radius: 5px;
+	font-size: 1.3rem;
 }
 
 .form-input:hover {
@@ -656,12 +658,12 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
 .text-area-pane {
 	width: 100%;
-	height: 50px;
+	height: 100px;
 	margin: 20px 0 20px 0;
 	border: 1px solid #333333;
 	border-radius: 5px;
 	background: transparent;
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	font-family: Montserrat, sans-serif;
 	padding: 5px 10px;
 }
@@ -723,9 +725,10 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 	/* Navigation menu */
 	/* Dropdown menu */
 	.dropdown-content {
-		top: 32px;
+		top: 41px;
 		left: 70%;
-		margin-left: -190px;
+		margin-left: -270px;
+		min-width: 350px;
 	}
 	.content {
 		padding-top: 90px;
@@ -847,9 +850,11 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 		padding: 40px 10px 0px 10px;
 		width: 2000px;
 	}
+
 	.feedback-section {
-		border-bottom: none;
+	 width: 2000px;
 	}
+
 	.profile-pictures {
 		width: 100px;
 		height: 100px;
@@ -1042,7 +1047,6 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 		.feedback-section {
 			height: fit-content;
 			width: 1210px;
-			border-bottom: none;
 		}
 		.feedback-grid {
 			width: 510px;
@@ -1098,7 +1102,8 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			/* Navigation menu */
 			/* Dropdown menu */
 			.dropdown-content {
-				top: 20px;
+				top: 26px;
+
 			}
 			/* Make Header sticky */
 			.content {
