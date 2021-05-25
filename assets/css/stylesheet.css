@@ -1,6 +1,6 @@
 /* Text Import from Google Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Itim&family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Montserrat&display=swap");
 
 /* Default styling */
 
@@ -228,7 +228,7 @@ footer li {
 }
 
 #hero-area {
-	background: url('../images/home-page.jpg');
+	background: url("../images/home-page.jpg");
 	height: 1000px;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -347,23 +347,36 @@ footer li {
 
 /* What is sensory play? */
 
-.right-align {
-	width: 500px;
-	text-align: right;
-	float: right;
-	padding-right: 35px;
-	padding-top: 20px;
-	line-height: 170%;
-	font-size: 1.9rem;
+.senses-area {
+	display: flex;
+	flex-direction: row;
 }
 
-.left-align {
+.senses-area-reverse {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.senses-paragraph {
 	width: 500px;
-	text-align: left;
-	float: left;
 	padding: 20px 20px 0px 35px;
 	line-height: 170%;
 	font-size: 1.9rem;
+
+}.right-align {
+	text-align: right;
+}
+
+.left-align {
+	text-align: left;
+}
+
+.senses-heading {
+	font-size: 2.2rem;
+	width: 900px;
+	padding: 35px 10px;
+	margin: 0 auto;
+	color: #333333;
 }
 
 .play-by-pic {
@@ -372,23 +385,7 @@ footer li {
 	margin: 15px;
 }
 
-.senses-info-left {
-	text-align: left;
-	font-size: 2.2rem;
-	width: 900px;
-	padding: 35px 10px;
-	margin: 0 auto;
-	color: #333333;
-}
 
-.senses-info-right {
-	text-align: right;
-	font-size: 2.2rem;
-	width: 900px;
-	padding: 35px 10px;
-	margin: 0 auto;
-	color: #333333;
-}
 
 
 /* Play in Motion */
@@ -617,7 +614,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 
 #contact-us-area {
 	text-align: left;
-	background: url('../images/contact-us.jpg');
+	background: url("../images/contact-us.jpg");
 	height: 900px;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -754,7 +751,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 	}
 	/* Home Page */
 	#hero-area {
-		background: url('../images/home-page-large.jpg');
+		background: url("../images/home-page-large.jpg");
 		width: 100%;
 		height: 3000px;
 		background-repeat: no-repeat;
@@ -781,22 +778,16 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 		height: 400px;
 	}
 	/* What is sensory play? */
-	.right-align {
+	.senses-paragraph {
 		width: 1500px;
 		font-size: 1.8em;
 		line-height: 130%;
 	}
-	.left-align {
-		width: 1500px;
-		font-size: 1.8em;
-		line-height: 130%;
-	}
-	.senses-info-left {
+	
+	.senses-heading{
 		width: 2000px;
 	}
-	.senses-info-right {
-		width: 2000px;
-	}
+
 	/* Play in Motion */
 	#iframe {
 		width: 1800px;
@@ -942,7 +933,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 		}
 		/* Home page */
 		#hero-area {
-			background: url('../images/home-page.jpg');
+			background: url("../images/home-page.jpg");
 			height: 1500px;
 			width: 100%;
 			background-repeat: no-repeat;
@@ -973,21 +964,16 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			height: 300px;
 		}
 		/* What is sensory play? */
-		.right-align {
+		.senses-paragraph {
 			width: 600px;
 			padding-right: 10px;
 			padding-top: 10px;
 		}
-		.left-align {
-			width: 600px;
-			padding: 10px 10px 0px 10px;
-		}
-		.senses-info-left {
+
+		.senses-heading {
 			width: 1000px;
 		}
-		.senses-info-right {
-			width: 1000px;
-		}
+		
 		/* Play in Motion */
 		#iframe {
 			width: 850px;
@@ -1147,14 +1133,11 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 				line-height: 150%;
 				font-size: 1.7em;
 			}
-			.right-align {
+			.senses-paragraph {
 				line-height: 150%;
 				font-size: 1.7em;
 			}
-			.left-align {
-				line-height: 150%;
-				font-size: 1.7em;
-			}
+	
 			/* Top 10 Activities */
 			.play-image-internal {
 				margin: 0px 25px 60px 25px;
@@ -1305,20 +1288,15 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			height: 150px;
 		}
 		/* What is sensory play? */
-		.right-align {
+		.senses-paragraph {
 			width: 400px;
 			line-height: 120%;
 		}
-		.left-align {
-			width: 400px;
-			line-height: 120%;
-		}
-		.senses-info-left {
+
+		.senses-heading {
 			width: 650px;
 		}
-		.senses-info-right {
-			width: 650px;
-		}
+
 		/* Play in Motion */
 		#iframe {
 			width: 500px;
@@ -1447,7 +1425,7 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			}
 			/* Homepage */
 			#hero-area {
-				background: url('../images/home-page-smaller.jpg');
+				background: url("../images/home-page-smaller.jpg");
 				background-repeat: no-repeat;
 				background-size: cover;
 				background-position: center;
@@ -1488,32 +1466,34 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 				padding: 1px;
 			}
 			/* What is sensory play? */
-			.right-align {
+            .senses-area {
+				display: flex;
+				flex-direction: column;
+			}
+			
+			.senses-area-reverse {
+				display: flex;
+				flex-direction: column;
+			}
+			
+			.senses-paragraph {
 				width: 400px;
 				padding: 15px 0px 0px 0px;
 				margin: 1px;
 				font-size: 1.8rem;
 				color: black;
-				float: none;
+			}
+			
+			.right-align {
 				text-align: center;
 			}
 			.left-align {
-				width: 400px;
-				padding: 15px 0px 0px 0px;
-				margin: 1px;
-				font-size: 1.8rem;
-				color: black;
-				float: none;
 				text-align: center;
 			}
-			.senses-info-left {
+			.senses-heading {
 				width: 400px;
-				text-align: center;
 			}
-			.senses-info-right {
-				width: 400px;
-				text-align: center;
-			}
+
 			.play-by-pic {
 				margin: 0 auto;
 			}
@@ -1641,18 +1621,15 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 				width: 250px;
 			}
 			/* What is sensory play? */
-			.right-align {
+
+			.senses-paragraph{
 				width: 250px;
 			}
-			.left-align {
+		
+			.senses-heading {
 				width: 250px;
 			}
-			.senses-info-left {
-				width: 250px;
-			}
-			.senses-info-right {
-				width: 250px;
-			}
+		
 			/* Play in Motion */
 			#iframe {
 				width: 200px;
@@ -1793,18 +1770,14 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom */
 			width: 150px;
 		}
 		/* What is sensory play? */
-		.right-align {
+		.senses-paragraph{
 			width: 150px;
 		}
-		.left-align {
+
+		.senses-heading {
 			width: 150px;
 		}
-		.senses-info-left {
-			width: 150px;
-		}
-		.senses-info-right {
-			width: 150px;
-		}
+
 		/* Play in Motion */
 		#iframe {
 			width: 120px;
